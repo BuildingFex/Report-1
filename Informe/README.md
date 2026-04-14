@@ -261,7 +261,363 @@ En esta sección se presenta la relación entre el trabajo realizado por el equi
 
 > **Conclusión grupal:** Concluimos que durante la TB1 la comunicación escrita fue esencial para la coordinación del equipo y el avance del informe. Aprendimos a estructurar nuestras ideas de manera clara y a adaptar nuestros entregables a distintos destinatarios, sentando las bases para una trazabilidad y una colaboración eficientes en las fases siguientes del proyecto.
 
+**Capítulo II: Requirements Elicitation & Analysis**
 
+**2.1. Competidores**
+
+### Condo Control
+Es una plataforma SaaS especializada en la gestión de comunidades residenciales, principalmente en Norteamérica. Permite administrar unidades, gestionar comunicaciones internas, controlar reservas de áreas comunes y llevar registros de visitantes. También ofrece herramientas básicas de reportes y gestión operativa.
+
+### Buildium
+Plataforma digital enfocada en la administración de propiedades residenciales y asociaciones. Incluye herramientas para la gestión financiera, cobranza automatizada, generación de reportes y administración de mantenimiento.
+
+### ComunidadFeliz
+Plataforma orientada al mercado latinoamericano para la gestión de condominios. Permite gestionar cobros, comunicaciones, reservas de espacios y reportes financieros dentro de una misma plataforma.
+
+**2.1.1. Análisis competitivo**
+
+| | **BuildingFex** | **Condo Control** | **Buildium** | **ComunidadFeliz** |
+|---|---|---|---|---|
+| **Perfil** | | | | |
+| *Overview* | Plataforma SaaS web para administración integral de edificios en Perú. Centraliza procesos operativos, financieros y de comunicación. | Plataforma SaaS para comunidades residenciales en Norteamérica. Permite gestionar operaciones, comunicación y reservas. | Software de gestión inmobiliaria enfocado en propiedades y asociaciones, con fuerte enfoque financiero. | Plataforma orientada a la administración de condominios en Latinoamérica, integrando cobros, comunicación y reservas. |
+| *Ventaja competitiva*<br>¿Qué valor ofrece a los clientes? | - Centralización total en una sola plataforma<br>- Adaptado al contexto peruano<br>- Simplicidad y transparencia | - Mejora la organización operativa<br>- Experiencia en el mercado | - Optimización financiera y de cobros<br>- Marca consolidada | - Enfoque en LATAM<br>- Facilidad de uso en gestión de condominios |
+| **Perfil de Marketing** | | | | |
+| *Mercado objetivo* | Administradoras y juntas de edificios en Perú. | Condominios en EE.UU. y Canadá. | Empresas inmobiliarias y property managers. | Edificios y condominios en Latinoamérica. |
+| *Estrategias de marketing* | - Marketing digital<br>- Alianzas locales<br>- Enfoque educativo del sector | - Marketing B2B tradicional y digital | - Posicionamiento global<br>- Marca fuerte | - Marketing digital regional |
+| **Perfil de Producto** | | | | |
+| *Productos & Servicios* | Plataforma modular: cobranza, reservas, accesos, incidencias, comunicación, etc. | Gestión de comunidad + comunicación + reservas | Gestión financiera + mantenimiento | Gestión de condominios + comunicación + reservas |
+| *Precios & Costos* | Suscripción SaaS escalable (planes accesibles) | Suscripción (alto costo) | Suscripción premium | Suscripción accesible |
+| *Canales de distribución* | Web (principal) | Web + móvil | Web + móvil | Web + móvil |
+
+| **Análisis SWOT** | | | | |
+|---|---|---|---|---|
+| **Fortalezas** | - Plataforma todo en uno<br>- Simplicidad y buena UX<br>- Adaptado a Perú | - Plataforma robusta<br>- Experiencia en el mercado | - Fuerte en finanzas<br>- Marca consolidada | - Presencia en LATAM<br>- Adaptación regional |
+| **Debilidades** | - Startup nueva<br>- Sin posicionamiento fuerte<br>- Recursos limitados | - No adaptado a Perú<br>- Costos elevados | - Complejo para usuarios no técnicos<br>- No centrado en comunidad | - Menor diferenciación<br>- Funcionalidades menos avanzadas |
+| **Oportunidades** | - Baja digitalización en Perú<br>- Crecimiento del sector<br>- Adopción tecnológica | - Expansión internacional | - Crecimiento inmobiliario | - Expansión en Perú |
+| **Amenazas** | - Entrada de competidores internacionales<br>- Resistencia al cambio | - Soluciones locales más adaptadas | - Plataformas más simples | - Nuevas startups locales |
+
+**2.1.2. Estrategias y tácticas frente a competidores**
+
+### Diferenciación por adaptación al mercado peruano
+A diferencia de plataformas como Condo Control y Buildium, que están orientadas a mercados internacionales, BuildingFex se diseñará específicamente para el contexto peruano. Se integrarán métodos de pago locales, manejo en moneda nacional (PEN) y funcionalidades alineadas a la realidad de las juntas de propietarios. Esta adaptación será comunicada como un valor diferencial clave en campañas de marketing.
+
+### Plataforma integral “todo en uno”
+Mientras algunos competidores se enfocan solo en ciertos aspectos (finanzas, comunicación o gestión operativa), BuildingFex ofrecerá una solución unificada que integra cobranza, reservas, control de accesos, incidencias y comunicación en una sola plataforma. Esto permitirá reducir la dependencia de herramientas dispersas como Excel o WhatsApp, destacando la eficiencia y centralización como ventaja competitiva.
+
+### Enfoque en transparencia y confianza como propuesta de valor
+Frente a uno de los principales problemas del sector (falta de transparencia en el uso del dinero), BuildingFex destacará sus módulos de reportes financieros y trazabilidad como un elemento diferenciador clave, generando confianza entre vecinos y juntas de propietarios.
+
+**2.2. Entrevistas**
+
+A continuación, presentamos las preguntas diseñadas para las entrevistas de validación. Las hemos estructurado en dos bloques: un grupo de preguntas transversales para ambos segmentos (para entender el perfil general y uso de tecnología) y preguntas específicas enfocadas en los dolores particulares de cada tipo de administrador.
+
+### Información a recolectar (transversal a los 2 segmentos)
+
+#### 1. Datos demográficos y profesionales básicos
+- ¿Cuál es su edad?
+- ¿En qué distrito reside o en qué zona opera principalmente?
+- ¿Cuál es su ocupación principal o cargo actual?
+- ¿Cuál es su nivel educativo o formación profesional?
+
+#### 2. Contexto de gestión y equipo de trabajo
+- ¿Cuenta con el apoyo de un equipo administrativo, conserjes o contadores en su día a día?
+- ¿Con qué frecuencia coordina con ellos para revisar temas del edificio?
+- ¿Quién se encarga específicamente de hacer los cobros y cuadrar las cuentas?
+
+#### 3. Estilo de trabajo y relación con la tecnología
+- ¿Cómo describiría un día típico gestionando los temas del condominio?
+- ¿Qué tareas administrativas le consumen más tiempo a la semana?
+- ¿Cómo se considera respecto al uso de nuevas plataformas o software: le resulta fácil, regular o prefiere lo tradicional?
+
+#### 4. Dispositivos de preferencia y canales digitales
+- ¿Qué dispositivo utiliza más para gestionar el edificio: la computadora de escritorio/laptop o el celular?
+- ¿Qué herramientas usa actualmente para comunicarse con los vecinos (WhatsApp, correos, murales físicos)?
+- ¿Cómo prefiere organizar los datos financieros: cuadernos, Excel, algún software genérico?
+
+#### 5. Objetivos y motivaciones
+- ¿Qué es lo más importante para usted al momento de entregar las cuentas a fin de mes?
+- ¿Qué le motivaría a cambiar su método actual por una plataforma digital de pago por suscripción?
+- ¿Qué significa para usted tener "tranquilidad" en la gestión de un edificio?
+
+#### 6. Frustraciones y problemas actuales
+- ¿Qué dificultades reales tiene hoy en día para cobrar puntualmente el mantenimiento?
+- ¿Cómo maneja actualmente el control de las reservas de áreas comunes y el registro de visitas? ¿Le genera problemas?
+- ¿Cuál es la queja más frecuente que recibe por parte de los residentes?
+
+#### 7. Background y experiencia
+- ¿Podría contarme brevemente cómo empezó a administrar edificios o cómo asumió el cargo en la directiva?
+- ¿Recuerda alguna "historia de terror" o conflicto grave relacionado con cuentas poco claras o vecinos morosos?
+- Si pudiera, ¿qué proceso de su gestión diaria automatizaría de inmediato?
+
+**2.2.1. Diseño de entrevistas**
+
+### Segmento 1: Junta de Directiva (Propietarios que administran su propio edificio)
+
+**Objetivo:**  
+Entender la carga que representa administrar el edificio "ad honorem" o como tarea extra, la fricción directa con sus propios vecinos y su necesidad de una herramienta muy simple que no requiera conocimientos contables.
+
+#### Preguntas principales
+- Al ser vecino y directivo a la vez, ¿cómo maneja la incomodidad de tener que cobrarle la mora a alguien con quien se cruza en el ascensor?
+- ¿Cuánto tiempo de su vida personal o fines de semana le dedica a cuadrar los pagos de mantenimiento?
+- ¿Alguna vez han tenido problemas de desconfianza por parte de otros vecinos respecto a cómo se gasta el dinero?
+- ¿Qué tan útil sería para la junta que el sistema aplique las multas y envíe recordatorios de pago automáticamente sin que ustedes den la cara?
+- ¿Qué barreras cree que tendrían los vecinos más mayores de su edificio para usar una app para ver sus recibos?
+
+#### Preguntas complementarias
+- ¿Cómo se organizan actualmente cuando un vecino quiere reservar la zona de parrillas o el salón de usos múltiples?
+- Si la directiva cambia el próximo año, ¿qué tan difícil es pasarle toda la información (cuentas, morosos, historial) a la nueva gestión?
+
+### Segmento 2: Empresas de Gestión de Edificios (Administradores profesionales)
+
+**Objetivo:**  
+Explorar cómo manejan el volumen (varios edificios a la vez), cómo estandarizan sus procesos para no tener que contratar un contador por cada edificio nuevo, y cómo un software les ayudaría a escalar su negocio.
+
+#### Preguntas principales
+- ¿Cuántos edificios o condominios maneja su empresa actualmente en total?
+- ¿Qué proceso se vuelve un "cuello de botella" cuando intentan sumar un nuevo edificio a su cartera de clientes?
+- ¿Cómo consolidan actualmente la información financiera de distintos edificios para rendir cuentas a cada junta de propietarios?
+- ¿Han perdido algún contrato de administración por problemas de comunicación o falta de transparencia percibida por los vecinos?
+- En términos de negocio, ¿valorarían más una herramienta que les ahorre horas hombre en contabilidad, o una que mejore la experiencia del residente con una buena app?
+
+#### Preguntas complementarias
+- ¿Han intentado usar algún software de administración antes? ¿Qué les gustó o disgustó de esa experiencia?
+- ¿Qué tan importante es para su empresa poder ofrecer a los condominios integraciones con pasarelas de pago o bancos locales para automatizar la conciliación?
+
+**2.2.2. Registro de entrevistas**
+
+### Segmento 1: Junta de Directiva (Propietarios que administran su propio edificio)
+
+#### Entrevista 1
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Junta de Directiva |
+| **Nombre** | Ismael |
+| **Apellidos** | Paredes |
+| **Edad** | 73 |
+| **Distrito** | Jesus Maria |
+| **Screenshot** | ![Entrevista 1](../imagenes/entrevista1_ismael.png) |
+| **URL** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316829_upc_edu_pe/IQAjOrj36WAbS7yjtkqR3BOjAYmhb5EJho0nURxlr5DQ3h0?e=ruuATc |
+| **Duración** | 6:02 |
+| **Resumen** | Prefiere trato personal antes que automatización en cobranzas. Maneja deudas mediante conversación y confianza directa. Percibe que la confianza reduce conflictos entre vecinos. Considera que el software puede ser útil, pero no indispensable en edificios pequeños. Tiene preocupaciones sobre privacidad y seguridad de datos. Ve la digitalización como tendencia, pero prioriza el factor humano. |
+
+#### Entrevista 2
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Junta de Directiva |
+| **Nombre** | Antonio |
+| **Apellidos** | Chan |
+| **Edad** | 50 |
+| **Distrito** | Jesus Maria |
+| **Screenshot** | ![Entrevista 2](../imagenes/entrevista2_antonio.png) |
+| **URL** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202316829_upc_edu_pe/IQCeaFiAnHVMS4osYS6VReweAdCzF57CR0YvpEt6g_Fkdjc?e=Vk1CG6&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Duración** | 5:51 |
+| **Resumen** | La administración ejecuta, la junta planifica y supervisa. Dedica tiempo a presupuestos y proyección financiera. Identifica la falta de comunicación como principal problema. Reconoce la importancia de la transparencia financiera. Considera útil la automatización (recordatorios, pagos), pero como apoyo. Valora el software por su capacidad de organización y control. |
+
+### Segmento 2: Empresas de Gestión de Edificios (Administradores profesionales)
+
+#### Entrevista 4
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Empresas de Gestión de Edificios |
+| **Nombre** | Manuel |
+| **Apellidos** | Mera |
+| **Edad** | 45 |
+| **Distrito** | San Borja |
+| **Screenshot** | ![Entrevista 4](../imagenes/entrevista4_manuel.png) |
+| **URL** | upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-4.mp4 |
+| **Duración** | 17:37 |
+| **Resumen** | Manuel es un profesional que trabaja de forma remota y reside en un edificio de departamentos. Relata incidentes de gas y electricidad con procesos frustrantes: depende de recomendaciones, búsquedas en Google o apoyo limitado del conserje. Su principal problema es la falta de confianza en técnicos y la dificultad para encontrar especialistas calificados rápidamente. |
+| **Personalidad** | - Precavido y analítico: investiga antes de contratar.<br>- Pragmático: busca soluciones directas.<br>- Escéptico: desconfía de servicios informales. |
+| **Marcas** | - WhatsApp: comunicación y contactos.<br>- Excel: control de cuentas e información. |
+| **Dispositivos** | - Smartphone: comunicación y búsquedas rápidas.<br>- Laptop: trabajo e investigación. |
+| **Flujos principales** | - Búsqueda y selección de confianza<br>- Gestión de la emergencia<br>- Validación y pago<br>- Post-servicio (garantía) |
+
+#### Entrevista 5
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Empresas de Gestión de Edificios |
+| **Nombre** | Carlos |
+| **Apellidos** | Chang |
+| **Edad** | 24 |
+| **Distrito** | San Borja |
+| **Screenshot** | ![Entrevista 5](../imagenes/entrevista5_carlos.png) |
+| **URL** | upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-5.mp4 |
+| **Duración** | 12:12 |
+| **Resumen** | Administrador general de 24 años que gestiona 18 edificios (~700 departamentos) en Lima Moderna. Depende fuertemente de procesos manuales y Excel. Su principal problema es la conciliación bancaria y la cobranza. Ve la digitalización como clave para reducir horas-hombre y escalar su negocio, siempre que el software esté adaptado al contexto peruano y automatice pagos. |
+| **Personalidad** | - Pragmático y enfocado en eficiencia (busca reducir carga administrativa).<br>- Detallista y orientado a la confianza financiera.<br>- Cauteloso con software nuevo (prefiere soluciones simples e intuitivas). |
+| **Marcas** | - Excel: base actual de gestión financiera.<br>- WhatsApp: comunicación operativa diaria.<br>- Yape / Plin: clave para automatizar cobros. |
+| **Dispositivos** | - Laptop/PC: tareas complejas (reportes, cuentas).<br>- Smartphone: uso diario para coordinación y emergencias. |
+| **Flujos principales** | - Conciliación de pagos y cobranza<br>- Gestión de reservas<br>- Onboarding de edificios<br>- Mantenimiento e incidencias |
+
+
+**2.2.3. Análisis de entrevistas**
+
+### Segmento 1: Junta de Directiva (Propietarios que administran su propio edificio)
+
+---
+
+#### Entrevista a Ismael Paredes
+
+Entrevistamos al doctor **Ismael Paredes**, de 73 años, quien forma parte de la junta directiva de un edificio ubicado en el distrito de **Jesús María**. Nos comenta que cuenta con el apoyo de un equipo conformado por un abogado, contador y otros miembros de la junta, lo que le permite distribuir las responsabilidades administrativas.
+
+En cuanto a la gestión de cobranzas, menciona que evita métodos impersonales y prefiere el trato directo con los vecinos. Señala que ha conversado personalmente con los principales deudores, logrando acuerdos basados en la confianza mutua. Considera que este enfoque ha sido efectivo y ha permitido mantener una convivencia armoniosa.
+
+Respecto a la transparencia, reconoce que puede existir cierta desconfianza inicial por parte de algunos vecinos sobre el uso del dinero, pero afirma que esta disminuye con el tiempo a medida que se construye confianza mediante la interacción directa.
+
+Sobre el uso de herramientas tecnológicas, comenta que ha utilizado previamente un software de administración, pero decidió dejar de usarlo debido a su costo y porque considera que, dado el tamaño del edificio, una gestión más directa resulta suficiente. Además, muestra cierta resistencia a la automatización total, especialmente en temas sensibles como la cobranza, ya que considera importante comprender la situación personal de cada vecino antes de tomar decisiones.
+
+Sin embargo, reconoce que la integración con pasarelas de pago puede ser útil, aunque expresa preocupación por la privacidad de la información y el posible mal uso de datos financieros por terceros, especialmente en contextos de ciberseguridad.
+
+En general, el entrevistado valora más la confianza, el trato humano y la gestión personalizada por encima de la automatización completa, aunque reconoce que existe una tendencia hacia la digitalización en la administración de edificios.
+
+---
+
+#### Entrevista a Antonio Chan
+
+Entrevistamos a **Antonio Chan**, de 50 años, miembro de la junta directiva de un edificio ubicado en el distrito de **Jesús María**. Nos comenta que, a diferencia de lo que suele pensarse, la junta directiva no se encarga directamente de la cobranza, sino que esta función recae principalmente en la administración del edificio, la cual opera bajo lineamientos establecidos por la junta y aprobados en asamblea de propietarios.
+
+En cuanto a la gestión del tiempo, señala que, aunque la administración ejecuta las operaciones diarias, la junta directiva invierte una cantidad considerable de tiempo en la planificación financiera, especialmente en la elaboración de presupuestos, proyección de gastos e ingresos, y definición de las cuotas de mantenimiento. Estas decisiones deben ser aprobadas en asamblea para su posterior ejecución.
+
+Respecto a la confianza, menciona que uno de los principales problemas en los edificios es la falta de comunicación entre los propietarios, lo que genera desinformación, dudas y cuestionamientos sobre el uso del dinero. Indica que esta falta de información puede provocar conflictos innecesarios dentro de la comunidad.
+
+Sobre la automatización, considera que el uso de sistemas para enviar recordatorios de pago y aplicar multas es útil como mecanismo de apoyo, ya que ayuda a reforzar el cumplimiento de las obligaciones de los residentes. Sin embargo, señala que la junta directiva siempre debe mantener un rol activo y dar la cara ante cualquier situación.
+
+En relación al uso de software, comenta que durante su gestión no utilizaban herramientas digitales, pero reconoce que actualmente existen soluciones que aportan valor, especialmente en la organización, control de pagos, acceso a información financiera y mejora de la transparencia, lo cual considera un aspecto clave para evitar conflictos entre vecinos.
+
+En general, el entrevistado destaca la importancia de la comunicación, la transparencia y la organización financiera en la gestión de edificios, y reconoce que la tecnología puede ser un apoyo importante para mejorar estos aspectos.
+
+**2.3. Needfinding**
+
+**2.3.1. User Personas**
+
+A partir de la información recopilada en las entrevistas, hemos construido dos User Personas que representan nuestros segmentos objetivos principales. Estos arquetipos ideales nos permiten empatizar con las necesidades, frustraciones y metas reales de los usuarios que interactuarán con la plataforma BuildingFex.
+
+### User Persona 1: Segmento: Junta directiva
+
+![User Persona](../imagenes/userpersona_roberto.png)
+
+### User Persona 2: Segmento: Empresas de Gestión de Edificios
+
+![User Persona](../imagenes/userpersona_valeria.png)
+
+**2.3.2. User task matrix**
+
+Esta sección permite identificar las tareas clave que realizan los usuarios de los segmentos objetivos, evaluando su frecuencia e importancia. El análisis resalta coincidencias, diferencias y puntos críticos que la plataforma BuildingFex debe atender, especialmente en los cuellos de botella operativos de cada perfil.
+
+| Tarea (Taks) | Directivo Roberto (Frecuencia) | Directivo Roberto (Importancia) | Administradora Valeria (Frecuencia) | Administradora Valeria (Importancia) |
+|------|-------------------------------|---------------------------------|------------------------------------|--------------------------------------|
+| Generar y enviar recibos | Baja (mensual) | Alta | Alta (varios edificios) | Muy alta |
+| Conciliación bancaria | Media (fin de mes) | Muy alta | Muy alta (diario/semanal) | Muy alta |
+| Recordatorios a morosos | Baja (evita hacerlo) | Alta | Alta (constante) | Alta |
+| Reportes financieros | Baja (mensual) | Alta | Media (por edificio) | Muy alta |
+| Reservas áreas comunes | Media (fines de semana) | Media | Media (supervisión) | Media |
+| Incidencias y quejas | Alta (diario WhatsApp) | Media | Muy alta (diario) | Alta |
+| Configuración inicial | Muy baja (una vez) | Alta | Media (nuevos clientes) | Muy alta |
+| Dashboard (estado) | Media (revisión rápida) | Alta | Alta (diario) | Muy alta |
+
+Análisis de la matriz:
+
+Por un lado, la conciliación bancaria y el envío de recordatorios a morosos son tareas de muy alta importancia para ambos segmentos. Para el directivo representan una carga emocional (incomodidad vecinal) y pérdida de tiempo libre, mientras que para el administrador representan un freno económico (necesidad de contratar más personal contable). BuildingFlex debe priorizar la automatización absoluta de estas dos tareas.
+
+Por otro lado, mientras el directivo realiza la carga de datos inicial solo una vez en su vida, el administrador lo hace cada vez que consigue un nuevo cliente. Por ello, el módulo de Onboarding o importación masiva desde Excel debe ser tan robusto como sencillo, para satisfacer la necesidad de crecimiento de las empresas administradoras
+
+**2.3.3. User journey mapping**
+
+En esta sección se presenta el User Journey Mapping para la plataforma de gestión de condominios BuildingFlex, destacando las interacciones clave de los usuarios desde que descubren su problema hasta la etapa final de su ciclo en la plataforma.
+
+Se detallan las acciones, problemas y emociones de cada etapa, lo que nos permite identificar oportunidades clave para mejorar el desarrollo.
+
+### Segmento 1: Junta Directiva
+
+![User Journey](../imagenes/journeymap_roberto.png)
+
+### Segmento 2: Empresa de gestión de edificios
+
+![User Journey](../imagenes/journeymap_valeria.png)
+
+**2.3.4. Empathy Mapping**
+
+### User Persona 1 Empathy Map: Segmento: Junta directiva
+
+![Empathy Map Persona 1](../imagenes/EmpathyMapping_Roberto.png)
+
+### User Persona 2: Segmento: Empresas de Gestión de Edificios
+
+![Empathy Map Persona 1](../imagenes/EmpathyMapping_Valeria.png)
+
+**2.4. Big Picture EventStorming**
+
+![Big Picture EventStorming - Parte 1](../imagenes/BigPictureEventstormingPart1.png)
+
+![Big Picture EventStorming - Parte 2](../imagenes/BigPictureEventstormingPart2.png)
+
+![Big Picture EventStorming - Parte 3](../imagenes/BigPictureEventstormingPart3.png)
+
+**2.5. Ubiquitous Language**
+
+1. **Building (Edificio)**  
+   A physical property composed of one or more units that are managed under a single administration within the platform.
+
+2. **Unit (Unidad / Departamento)**  
+   An individual property within a building, such as an apartment or office, assigned to a resident or owner.
+
+3. **Resident (Residente)**  
+   A person who lives in a unit, either as an owner or tenant, and interacts with the building services.
+
+4. **Owner (Propietario)**  
+   A person who legally owns a unit and is responsible for financial obligations such as maintenance fees.
+
+5. **Tenant (Inquilino)**  
+   A person who occupies a unit but does not own it, usually paying rent to the owner.
+
+6. **Board Member (Miembro de la junta directiva)**  
+   A person elected by residents to oversee building management and make administrative decisions.
+
+7. **Building Administrator (Administrador del edificio)**  
+   A person or company responsible for the operational and financial management of one or more buildings.
+
+8. **Maintenance Fee (Cuota de mantenimiento)**  
+   A recurring payment required from unit owners or residents to cover building expenses.
+
+9. **Payment (Pago)**  
+   A transaction made by a resident or owner to fulfill financial obligations such as maintenance fees.
+
+10. **Outstanding Balance (Morosidad / Deuda pendiente)**  
+    The amount of unpaid fees or charges owed by a resident or owner.
+
+11. **Common Area (Área común)**  
+    Shared spaces within a building, such as gyms, meeting rooms, or recreational areas.
+
+12. **Reservation (Reserva)**  
+    A request made by a resident to use a common area at a specific date and time.
+
+13. **Maintenance Request (Solicitud de mantenimiento)**  
+    A report submitted by a resident or administrator regarding an issue that requires repair or attention.
+
+14. **Work Order (Orden de trabajo)**  
+    A task created to resolve a maintenance request, assigned to a responsible party.
+
+15. **Announcement (Comunicado)**  
+    An official message published by the administration for residents or board members.
+
+16. **Visitor (Visitante)**  
+    A person who is authorized to enter the building temporarily.
+
+17. **Access Control (Control de accesos)**  
+    The process of managing and recording entry and exit of visitors or residents.
+
+18. **Subscription Plan (Plan de suscripción)**  
+    A pricing model that defines the features and limits available to a building or administrator.
+
+19. **Report (Reporte)**  
+    A structured summary of financial or operational data related to the building.
+
+20. **Provider (Proveedor)**  
+    An external party that offers services such as maintenance, cleaning, or security for the building.
 
 
 **Capítulo IV: Product Design**
