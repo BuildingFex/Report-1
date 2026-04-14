@@ -1074,3 +1074,327 @@ Sección de cards explicando al cliente por que somos mejores que la competencia
 Se ve un buen diseño en la sección de preguntas con la barra de búsqueda a la izquierda y las preguntas a la derecha con pequeños detalles que resaltan el interfaz. 
 
 ## **4.4. Web Applications UX/UI Design.**
+**4.4.1 Web Applications Wireframes**
+
+Primero en esta seccion va el Login.
+![img.png](../imagenes/wireframe1app.png)
+
+Residente:
+
+En esta seccion se presenta el wireframe del dashboard de residente.
+![img.png](../imagenes/wireframe2app.png)
+
+Administrador:
+
+En esta seccion presentamos el wireframe del dashboard de administrador.
+![img.png](../imagenes/wireframe3app.png)
+
+Despues de ambos dashboards estan las ventanas del menu rapido en base a los modulos.
+
+Esta es la seccion de Finanzas.
+![img.png](../imagenes/wireframe4app.png)
+
+Esta es la seccion de Servicios.
+![img.png](../imagenes/wireframe5app.png)
+
+Esta es la seccion de Incidencias.
+![img.png](../imagenes/wireframe6app.png)
+
+Esta es la seccion de Informacion.
+![img.png](../imagenes/wireframe7app.png)
+
+Esta es la seccion de Gestion Avanzada.
+![img.png](../imagenes/wireframe8app.png)
+
+Finalmente, esta es la seccion de Soporte Tecnico.
+![img.png](../imagenes/wireframe9app.png)
+
+**4.4.2 Web Applications Wireflow Diagrams.**
+
+En esta seccion se presenta el wireflow el cual consta de dos flows.
+
+Un flow que va cuando elijes la opcion de "Residente" y otro el cual aparece cuando presionas la opcion "Adminitrador", mostrandote de inicio el dashboard de la opcion elejida.
+![img_1.png](../imagenes/wireflow.png)
+
+**4.4.3 Web Applications Mock-ups.**
+
+Aqui en esta parte se van a mostrar los Mock-ups realizados para nuestra aplicacion web.
+
+Login:
+
+Se muestra el aspecto del login el cual tiene la opcion de ingresar DNI y elegir entre residente y administrador o de iniciar sesion con Google.
+![img.png](../imagenes/mockup1app.png)
+
+Dashboard Residente:
+
+En esta ventana se puede ver el bloque de pagos , el registro de reservas y comunicados oficiales.
+![img.png](../imagenes/mockup2app.png)
+
+Dashboard Administrador:
+
+En esta ventana se puede ver la vista general, el indicador de morosidad, lista de incidencias y reportes.
+![img.png](../imagenes/mockup3app.png)
+
+Finanzas:
+
+En esta seccion se puede ver la lista de cuotas, el pago en linea el cual posee campos para rellenar y los reoprtes financieros.
+![img.png](../imagenes/mockup4app.png)
+
+Servicios:
+
+En esta ventana se puede observar las reglas de uso de espacios y el registro de visitantes.
+![mockup5app.png](../imagenes/mockup5app.png)
+
+Incidencias:
+
+En la seccion incidencias se puede reportar alguna falla con un formulario y seguir ordenes de trabajo.
+![mockup6app.png](../imagenes/mockup6app.png)
+
+Informacion:
+
+En informacion se encuentran los comunicados oficiales y una biblioteca de actas y reglamentos en la cual se pueden descargar los documentos.
+![mockup7app.png](../imagenes/mockup7app.png)
+
+Gestion Avanzada:
+
+En gestion se puede ver datos como ocupacion, morosidad y el numero de las reservas realizadas. Aparte tambien se puede ver el historial de acciones recientes.
+![mockup8app.png](../imagenes/mockup8app.png)
+
+Soporte Tecnico:
+
+Aqui se puede ver las preguntas frecuentes acerca de la aplicacion y un boton que te lleva al chat de soporte.
+![mockup9app.png](../imagenes/mockup9app.png)
+
+**4.4.4 Web Applications User Flow Diagrams.**
+![img_1.png](img_1.png)
+
+**4.5 Web Applications Prototyping.**
+
+Falta Video
+
+**4.6 Domain-Driven Software Architecture.**
+
+**4.6.1 Software Architecture Context Diagram**
+
+Este diagrama de contexto representa cómo funciona la plataforma BuildingFex: los visitantes envian consultas y revisan informacion de suscripciones, mientras que los administradores analizan las respuestas. El sistema central, la aplicacion, se conecta con un API externo para obtener datos de edificios y con Firebase Cloud Messaging para enviar notificaciones push, mostrando así el flujo de interaccion entre usuarios, la plataforma y servicios externos.
+![contextDiagram.png](../imagenes/contextDiagram.png)
+
+**4.6.2 Software Architecture Container Diagrams**
+
+Este diagrama de BuildingFex resume la estructura del sistema: los usuarios interactuan con una aplicación web Angular que envia solicitudes al API Gateway, el cual distribuye el trafico hacia tres modulos principales (reportes, contactos/marketing y planes de suscripcion), cada uno con su propia base de datos. Ademas, el sistema se conecta con un API externo para obtener datos de edificios y con Firebase para enviar notificaciones push. En conjunto, muestra cómo fluye la informacion entre usuarios, aplicación, bases de datos y servicios externos.
+![containerdiagram.png](../imagenes/containerdiagram.png)
+
+**4.6.3 Software Architecture Components Diagrams**
+
+Analytics y Reporting: 
+
+Este diagrama de componentes del contexto se puede resumir asi: las solicitudes entran por el API Gateway, pasan a los controladores de análisis y reportes, que llaman a servicios de negocio para procesar comandos y consultas. Estos servicios interactuan con repositorios y finalmente con la base de datos de Analytics y Reporting, donde se almacenan y recuperan los datos. En conjunto, muestra cómo se organiza la logica de negocio y el acceso a datos para gestionar reportes y analisis.
+![componentdiagram1.png](../imagenes/componentdiagram1.png)
+
+Contactos y Marketing:
+
+Este diagrama del contexto envian las solicitudes entran por el API Gateway y son procesadas por controladores de contacto, consentimiento y consultas. Estos generan comandos y queries que se gestionan en el bounded context de Consent and Marketing Information, con almacenamiento en bases de datos y envio de notificaciones mediante Firebase Cloud. En conjunto, refleja como se manejan contactos, consentimientos y marketing dentro de BuildingFex.
+![componentdiagram2.png](../imagenes/componentdiagram2.png)
+
+Gestion de planes de suscripcion: 
+
+Las solicitudes entran por el API Gateway y son procesadas por el SubscriptionPlan Controller, que delega la logica al ContextFacade y a los servicios de comandos y consultas. Estos interactuan con el repositorio y la base de datos de planes de suscripcion, ademas de integrarse con un API externo para obtener recursos adicionales.
+![componentdiagram3.png](../imagenes/componentdiagram3.png)
+
+**4.7 Software Object-Oriented Design**
+
+**4.7.1 Class Diagrams**
+![classdiagram.png](../imagenes/classdiagram.png)
+
+El diagrama de clases representa la estructura principal de un sistema para gestión de condominios. Incluye entidades de usuarios y roles para controlar accesos, suscripciones para manejar planes de servicio, y la estructura fisica de edificios, torres y unidades vinculadas a residentes. En el area financiera se modelan cobranzas, pagos, pasarelas de pago y reportes, mientras que en operaciones se incluyen reservas de areas comunes e incidencias de mantenimiento. Finalmente, la clase de auditoria asegura trazabilidad de todas las acciones. Las relaciones muestran como los usuarios interactuan con suscripciones, unidades y reservas, conectando la gestion administrativa, financiera y operativa en un solo ecosistema.
+
+**4.7.2 Class Dictionary**
+# Class Dictionary
+
+## Usuario
+Representa a la persona que accede al sistema.
+- **Atributos**:
+    - idUsuario (int)
+    - nombre (string)
+    - correo (string)
+    - rolId (int)
+- **Operaciones**:
+    - registrarUsuario()
+    - autenticar()
+    - asignarRol()
+
+## Rol
+Define los permisos y funciones que puede realizar un usuario.
+- **Atributos**:
+    - idRol (int)
+    - nombreRol (string)
+    - permisos (list<string>)
+- **Operaciones**:
+    - crearRol()
+    - asignarPermiso()
+    - eliminarRol()
+
+## Suscripcion
+Modela el plan contratado por un usuario para un edificio.
+- **Atributos**:
+    - idSuscripcion (int)
+    - tipoPlan (string)
+    - fechaInicio (date)
+    - fechaFin (date)
+    - edificioId (int)
+    - usuarioId (int)
+- **Operaciones**:
+    - crearSuscripcion()
+    - actualizarSuscripcion()
+    - cancelarSuscripcion()
+
+## Edificio
+Representa un condominio o complejo.
+- **Atributos**:
+    - idEdificio (int)
+    - nombre (string)
+    - direccion (string)
+- **Operaciones**:
+    - agregarTorre()
+    - listarUnidades()
+
+## Torre
+Agrupa las unidades dentro de un edificio.
+- **Atributos**:
+    - idTorre (int)
+    - nombre (string)
+    - edificioId (int)
+- **Operaciones**:
+    - agregarUnidad()
+    - obtenerUnidades()
+
+## Unidad
+Representa un departamento o espacio habitable.
+- **Atributos**:
+    - idUnidad (int)
+    - numero (string)
+    - torreId (int)
+    - estado (string)
+- **Operaciones**:
+    - asignarResidente()
+    - liberarUnidad()
+
+## Residente
+Perfil de ocupante (dueno o inquilino) vinculado a una unidad.
+- **Atributos**:
+    - idResidente (int)
+    - nombre (string)
+    - tipo (string)
+    - unidadId (int)
+    - usuarioId (int)
+- **Operaciones**:
+    - registrarResidente()
+    - actualizarPerfil()
+
+## Cobranza
+Registra las cuotas de mantenimiento y pagos pendientes.
+- **Atributos**:
+    - idCobranza (int)
+    - monto (decimal)
+    - fechaVencimiento (date)
+    - estado (string)
+    - unidadId (int)
+- **Operaciones**:
+    - generarAviso()
+    - registrarPago()
+    - calcularMorosidad()
+
+## Pago
+Representa la transaccion realizada por un residente.
+- **Atributos**:
+    - idPago (int)
+    - monto (decimal)
+    - fecha (date)
+    - metodo (string)
+    - cobranzaId (int)
+- **Operaciones**:
+    - procesarPago()
+    - validarPago()
+
+## PasarelaPago
+Conecta con servicios externos de pago.
+- **Atributos**:
+    - idPasarela (int)
+    - nombre (string)
+    - apiKey (string)
+    - pagoId (int)
+- **Operaciones**:
+    - conectarServicio()
+    - enviarTransaccion()
+
+## ReporteFinanciero
+Consolida informacion de ingresos y egresos.
+- **Atributos**:
+    - idReporte (int)
+    - periodo (string)
+    - ingresos (decimal)
+    - egresos (decimal)
+    - cobranzaId (int)
+    - proveedorId (int)
+- **Operaciones**:
+    - generarReporte()
+    - exportarPDF()
+
+## Proveedor
+Representa a contratistas o empresas que brindan servicios al edificio.
+- **Atributos**:
+    - idProveedor (int)
+    - nombre (string)
+    - servicio (string)
+- **Operaciones**:
+    - registrarProveedor()
+    - actualizarDatos()
+
+## Reserva
+Gestiona la ocupacion de areas comunes.
+- **Atributos**:
+    - idReserva (int)
+    - fecha (date)
+    - usuarioId (int)
+    - areaComunId (int)
+- **Operaciones**:
+    - crearReserva()
+    - cancelarReserva()
+    - validarDisponibilidad()
+
+## AreaComun
+Espacios compartidos como piscina, gimnasio o salon de eventos.
+- **Atributos**:
+    - idArea (int)
+    - nombre (string)
+    - reglasUso (string)
+- **Operaciones**:
+    - agregarRegla()
+    - listarReservas()
+
+## Incidencia
+Registra problemas o solicitudes de mantenimiento.
+- **Atributos**:
+    - idIncidencia (int)
+    - descripcion (string)
+    - estado (string)
+    - unidadId (int)
+- **Operaciones**:
+    - crearIncidencia()
+    - actualizarEstado()
+    - cerrarIncidencia()
+
+## Auditoria
+Garantiza trazabilidad de las acciones en el sistema.
+- **Atributos**:
+    - idLog (int)
+    - usuarioId (int)
+    - accion (string)
+    - fechaHora (datetime)
+- **Operaciones**:
+    - registrarAccion()
+    - consultarLogs()
+
+**4.8 Database Design**
+
+**4.8.1 Database Diagram**
