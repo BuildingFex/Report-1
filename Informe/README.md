@@ -1398,3 +1398,5 @@ Garantiza trazabilidad de las acciones en el sistema.
 **4.8 Database Design**
 
 **4.8.1 Database Diagram**
+
+![databasediagram.png](../imagenes/databasediagram.png)

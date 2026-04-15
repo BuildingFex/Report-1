@@ -1,0 +1,135 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"0d9b4fa2-8d48-4958-b1b9-1a4535ad4f7e\" name=\"Changes\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/Informe/img.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Informe/img_1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/mockup1app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/mockup2app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/mockup3app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/mockup4app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireflow.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe1app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe2app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe3app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe4app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe5app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe6app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe7app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe8app.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/imagenes/wireframe9app.png\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Informe/README.md\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Informe/README.md\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"main\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 0\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"3CKfOh3JgpTv9BHhfJHEYRLgaxK\" />\r\n  <component name=\"ProjectLevelVcsManager\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;feat/capitulo-4&quot;,\r\n    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,\r\n    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Saul\\UPC\\Aplicaciones  Web\\BuildingFexWebstormReport\\imagenes\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-WS-252.25557.126\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"0d9b4fa2-8d48-4958-b1b9-1a4535ad4f7e\" name=\"Changes\" comment=\"\" />\r\n      <created>1776139151921</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1776139151921</updated>\r\n      <workItem from=\"1776139153371\" duration=\"5780000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n</project>
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 85951e9614b6d361616bec17e17c718255664d4f)
++++ b/.idea/workspace.xml	(date 1776147832634)
+@@ -5,23 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="0d9b4fa2-8d48-4958-b1b9-1a4535ad4f7e" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/Informe/img.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Informe/img_1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/mockup1app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/mockup2app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/mockup3app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/mockup4app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireflow.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe1app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe2app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe3app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe4app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe5app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe6app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe7app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe8app.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe9app.png" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Informe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Informe/README.md" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -35,6 +19,24 @@
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GitHubPullRequestSearchHistory">{
++  &quot;lastFilter&quot;: {
++    &quot;state&quot;: &quot;OPEN&quot;,
++    &quot;assignee&quot;: &quot;Saul-Upc&quot;
++  }
++}</component>
++  <component name="GithubDefaultAccount">
++    <option name="defaultAccountId" value="8d639e4e-5ae0-4cac-be3f-0d2826f72567" />
++  </component>
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/BuildingFex/Report-1.git&quot;,
++    &quot;accountId&quot;: &quot;8d639e4e-5ae0-4cac-be3f-0d2826f72567&quot;
++  }
++}</component>
++  <component name="ProblemsViewState">
++    <option name="selectedTabId" value="CurrentFile" />
+   </component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 0
+@@ -47,23 +49,24 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;feat/capitulo-4&quot;,
+-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
+-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "feat/capitulo-4",
++    "junie.onboarding.icon.badge.shown": "true",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "settings.editor.selected.configurable": "vcs.log",
++    "to.speed.mode.migration.done": "true",
++    "vue.rearranger.settings.migration": "true"
+   }
+-}</component>
++}]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="D:\Saul\UPC\Aplicaciones  Web\BuildingFexWebstormReport\imagenes" />
+@@ -84,10 +87,34 @@
+       <option name="presentableId" value="Default" />
+       <updated>1776139151921</updated>
+       <workItem from="1776139153371" duration="5780000" />
++      <workItem from="1776147090104" duration="737000" />
+     </task>
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="3" />
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="feat/capitulo-4" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
+ </project>
+\ No newline at end of file

@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d9b4fa2-8d48-4958-b1b9-1a4535ad4f7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Informe/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informe/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup1app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup2app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup3app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup4app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe1app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe2app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe3app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe4app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe5app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe6app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe7app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe8app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe9app.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Informe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Informe/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
