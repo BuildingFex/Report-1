@@ -1074,3 +1074,542 @@ Sección de cards explicando al cliente por que somos mejores que la competencia
 Se ve un buen diseño en la sección de preguntas con la barra de búsqueda a la izquierda y las preguntas a la derecha con pequeños detalles que resaltan el interfaz. 
 
 ## **4.4. Web Applications UX/UI Design.**
+**4.4.1 Web Applications Wireframes**
+
+Primero en esta seccion va el Login.
+![img.png](../imagenes/wireframe1app.png)
+
+Residente:
+
+En esta seccion se presenta el wireframe del dashboard de residente.
+![img.png](../imagenes/wireframe2app.png)
+
+Administrador:
+
+En esta seccion presentamos el wireframe del dashboard de administrador.
+![img.png](../imagenes/wireframe3app.png)
+
+Despues de ambos dashboards estan las ventanas del menu rapido en base a los modulos.
+
+Esta es la seccion de Finanzas.
+![img.png](../imagenes/wireframe4app.png)
+
+Esta es la seccion de Servicios.
+![img.png](../imagenes/wireframe5app.png)
+
+Esta es la seccion de Incidencias.
+![img.png](../imagenes/wireframe6app.png)
+
+Esta es la seccion de Informacion.
+![img.png](../imagenes/wireframe7app.png)
+
+Esta es la seccion de Gestion Avanzada.
+![img.png](../imagenes/wireframe8app.png)
+
+Finalmente, esta es la seccion de Soporte Tecnico.
+![img.png](../imagenes/wireframe9app.png)
+
+**4.4.2 Web Applications Wireflow Diagrams.**
+
+En esta seccion se presenta el wireflow el cual consta de dos flows.
+
+Un flow que va cuando elijes la opcion de "Residente" y otro el cual aparece cuando presionas la opcion "Adminitrador", mostrandote de inicio el dashboard de la opcion elejida.
+![img_1.png](../imagenes/wireflow.png)
+
+**4.4.3 Web Applications Mock-ups.**
+
+Aqui en esta parte se van a mostrar los Mock-ups realizados para nuestra aplicacion web.
+
+Login:
+
+Se muestra el aspecto del login el cual tiene la opcion de ingresar DNI y elegir entre residente y administrador o de iniciar sesion con Google.
+![img.png](../imagenes/mockup1app.png)
+
+Dashboard Residente:
+
+En esta ventana se puede ver el bloque de pagos , el registro de reservas y comunicados oficiales.
+![img.png](../imagenes/mockup2app.png)
+
+Dashboard Administrador:
+
+En esta ventana se puede ver la vista general, el indicador de morosidad, lista de incidencias y reportes.
+![img.png](../imagenes/mockup3app.png)
+
+Finanzas:
+
+En esta seccion se puede ver la lista de cuotas, el pago en linea el cual posee campos para rellenar y los reoprtes financieros.
+![img.png](../imagenes/mockup4app.png)
+
+Servicios:
+
+En esta ventana se puede observar las reglas de uso de espacios y el registro de visitantes.
+![mockup5app.png](../imagenes/mockup5app.png)
+
+Incidencias:
+
+En la seccion incidencias se puede reportar alguna falla con un formulario y seguir ordenes de trabajo.
+![mockup6app.png](../imagenes/mockup6app.png)
+
+Informacion:
+
+En informacion se encuentran los comunicados oficiales y una biblioteca de actas y reglamentos en la cual se pueden descargar los documentos.
+![mockup7app.png](../imagenes/mockup7app.png)
+
+Gestion Avanzada:
+
+En gestion se puede ver datos como ocupacion, morosidad y el numero de las reservas realizadas. Aparte tambien se puede ver el historial de acciones recientes.
+![mockup8app.png](../imagenes/mockup8app.png)
+
+Soporte Tecnico:
+
+Aqui se puede ver las preguntas frecuentes acerca de la aplicacion y un boton que te lleva al chat de soporte.
+![mockup9app.png](../imagenes/mockup9app.png)
+
+**4.4.4 Web Applications User Flow Diagrams.**
+![img_1.png](img_1.png)
+
+**4.5 Web Applications Prototyping.**
+
+Falta Video
+
+**4.6 Domain-Driven Software Architecture.**
+
+**4.6.1 Software Architecture Context Diagram**
+
+Este diagrama de contexto representa cómo funciona la plataforma BuildingFex: los visitantes envian consultas y revisan informacion de suscripciones, mientras que los administradores analizan las respuestas. El sistema central, la aplicacion, se conecta con un API externo para obtener datos de edificios y con Firebase Cloud Messaging para enviar notificaciones push, mostrando así el flujo de interaccion entre usuarios, la plataforma y servicios externos.
+![contextDiagram.png](../imagenes/contextDiagram.png)
+
+**4.6.2 Software Architecture Container Diagrams**
+
+Este diagrama de BuildingFex resume la estructura del sistema: los usuarios interactuan con una aplicación web Angular que envia solicitudes al API Gateway, el cual distribuye el trafico hacia tres modulos principales (reportes, contactos/marketing y planes de suscripcion), cada uno con su propia base de datos. Ademas, el sistema se conecta con un API externo para obtener datos de edificios y con Firebase para enviar notificaciones push. En conjunto, muestra cómo fluye la informacion entre usuarios, aplicación, bases de datos y servicios externos.
+![containerdiagram.png](../imagenes/containerdiagram.png)
+
+**4.6.3 Software Architecture Components Diagrams**
+
+Analytics y Reporting: 
+
+Este diagrama de componentes del contexto se puede resumir asi: las solicitudes entran por el API Gateway, pasan a los controladores de análisis y reportes, que llaman a servicios de negocio para procesar comandos y consultas. Estos servicios interactuan con repositorios y finalmente con la base de datos de Analytics y Reporting, donde se almacenan y recuperan los datos. En conjunto, muestra cómo se organiza la logica de negocio y el acceso a datos para gestionar reportes y analisis.
+![componentdiagram1.png](../imagenes/componentdiagram1.png)
+
+Contactos y Marketing:
+
+Este diagrama del contexto envian las solicitudes entran por el API Gateway y son procesadas por controladores de contacto, consentimiento y consultas. Estos generan comandos y queries que se gestionan en el bounded context de Consent and Marketing Information, con almacenamiento en bases de datos y envio de notificaciones mediante Firebase Cloud. En conjunto, refleja como se manejan contactos, consentimientos y marketing dentro de BuildingFex.
+![componentdiagram2.png](../imagenes/componentdiagram2.png)
+
+Gestion de planes de suscripcion: 
+
+Las solicitudes entran por el API Gateway y son procesadas por el SubscriptionPlan Controller, que delega la logica al ContextFacade y a los servicios de comandos y consultas. Estos interactuan con el repositorio y la base de datos de planes de suscripcion, ademas de integrarse con un API externo para obtener recursos adicionales.
+![componentdiagram3.png](../imagenes/componentdiagram3.png)
+
+**4.7 Software Object-Oriented Design**
+
+**4.7.1 Class Diagrams**
+![classdiagram.png](../imagenes/classdiagram.png)
+
+El diagrama de clases representa la estructura principal de un sistema para gestión de condominios. Incluye entidades de usuarios y roles para controlar accesos, suscripciones para manejar planes de servicio, y la estructura fisica de edificios, torres y unidades vinculadas a residentes. En el area financiera se modelan cobranzas, pagos, pasarelas de pago y reportes, mientras que en operaciones se incluyen reservas de areas comunes e incidencias de mantenimiento. Finalmente, la clase de auditoria asegura trazabilidad de todas las acciones. Las relaciones muestran como los usuarios interactuan con suscripciones, unidades y reservas, conectando la gestion administrativa, financiera y operativa en un solo ecosistema.
+
+**4.7.2 Class Dictionary**
+# Class Dictionary
+
+## Usuario
+Representa a la persona que accede al sistema.
+- **Atributos**:
+    - idUsuario (int)
+    - nombre (string)
+    - correo (string)
+    - rolId (int)
+- **Operaciones**:
+    - registrarUsuario()
+    - autenticar()
+    - asignarRol()
+
+## Rol
+Define los permisos y funciones que puede realizar un usuario.
+- **Atributos**:
+    - idRol (int)
+    - nombreRol (string)
+    - permisos (list<string>)
+- **Operaciones**:
+    - crearRol()
+    - asignarPermiso()
+    - eliminarRol()
+
+## Suscripcion
+Modela el plan contratado por un usuario para un edificio.
+- **Atributos**:
+    - idSuscripcion (int)
+    - tipoPlan (string)
+    - fechaInicio (date)
+    - fechaFin (date)
+    - edificioId (int)
+    - usuarioId (int)
+- **Operaciones**:
+    - crearSuscripcion()
+    - actualizarSuscripcion()
+    - cancelarSuscripcion()
+
+## Edificio
+Representa un condominio o complejo.
+- **Atributos**:
+    - idEdificio (int)
+    - nombre (string)
+    - direccion (string)
+- **Operaciones**:
+    - agregarTorre()
+    - listarUnidades()
+
+## Torre
+Agrupa las unidades dentro de un edificio.
+- **Atributos**:
+    - idTorre (int)
+    - nombre (string)
+    - edificioId (int)
+- **Operaciones**:
+    - agregarUnidad()
+    - obtenerUnidades()
+
+## Unidad
+Representa un departamento o espacio habitable.
+- **Atributos**:
+    - idUnidad (int)
+    - numero (string)
+    - torreId (int)
+    - estado (string)
+- **Operaciones**:
+    - asignarResidente()
+    - liberarUnidad()
+
+## Residente
+Perfil de ocupante (dueno o inquilino) vinculado a una unidad.
+- **Atributos**:
+    - idResidente (int)
+    - nombre (string)
+    - tipo (string)
+    - unidadId (int)
+    - usuarioId (int)
+- **Operaciones**:
+    - registrarResidente()
+    - actualizarPerfil()
+
+## Cobranza
+Registra las cuotas de mantenimiento y pagos pendientes.
+- **Atributos**:
+    - idCobranza (int)
+    - monto (decimal)
+    - fechaVencimiento (date)
+    - estado (string)
+    - unidadId (int)
+- **Operaciones**:
+    - generarAviso()
+    - registrarPago()
+    - calcularMorosidad()
+
+## Pago
+Representa la transaccion realizada por un residente.
+- **Atributos**:
+    - idPago (int)
+    - monto (decimal)
+    - fecha (date)
+    - metodo (string)
+    - cobranzaId (int)
+- **Operaciones**:
+    - procesarPago()
+    - validarPago()
+
+## PasarelaPago
+Conecta con servicios externos de pago.
+- **Atributos**:
+    - idPasarela (int)
+    - nombre (string)
+    - apiKey (string)
+    - pagoId (int)
+- **Operaciones**:
+    - conectarServicio()
+    - enviarTransaccion()
+
+## ReporteFinanciero
+Consolida informacion de ingresos y egresos.
+- **Atributos**:
+    - idReporte (int)
+    - periodo (string)
+    - ingresos (decimal)
+    - egresos (decimal)
+    - cobranzaId (int)
+    - proveedorId (int)
+- **Operaciones**:
+    - generarReporte()
+    - exportarPDF()
+
+## Proveedor
+Representa a contratistas o empresas que brindan servicios al edificio.
+- **Atributos**:
+    - idProveedor (int)
+    - nombre (string)
+    - servicio (string)
+- **Operaciones**:
+    - registrarProveedor()
+    - actualizarDatos()
+
+## Reserva
+Gestiona la ocupacion de areas comunes.
+- **Atributos**:
+    - idReserva (int)
+    - fecha (date)
+    - usuarioId (int)
+    - areaComunId (int)
+- **Operaciones**:
+    - crearReserva()
+    - cancelarReserva()
+    - validarDisponibilidad()
+
+## AreaComun
+Espacios compartidos como piscina, gimnasio o salon de eventos.
+- **Atributos**:
+    - idArea (int)
+    - nombre (string)
+    - reglasUso (string)
+- **Operaciones**:
+    - agregarRegla()
+    - listarReservas()
+
+## Incidencia
+Registra problemas o solicitudes de mantenimiento.
+- **Atributos**:
+    - idIncidencia (int)
+    - descripcion (string)
+    - estado (string)
+    - unidadId (int)
+- **Operaciones**:
+    - crearIncidencia()
+    - actualizarEstado()
+    - cerrarIncidencia()
+
+## Auditoria
+Garantiza trazabilidad de las acciones en el sistema.
+- **Atributos**:
+    - idLog (int)
+    - usuarioId (int)
+    - accion (string)
+    - fechaHora (datetime)
+- **Operaciones**:
+    - registrarAccion()
+    - consultarLogs()
+
+**4.8 Database Design**
+
+**4.8.1 Database Diagram**
+
+## Capítulo V: Product Implementation, Validation & Deployment
+
+Este capítulo documenta **únicamente el alcance de la entrega TB1** del curso: configuración del entorno y despliegue del *landing*, implementación del **Sprint 1** (landing en Vue + informe técnico en el repositorio **Report**) y evidencias de validación previstas para esa misma entrega. No incluye **sprints ni productos de entregas posteriores** (aplicación web completa, APIs, base de datos en producción, etc.); esas fases se describirán en los capítulos correspondientes cuando correspondan a **TB2** u otras entregas.
+
+**5.1. Software Configuration Management**
+
+**5.1.1. Software Development Environment Configuration**
+
+Para el desarrollo del proyecto se utilizaron herramientas estándar: editor de código (**Visual Studio Code** u otro IDE compatible), **Git** para control de versiones, **GitHub** como repositorio remoto bajo la organización [BuildingFex](https://github.com/BuildingFex), navegadores actualizados para pruebas de la landing, y **Vue.js** como **framework frontend** para la implementación del *landing* y la interfaz. El entorno incluye **Node.js** y gestor de paquetes (**npm**) para dependencias, junto con el *tooling* habitual del ecosistema Vue (por ejemplo **Vite** como empaquetador y servidor de desarrollo). El equipo alinea versiones mediante el `README` del proyecto y documentación en los repositorios del equipo: informe en [https://github.com/BuildingFex/Report.git](https://github.com/BuildingFex/Report.git) y *landing* en [https://github.com/BuildingFex/LandingPage.git](https://github.com/BuildingFex/LandingPage.git).
+
+**5.1.2. Source Code Management**
+
+El código fuente y el informe se versionan en GitHub: [BuildingFex — Report](https://github.com/BuildingFex/Report.git) (informe) y [BuildingFex — LandingPage](https://github.com/BuildingFex/LandingPage.git) (landing). Se trabaja con ramas de características (`feature/*`), integración mediante *pull requests* y trazabilidad de cambios con mensajes en formato **Conventional Commits** (ver 5.1.3).
+
+**5.1.3. Source Code Style Guide & Conventions**
+
+| Lenguaje | Referencia adoptada | Convenciones aplicadas |
+| --- | --- | --- |
+| **HTML** | [HTML Style Guide and Coding Conventions](https://google.github.io/styleguide/htmlcssguide.html) | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `building-card`, `pricing-section`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) | Nombres de clases en `kebab-case` (ej. `btn-primary`, `plan-card`), convenciones tipo BEM para modularidad (`block__element--modifier`), orden coherente de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundamente anidados. |
+| **JavaScript / TypeScript** | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) | Uso de `const` y `let` en lugar de `var`, funciones flecha, desestructuración, módulos ES6 (`import`/`export`), nombres en `lowerCamelCase`, tipado explícito cuando aplica, y organización por carpetas (`components/`, `services/`, `utils/`, etc.). |
+| **Vue.js** | [Vue.js — Style Guide](https://vuejs.org/style-guide/) | Componentes en `PascalCase`, nombres de archivo alineados a la guía oficial, separación clara de plantilla, script y estilos (p. ej. SFC), uso coherente de Composition API u Options API, `props`/`emits` definidos, estructura por carpetas (`components/`, `views/`, `composables/` o `assets/`), e internacionalización con recursos en `src` cuando aplique. |
+
+*Nota TB1:* En esta entrega solo se implementa el *frontend* del *landing*; convenciones de backend (Java, Spring, etc.) no forman parte del código desarrollado en la **TB1** y se aplicarán en fases posteriores del proyecto.
+
+Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:
+
+`<tipo>(<alcance>): <descripción breve>`
+
+Ejemplo:
+
+- `docs(chapter-5): update sprint 1 evidence in README`
+
+En la **TB1**, el *landing* puede validarse con **ESLint** (por ejemplo `eslint-plugin-vue`), **Prettier** y el propio *lint* de Vite/Vue. Se promueve el **inglés** en mensajes de commit y comentarios técnicos acordes al proyecto.
+
+**5.1.4. Software Deployment Configuration**
+
+Para el **TB1**, el despliegue del *landing* se realiza en **Vercel** como plataforma de *hosting* y despliegue continuo: integración con el repositorio [LandingPage](https://github.com/BuildingFex/LandingPage.git) en GitHub, *build* automático del proyecto **Vue** en cada cambio a la rama principal, publicación del sitio y URL pública verificable. La **URL de producción** del *landing* es [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/). Se documentan rama de despliegue, comando de *build* (p. ej. `npm run build`), directorio de salida y revisión por *pull request* antes de integrar a `main`. La evidencia concreta (capturas del panel de Vercel, dominio o URL) se presenta en la sección de Sprint 1 (5.2.1.7).
+
+**5.2. Implementación (TB1): Landing Page e informe técnico**
+
+En el marco de la **TB1**, el equipo ejecutó un **único sprint de implementación** alineado al **Product Backlog** (Capítulo III) para el alcance de esta entrega: **Landing Page** pública en **Vue** + **Vite**, desplegada en **Vercel**, y **informe del proyecto** en Markdown en el repositorio [Report](https://github.com/BuildingFex/Report.git). La metodología incluyó planificación (*Sprint Planning*), trabajo colaborativo (p. ej. **Discord**), revisión de avances y evidencias en GitHub. No se incluye en esta sección desarrollo de aplicación web completa, APIs ni base de datos; ese alcance corresponde a entregas posteriores al **TB1**.
+
+**5.2.1. Sprint 1** *(alcance TB1)*
+
+Este *Sprint* concentró el **100 % del alcance de implementación de la TB1**: **Landing Page de BuildingFex** y **estructuración del informe técnico** (este documento), con bases visuales, funcionales y documentales. Se priorizó una versión usable y accesible de la página de inicio, organización de repositorios, convenciones de código y documentación, con enfoque colaborativo y ágil.
+
+### 5.2.1.1. Sprint Planning 1
+
+| **Sprint #** | **Sprint 1** |
+| --- | --- |
+| ***Sprint Planning Background*** |  |
+| **Date** | 2025-09-06 |
+| **Time** | 14:00 (GMT-5) |
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By** | Sebastian Martin Beingolea Montalvo |
+| **Attendees (to planning meeting)** | Sebastian Martin Beingolea Montalvo, Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Alejandro Manuel Jave Chang, Valentin Nicolas Medina Mamani |
+| **Sprint n – 1 Review Summary** | No aplica: es el primer *Sprint* del proyecto. |
+| **Sprint n – 1 Retrospective Summary** | No aplica: es el primer *Sprint* del proyecto. |
+| ***Sprint Goal & User Stories*** |  |
+| **Sprint 1 Goal** | Our focus is on delivering a professional, responsive, and accessible landing page for **BuildingFex** that clearly communicates the product’s purpose and value for building administrators and resident communities. We believe it delivers a credible first impression to stakeholders and future users. This will be confirmed when the landing is deployed with a public URL, includes the agreed sections (value proposition, plans, FAQ, contact), and uses semantic HTML with coherent styling and documented source code in the repository. |
+| **Sprint 1 Velocity** | 25 |
+| **Sum of Story Points** | 25 |
+
+### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los aspectos funcionales y técnicos abordados durante el *Sprint 1*: **desarrollo de la Landing Page** y **estructuración del informe técnico**. Para cada aspecto se asignó un **Líder (L)** y **Colaboradores (C)**.
+
+| Team Member (Last Name, First Name) | GitHub (organización / usuario) | LP | ID | IN | DO | RI |
+| --- | --- | --- | --- | --- | --- | --- |
+| Villanueva Rodríguez Giuseppe Adrián | [BuildingFex](https://github.com/BuildingFex) | L | C | C | C | C |
+| Alejandro Manuel Jave Chang | [BuildingFex](https://github.com/BuildingFex) | C | L | C | C | C |
+| Sebastian Martin Beingolea Montalvo | [BuildingFex](https://github.com/BuildingFex) | C | C | L | C | C |
+| Saul Ortega Muñoz | [BuildingFex](https://github.com/BuildingFex) | C | C | C | L | C |
+| Valentin Nicolas Medina Mamani | [BuildingFex](https://github.com/BuildingFex) | C | C | C | C | L |
+
+**Leyenda de aspectos**
+
+- **LP**: *Landing Page Implementation* — Interfaz con **Vue.js** (componentes, estilos y secciones públicas).
+- **ID**: *Interface Design & Figma alignment* — Alineación con lineamientos visuales del informe de diseño.
+- **IN**: *Informe técnico* — Redacción y estructura del informe en el repositorio [**Report**](https://github.com/BuildingFex/Report.git) (`Informe/README.md`).
+- **DO**: *Deployment & hosting* — Despliegue del *landing* y verificación de URL pública.
+- **RI**: *Repository initialization* — Organización del repositorio [**LandingPage**](https://github.com/BuildingFex/LandingPage.git), `README`, `.gitignore` y convenciones.
+
+> *Nota:* Todos los integrantes participaron en los distintos frentes; los líderes facilitan decisiones y trazabilidad.
+
+### 5.2.1.3. Sprint Backlog 1
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| --- | --- | --- | --- | --- |
+| 1 | US01 | Propuesta de valor | Como administrador de edificios, quiero entender rápidamente el beneficio del sistema para decidir si me interesa. | 1 |
+| 2 | US02 | Funcionalidades visibles | Como administrador, quiero visualizar las funcionalidades disponibles para entender qué puedo gestionar. | 2 |
+| 3 | US03 | Descripción por módulo | Como junta directiva, quiero leer descripciones de cada módulo para evaluar su utilidad. | 1 |
+| 4 | US04 | Planes de suscripción | Como administrador, quiero ver los planes de suscripción para evaluar costos. | 2 |
+| 5 | US05 | Comparar planes | Como junta directiva, quiero comparar características entre planes para elegir el adecuado. | 3 |
+| 6 | US06 | Botón de suscripción | Como usuario interesado, quiero tener un botón de suscripción para iniciar el proceso de compra. | 2 |
+| 7 | US07 | Ventajas del sistema | Como administrador, quiero conocer ventajas del sistema para confiar en la solución. | 1 |
+| 8 | US08 | FAQ | Como usuario interesado, quiero revisar preguntas frecuentes para resolver dudas rápidamente. | 1 |
+| 9 | US09 | Búsqueda en ayuda | Como usuario, quiero buscar información específica dentro de la sección de ayuda para encontrar respuestas precisas. | 3 |
+| 10 | US10 | Navegación | Como usuario, quiero usar el menú de navegación para moverme fácilmente por la landing. | 2 |
+| 11 | US11 | Idioma | Como usuario, quiero cambiar el idioma para entender mejor el contenido de la plataforma. | 3 |
+| 12 | US12 | Acceso a la app | Como usuario interesado o registrado, quiero tener un botón visible para acceder a la aplicación web. | 1 |
+| 13 | US13 | Experiencia móvil | Como junta directiva, quiero navegar fácilmente desde mi celular para acceder rápidamente a la información. | 3 |
+
+### Estado final del Sprint 1
+
+Los ítems planificados para el alcance del *Sprint 1* en **TB1** (landing e informe) se completaron y verificaron según el backlog acordado. La **Landing Page de BuildingFex** queda publicada y documentada como evidencia de esta entrega.
+
+> **Tablero Kanban:** *(enlace al tablero acordado por el equipo — Trello/Jira/GitHub Projects).*
+
+![Product backlog Sprint 1](../imagenes/chapter-5/sprintbacklog-1.png)
+
+### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante este *Sprint* el equipo avanzó en la **Landing Page de BuildingFex** desarrollada con **Vue.js**: secciones de valor, planes, FAQ, navegación y ajustes de accesibilidad y responsividad según el diseño del Capítulo IV. Los commits del repositorio [BuildingFex/LandingPage](https://github.com/BuildingFex/LandingPage.git) reflejan entregas incrementales y revisión entre pares.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| `BuildingFex/LandingPage` | `main` | *(hash)* | `chore(repo): initial project structure` | Estructura inicial de carpetas y assets. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/landing-sections` | *(hash)* | `feat(landing): add hero and value proposition` | Secciones principales y CTA. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/landing-sections` | *(hash)* | `feat(landing): add pricing and FAQ sections` | Tabla de planes y preguntas frecuentes. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/styles` | *(hash)* | `style(landing): responsive layout and tokens` | Ajustes responsive y consistencia visual. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/i18n` | *(hash)* | `feat(i18n): language toggle and copy` | Soporte de idioma / textos según alcance. | *(fecha)* |
+| `BuildingFex/LandingPage` | `main` | *(hash)* | `docs(landing): update README with run instructions` | Documentación de uso y despliegue. | *(fecha)* |
+
+> **Nota:** Sustituir `*(hash)*` y fechas por los valores reales exportados desde GitHub para la entrega.
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+En este *Sprint* se implementó la **Landing Page de BuildingFex** con **Vue.js**, alineada con las historias US01–US13 del alcance del landing: propuesta de valor, módulos, planes, FAQ, navegación, acceso a la aplicación y uso en móvil. La página es **responsive**, con criterios de accesibilidad y SEO acordes al Capítulo IV, y se publica en **Vercel**.
+
+> **Enlace a la versión desplegada (producción):** [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/)
+
+> **Enlace al video de demostración:** *(URL del video acordado con el curso.)*
+
+![Landing BuildingFex — vista 1](../imagenes/chapter-5/netlify1.png)
+
+![Landing BuildingFex — vista 2](../imagenes/chapter-5/netlify2.png)
+
+![Landing BuildingFex — vista 3](../imagenes/chapter-5/netlify3.png)
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En la **TB1** el entregable es el *landing* estático; **no aplica** documentación OpenAPI ni exposición de *web services* en producción, porque ese alcance **no forma parte de la TB1**.
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Se configuró un flujo de **CI/CD** con **GitHub** y **Vercel**: el repositorio [BuildingFex/LandingPage](https://github.com/BuildingFex/LandingPage.git) queda vinculado al proyecto en Vercel; cada *push* o *merge* a la rama de producción (p. ej. `main`) dispara el *build* del proyecto **Vue** y el despliegue automático a la URL pública [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/). Se utilizó un flujo tipo **GitFlow** o ramas `feature/*` con *pull requests* hacia `main` / `develop` según lo definido por el equipo.
+
+#### 1. Repositorio y ramas
+
+- `main`: versión estable desplegable.
+- `develop` *(opcional)*: integración continua.
+- `feature/*`: desarrollo por funcionalidad.
+
+#### 2. Integración con Vercel
+
+Configuración típica del proyecto en **Vercel**:
+
+- **Framework preset:** Vue (o Vite según el asistente de importación del repositorio).
+- **Rama de producción:** `main` (o la definida en el equipo).
+- **Comando de *build*:** `npm run build` (o el script definido en `package.json`).
+- **Directorio de salida:** `dist/` (o el que indique la plantilla Vue/Vite del proyecto).
+- **Variables de entorno:** en el panel de Vercel si el *landing* las requiere.
+
+![Evidencia de despliegue 1](../imagenes/chapter-5/netlify4.png)
+
+![Evidencia de despliegue 2](../imagenes/chapter-5/netlify5.png)
+
+![Evidencia de despliegue 3](../imagenes/chapter-5/netlify3.png)
+
+### Sitio desplegado
+
+> **URL de producción:** [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/)
+
+El sitio incluye las secciones desarrolladas para la **TB1** dentro del *Sprint 1* (hero, beneficios, planes, FAQ, contacto y enlaces de acceso según diseño), con navegación clara y diseño alineado a **BuildingFex**. El despliegue en Vercel está conectado al código en [https://github.com/BuildingFex/LandingPage.git](https://github.com/BuildingFex/LandingPage.git).
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+El equipo trabajó con **ramas por funcionalidad** y **pull requests** para integrar cambios sin bloquearse mutuamente. A continuación, evidencias de colaboración en GitHub (commits, *network graph*).
+
+![Commits — evidencia 1](../imagenes/chapter-5/commits1.png)
+
+![Commits — evidencia 2](../imagenes/chapter-5/commits2.png)
+
+![Network — colaboración](../imagenes/chapter-5/Network.png)
+
+**5.3. Validation Interviews *(TB1)***
+
+Esta sección se limita a lo que corresponde validar o registrar **dentro del alcance de la TB1** (p. ej. revisión de la landing desplegada o criterios de usabilidad acordados con el curso). Entregas posteriores al **TB1** no se documentan aquí.
+
+**5.3.1. Diseño de entrevistas**
+
+*(Las entrevistas de validación del producto se documentan alineando con el diseño de entrevistas del Capítulo II y los criterios de usabilidad definidos para el TB1.)*
+
+**5.3.2. Registro de entrevistas**
+
+*(Registro de sesiones, enlaces a grabaciones y síntesis por participante — dentro del alcance TB1.)*
+
+**5.3.3. Validación según heurísticas**
+
+*(Evaluación heurística de la landing desplegada o prototipo según Nielsen u otro marco acordado, con hallazgos y severidad — solo en lo que aplique a la TB1.)*
+
+---
+
+## Bibliografía
+
+*(Contenido según las fuentes citadas en el informe.)*
+
+---
+
+## Anexos
+
+*(Material complementario: evidencias, capturas o tablas según corresponda a la entrega.)*
