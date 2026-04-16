@@ -427,7 +427,7 @@ Explorar cómo manejan el volumen (varios edificios a la vez), cómo estandariza
 | **Edad** | 45 |
 | **Distrito** | San Borja |
 | **Screenshot** | ![Entrevista 4](../imagenes/entrevista4_manuel.png) |
-| **URL** | upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-4.mp4 |
+| **URL** | [upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-4.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312510_upc_edu_pe/IQAEMbg8JmgaQaVqskOQem9iAb1I7oRMsDqavQquDJIMQeA?e=dLkD0t&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D) |
 | **Duración** | 17:37 |
 | **Resumen** | Manuel es un profesional que trabaja de forma remota y reside en un edificio de departamentos. Relata incidentes de gas y electricidad con procesos frustrantes: depende de recomendaciones, búsquedas en Google o apoyo limitado del conserje. Su principal problema es la falta de confianza en técnicos y la dificultad para encontrar especialistas calificados rápidamente. |
 | **Personalidad** | - Precavido y analítico: investiga antes de contratar.<br>- Pragmático: busca soluciones directas.<br>- Escéptico: desconfía de servicios informales. |
@@ -445,13 +445,31 @@ Explorar cómo manejan el volumen (varios edificios a la vez), cómo estandariza
 | **Edad** | 24 |
 | **Distrito** | San Borja |
 | **Screenshot** | ![Entrevista 5](../imagenes/entrevista5_carlos.png) |
-| **URL** | upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-5.mp4 |
+| **URL** | [upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-5.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312510_upc_edu_pe/IQAb0fPmezaQR4uOkVXODq7XAYk47uCjZoA2l1mIjnWkvAA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qppxed) |
 | **Duración** | 12:12 |
 | **Resumen** | Administrador general de 24 años que gestiona 18 edificios (~700 departamentos) en Lima Moderna. Depende fuertemente de procesos manuales y Excel. Su principal problema es la conciliación bancaria y la cobranza. Ve la digitalización como clave para reducir horas-hombre y escalar su negocio, siempre que el software esté adaptado al contexto peruano y automatice pagos. |
 | **Personalidad** | - Pragmático y enfocado en eficiencia (busca reducir carga administrativa).<br>- Detallista y orientado a la confianza financiera.<br>- Cauteloso con software nuevo (prefiere soluciones simples e intuitivas). |
 | **Marcas** | - Excel: base actual de gestión financiera.<br>- WhatsApp: comunicación operativa diaria.<br>- Yape / Plin: clave para automatizar cobros. |
 | **Dispositivos** | - Laptop/PC: tareas complejas (reportes, cuentas).<br>- Smartphone: uso diario para coordinación y emergencias. |
 | **Flujos principales** | - Conciliación de pagos y cobranza<br>- Gestión de reservas<br>- Onboarding de edificios<br>- Mantenimiento e incidencias |
+
+#### Entrevista 6
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Empresas de Gestión de Edificios |
+| **Nombre** | Adrian |
+| **Apellidos** | Delgado |
+| **Edad** | 24 |
+| **Distrito** | Surco |
+| **Screenshot** | ![Entrevista 6](..imagenes/entrevista6_adrian.png) |
+| **URL** | [upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-6.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312510_upc_edu_pe/IQCU3cNsBGklT4-T2l_crjfeAfIA-zu4Aj5K_0AmkObByA8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=12dNB5) |
+| **Duración** | 17:04 |
+| **Resumen** | Adrián es un Asistente de Operaciones de 24 años que actúa como el brazo ejecutor y la mano derecha en la gestión de 18 edificios. A diferencia de un perfil tradicional, es un nativo digital que sufre con los procesos analógicos de su propia empresa. Su día a día es altamente reactivo y caótico: pasa horas persiguiendo comprobantes de pago, actualizando hojas de cálculo desde su celular y actuando como mediador en conflictos por reservas mal anotadas. Ve en la adopción de una plataforma moderna la clave no solo para automatizar su carga operativa (y recuperar su tiempo libre), sino para mejorar radicalmente la experiencia del residente, un factor que ya les ha costado contratos en el pasado por parecer "anticuados". |
+| **Personalidad** | - Nativo Digital y Dinámico: Le frustra la dependencia del papel y los procesos lentos.<br>- Orientado a la Experiencia del Usuario (UX): Entiende perfectamente que la retención del negocio depende de tener a los residentes contentos.<br>- Resolutivo pero Saturado: Tiene la iniciativa de mejorar los procesos (como migrar de Excel a Google Sheets por su cuenta). |
+| **Marcas** | - WhatsApp: Su centro principal de operaciones.<br>- Google Sheets: La herramienta que impuso en su equipo para poder trabajar desde el celular, reemplazando al Excel tradicional.<br>- Yape: Crítico en su operativa diaria. |
+| **Dispositivos** | - Smartphone: Es su herramienta de trabajo principal absoluto. <br>- Laptop/Computadora: Su uso está estrictamente relegado a tareas pesadas que no puede hacer desde su celular. |
+| **Flujos principales** | - Recaudación y Verificación de Pagos.<br>- Gestión de Áreas Comunes.<br>- Onboarding y Creación de Base de Datos.<br>- Consolidación y Reportes. |
 
 
 **2.2.3. Análisis de entrevistas**
@@ -489,6 +507,80 @@ Sobre la automatización, considera que el uso de sistemas para enviar recordato
 En relación al uso de software, comenta que durante su gestión no utilizaban herramientas digitales, pero reconoce que actualmente existen soluciones que aportan valor, especialmente en la organización, control de pagos, acceso a información financiera y mejora de la transparencia, lo cual considera un aspecto clave para evitar conflictos entre vecinos.
 
 En general, el entrevistado destaca la importancia de la comunicación, la transparencia y la organización financiera en la gestión de edificios, y reconoce que la tecnología puede ser un apoyo importante para mejorar estos aspectos.
+
+
+---
+
+### Segmento 2: Empresas de Gestión de Edificios (Administradores profesionales)
+
+---
+
+#### Resumen
+
+Los administradores de edificios y asistentes de operaciones entrevistados presentan un perfil altamente operativo y enfocado en la eficiencia del negocio. Aunque manejan un volumen fuerte de información y coordinan con cientos de residentes, su día a día está saturado de tareas manuales repetitivas, especialmente la conciliación de pagos y la resolución de conflictos vecinales. 
+
+La tecnología es su entorno natural (son nativos digitales que operan casi todo el día desde el smartphone), pero se ven frenados por la dependencia de herramientas improvisadas como Excel, cuadernos físicos o plataformas que no se adaptan al contexto local.
+
+Se apoyan fundamentalmente en WhatsApp para apagar "incendios" diarios y coordinar con los conserjes, y en hojas de cálculo para el back-office. Para ellos, la tranquilidad significa automatizar el cobro y lograr que el edificio funcione en piloto automático, lo que les permitiría escalar su cartera de clientes y proyectar una imagen de total transparencia ante las juntas de propietarios.
+
+---
+
+#### Edad de entrevistados
+
+| Entrevistado                         | Edad |
+|------------------------------------|------|
+| Manuel Mera         | 45   |
+| Adrián Delgado                     | 24   |
+| Carlos Chang | 24   |
+| **Media**                          | **31** |
+
+---
+
+#### Personalidad
+
+- **Administradores operativos:**  
+  Pragmáticos, dinámicos y enfocados en el rendimiento; buscan reducir desesperadamente las "horas hombre" invertidas en trabajo manual para poder hacer crecer el negocio de la empresa inmobiliaria.
+
+- **Nativos digitales saturados:**  
+  Orientados a la inmediatez y a la experiencia del usuario (UX). Prefieren trabajar en la nube y desde el celular, sintiendo profunda frustración por los procesos burocráticos, el uso de papel y los sistemas contables anticuados.
+
+- **Gestores de comunidad:**  
+  Detallistas y muy conscientes de su reputación. Saben que la confianza lo es todo; un error en las cuentas o parecer poco transparentes les cuesta contratos, por lo que valoran la claridad visual en los reportes.
+
+---
+
+#### Marcas y canales de comunicación
+
+| Marca / Canal          | Frecuencia Absoluta | Frecuencia Relativa |
+|-----------------------|--------------------|---------------------|
+| WhatsApp              | 3                  | 42.8%               |
+| Excel / Google Sheets | 3                  | 42.8%               |
+| Yape / Plin           | 1                  | 14.4%               |
+| **Total**             | **7**              | **100%**            |
+
+---
+
+#### Dispositivos
+
+| Dispositivo           | Frecuencia Absoluta | Frecuencia Relativa |
+|----------------------|--------------------|---------------------|
+| Smartphone           | 3                  | 50%                 |
+| Laptop / Computadora | 3                  | 50%                 |
+| **Total**            | **6**              | **100%**            |
+
+---
+
+#### Flujos principales
+
+| Flujo de trabajo                                               | Frecuencia Absoluta | Frecuencia Relativa |
+|----------------------------------------------------------------|--------------------|---------------------|
+| Conciliación bancaria y validación manual de pagos             | 3                  | 33.3%               |
+| Coordinación diaria con conserjes y atención de incidencias    | 3                  | 33.3%               |
+| Gestión y mediación por reservas de áreas comunes              | 2                  | 22.2%               |
+| Levantamiento de información (onboarding) de nuevos edificios  | 1                  | 11.2%               |
+| **Total**                                                      | **9**              | **100%**            |
+
+---
 
 **2.3. Needfinding**
 
@@ -963,7 +1055,6 @@ La navegación de **BuildingFex** es intuitiva y adaptable, priorizando las tare
 
 **Beneficio clave:** Reduce el tiempo de gestión administrativa, evita errores en la conciliación de pagos y permite que el residente complete sus obligaciones en menos de 3 clics.
 
-# FALTA
 
 **4.3. Landing Page UI Design**
 
