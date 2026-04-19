@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d9b4fa2-8d48-4958-b1b9-1a4535ad4f7e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Informe/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Informe/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup1app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup2app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup3app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/mockup4app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireflow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe1app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe2app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe3app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe4app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe5app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe6app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe7app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe8app.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imagenes/wireframe9app.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Informe/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Informe/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="0d9b4fa2-8d48-4958-b1b9-1a4535ad4f7e" name="Changes" comment="Add diagrams and design level event storming links" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="feat/capitulo-4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -47,23 +29,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/capitulo-4&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "vcs.Git",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Saul\UPC\Aplicaciones  Web\BuildingFexWebstormReport\imagenes" />

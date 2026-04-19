@@ -280,9 +280,11 @@ Frente a esta situación, se requiere una plataforma centralizada y escalable qu
 <a id="1-1-2-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Nombre | Descripción |
-|---|---|
-| <img src="Images/Giuseppe.jpeg" width="200" alt="Foto de Giuseppe Villanueva"/> | Soy estudiante de Ingeniería de Software con un enfoque en el desarrollo de software. Me caracterizo por mi resiliencia y mi conocimiento en varias áreas de programación como el uso de .NET 8, C#, C++, JavaScript, Node, Python, HTML, Redis y SignalR. |
+| Nombre                                                                               | Descripción                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <br/><img src="Images/Giuseppe.jpeg" width="200" alt="Foto de Giuseppe Villanueva"/> | Soy estudiante de Ingeniería de Software con un enfoque en el desarrollo de software. Me caracterizo por mi resiliencia y mi conocimiento en varias áreas de programación como el uso de .NET 8, C#, C++, JavaScript, Node, Python, HTML, Redis y SignalR. |
+ |        ![fotoperfilsaul.png](../imagenes/fotoperfilsaul.png)                                                                              | Soy estudiante de Ingeniería de Software con formación en programación y desarrollo web. Tengo conocimientos en C++, HTML, CSS y JavaScript. Me caracterizo por ser responsable, con capacidad de aprendizaje rápido y trabajo en equipo, aportando ideas prácticas para resolver problemas y mejorar proyectos tecnológicos.                                                                                                              |
+
 
 <a id="1-2-solution-profile"></a>
 ## 1.2. Solution Profile
