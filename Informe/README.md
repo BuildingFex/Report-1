@@ -593,6 +593,20 @@ Explorar cómo manejan el volumen (varios edificios a la vez), cómo estandariza
 | Campo | Detalle |
 |------|--------|
 | **Segmento** | Junta de Directiva |
+| **Nombre** | Valeria |
+| **Apellidos** | Carpio |
+| **Edad** | 28 |
+| **Distrito** | Lima |
+| **Screenshot** | ![Entrevista 3](../imagenes/entrevista3_valeria.png) |
+| **URL** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217853_upc_edu_pe/IQACC1SIKVjvTagwZh1y0u4aAXk8Tw2TAlffNsDCWQMPQrc?e=pekn9G&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Duración** | 5:51 |
+| **Resumen** | La administración ejecuta, la junta planifica y supervisa. Ella dedica tiempo a presupuestos y proyección financiera. Identifica la falta de comunicación como principal problema. Reconoce la importancia de la transparencia financiera. Considera útil la automatización (recordatorios, pagos), pero como apoyo. Valora el software por su capacidad de organización y control. |
+
+#### Entrevista 3
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Junta de Directiva |
 | **Nombre** | Antonio |
 | **Apellidos** | Chan |
 | **Edad** | 50 |
@@ -695,8 +709,14 @@ En relación al uso de software, comenta que durante su gestión no utilizaban h
 
 En general, el entrevistado destaca la importancia de la comunicación, la transparencia y la organización financiera en la gestión de edificios, y reconoce que la tecnología puede ser un apoyo importante para mejorar estos aspectos.
 
-
 ---
+
+#### Entrevista a Valeria Carpio
+
+Entrevistamos a **Valeria Carpio** ss un miembro de la junta directiva de un edificio en Lima que gestiona tareas administrativas como pagos, coordinación con el conserje y atención a vecinos, apoyándose en un contador externo.
+
+Dedica gran parte de su tiempo a cobros, seguimiento de morosos y organización de cuentas usando Excel y WhatsApp, lo que le genera desorden, falta de claridad y conflictos con vecinos, además de incomodidad al cobrarles personalmente; enfrenta problemas como morosidad, mala comunicación, control deficiente de áreas comunes y dificultad para transferir información a nuevas gestiones, por lo que valoraría una plataforma digital simple que automatice cobros, recordatorios y registros, mejore la transparencia y le ahorre tiempo reduciendo errores.
+
 
 ### Segmento 2: Empresas de Gestión de Edificios (Administradores profesionales)
 
