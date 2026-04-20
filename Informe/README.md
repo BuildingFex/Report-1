@@ -1433,6 +1433,8 @@ Link del video: https://1drv.ms/v/c/2f673bdd57dbed09/IQB_rKkNDW1USLRHOQByi1UUAX_
 
 **4.6.1. Design-Level EventStorming**
 
+link del desiogn-level eventa storming: https://miro.com/app/board/uXjVJF4TquY=/?share_link_id=348452297177
+
 ![designeventstorming1.png](../imagenes/designeventstorming1.png)
 
 ![designeventstorming2.png](../imagenes/designeventstorming2.png)
@@ -1467,7 +1469,10 @@ Las solicitudes entran por el API Gateway y son procesadas por el SubscriptionPl
 **4.7 Software Object-Oriented Design**
 
 **4.7.1 Class Diagrams**
+
 ![classdiagram.png](../imagenes/classdiagram.png)
+
+link del diagrama de clases: https://lucid.app/lucidchart/0e5d0675-677f-461e-8020-3401e9e97f08/edit?viewport_loc=1382%2C-730%2C3262%2C1630%2C0_0&invitationId=inv_8b86276f-d74e-47d9-a568-db771c638a2d
 
 El diagrama de clases representa la estructura principal de un sistema para gestión de condominios. Incluye entidades de usuarios y roles para controlar accesos, suscripciones para manejar planes de servicio, y la estructura fisica de edificios, torres y unidades vinculadas a residentes. En el area financiera se modelan cobranzas, pagos, pasarelas de pago y reportes, mientras que en operaciones se incluyen reservas de areas comunes e incidencias de mantenimiento. Finalmente, la clase de auditoria asegura trazabilidad de todas las acciones. Las relaciones muestran como los usuarios interactuan con suscripciones, unidades y reservas, conectando la gestion administrativa, financiera y operativa en un solo ecosistema.
 
@@ -1663,6 +1668,8 @@ Garantiza trazabilidad de las acciones en el sistema.
 **4.8.1 Database Diagram**
   
 ![databasediagram.png](../imagenes/databasediagram.png)
+
+link del diagrama de base de datos: https://lucid.app/lucidchart/ea565e2d-77c5-40ea-87f3-28e6c02e7d20/edit?viewport_loc=-343%2C16%2C2936%2C1439%2C0_0&invitationId=inv_712e52ef-1985-4328-a3eb-e1548cc8c4e8
   
 ## Capítulo V: Product Implementation, Validation & Deployment
 
