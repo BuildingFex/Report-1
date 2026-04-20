@@ -391,7 +391,7 @@ Las siguientes hipótesis buscan validar el impacto de la adopción de BuildingF
 
 A continuación, se adjunta el Lean UX Canvas, una matriz colaborativa que nos ayuda a mapear los dolores de la administración de inmuebles con las soluciones de nuestra plataforma, estructurando el diseño de nuestros MVP y las métricas que evaluarán la adopción de los planes de suscripción.
 
-[Enlace al Lean UX Canvas de BuildingFex](https://miro.com/app/board/uXjVGk8AMJ4=/?share_link_id=471167764648)
+<p align="center"><img src="../imagenes/lean-ux-canva.jpeg" alt="Lean UX Canvas de BuildingFex: problema, usuarios, hipótesis y métricas" width="920"/></p>
 
 <a id="1-3-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo.
