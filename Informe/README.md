@@ -805,11 +805,9 @@ Se detallan las acciones, problemas y emociones de cada etapa, lo que nos permit
 
 **2.4. Big Picture EventStorming**
 
-![Big Picture EventStorming - Parte 1](../imagenes/BigPictureEventstormingPart1.png)
+![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
 
-![Big Picture EventStorming - Parte 2](../imagenes/BigPictureEventstormingPart2.png)
-
-![Big Picture EventStorming - Parte 3](../imagenes/BigPictureEventstormingPart3.png)
+link del Big Picture EventStorming https://miro.com/welcomeonboard/bXdOWFFHWU1GWVdZa1JWK2k4TDNWdTdoYUpIQjB3R0hnZnpuVTNkM2dkN1Joc3pvd0ZRSGhuY3NXenU3T2pvVXBBcTg3bThxeUY3dXh6R2RPWUxpVFBwcVNPb3FvbThENEoxMWVKblRPSFVjK3dudjNpSnRlVE5mdU1jeFNoRy9Bd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=905759698205
 
 **2.5. Ubiquitous Language**
 
@@ -1916,6 +1914,7 @@ Compendio de **evidencias gráficas** citadas en el informe. Las figuras **perma
 - ![User Journey — Valeria](../imagenes/journeymap_valeria.png)
 - ![Empathy Map — Roberto](../imagenes/EmpathyMapping_Roberto.png)
 - ![Empathy Map — Valeria](../imagenes/EmpathyMapping_Valeria.png)
+- ![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
 - ![Big Picture EventStorming — Parte 1](../imagenes/BigPictureEventstormingPart1.png)
 - ![Big Picture EventStorming — Parte 2](../imagenes/BigPictureEventstormingPart2.png)
 - ![Big Picture EventStorming — Parte 3](../imagenes/BigPictureEventstormingPart3.png)
@@ -1982,4 +1981,3 @@ Compendio de **evidencias gráficas** citadas en el informe. Las figuras **perma
 - ![Vercel — evidencia 1](../imagenes/vercel1.png)
 - ![Vercel — evidencia 2](../imagenes/vercel2.png)
 - ![Vercel — evidencia 3](../imagenes/vercel3.png)
-
