@@ -663,11 +663,9 @@ Se detallan las acciones, problemas y emociones de cada etapa, lo que nos permit
 
 **2.4. Big Picture EventStorming**
 
-![Big Picture EventStorming - Parte 1](../imagenes/BigPictureEventstormingPart1.png)
+![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
 
-![Big Picture EventStorming - Parte 2](../imagenes/BigPictureEventstormingPart2.png)
-
-![Big Picture EventStorming - Parte 3](../imagenes/BigPictureEventstormingPart3.png)
+link del Big Picture EventStorming https://miro.com/welcomeonboard/bXdOWFFHWU1GWVdZa1JWK2k4TDNWdTdoYUpIQjB3R0hnZnpuVTNkM2dkN1Joc3pvd0ZRSGhuY3NXenU3T2pvVXBBcTg3bThxeUY3dXh6R2RPWUxpVFBwcVNPb3FvbThENEoxMWVKblRPSFVjK3dudjNpSnRlVE5mdU1jeFNoRy9Bd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=905759698205
 
 **2.5. Ubiquitous Language**
 
@@ -1509,3 +1507,321 @@ Garantiza trazabilidad de las acciones en el sistema.
 **4.8 Database Design**
 
 **4.8.1 Database Diagram**
+<<<<<<< Updated upstream
+=======
+  
+![databasediagram.png](../imagenes/databasediagram.png)
+
+link del diagrama de base de datos: https://lucid.app/lucidchart/ea565e2d-77c5-40ea-87f3-28e6c02e7d20/edit?viewport_loc=-343%2C16%2C2936%2C1439%2C0_0&invitationId=inv_712e52ef-1985-4328-a3eb-e1548cc8c4e8
+  
+## Capítulo V: Product Implementation, Validation & Deployment
+
+Este capítulo documenta **únicamente el alcance de la entrega TB1** del curso: configuración del entorno y despliegue del *landing*, implementación del **Sprint 1** (landing en Vue + informe técnico en el repositorio **Report**) y evidencias de validación previstas para esa misma entrega. No incluye **sprints ni productos de entregas posteriores** (aplicación web completa, APIs, base de datos en producción, etc.); esas fases se describirán en los capítulos correspondientes cuando correspondan a **TB2** u otras entregas.
+
+**5.1. Software Configuration Management**
+
+**5.1.1. Software Development Environment Configuration**
+
+Para el desarrollo del proyecto se utilizaron herramientas estándar: editor de código (**Visual Studio Code** u otro IDE compatible), **Git** para control de versiones, **GitHub** como repositorio remoto bajo la organización [BuildingFex](https://github.com/BuildingFex), navegadores actualizados para pruebas de la landing, y **Vue.js** como **framework frontend** para la implementación del *landing* y la interfaz. El entorno incluye **Node.js** y gestor de paquetes (**npm**) para dependencias, junto con el *tooling* habitual del ecosistema Vue (por ejemplo **Vite** como empaquetador y servidor de desarrollo). El equipo alinea versiones mediante el `README` del proyecto y documentación en los repositorios del equipo: informe en [https://github.com/BuildingFex/Report.git](https://github.com/BuildingFex/Report.git) y *landing* en [https://github.com/BuildingFex/LandingPage.git](https://github.com/BuildingFex/LandingPage.git).
+
+**5.1.2. Source Code Management**
+
+El código fuente y el informe se versionan en GitHub: [BuildingFex — Report](https://github.com/BuildingFex/Report.git) (informe) y [BuildingFex — LandingPage](https://github.com/BuildingFex/LandingPage.git) (landing). Se trabaja con ramas de características (`feature/*`), integración mediante *pull requests* y trazabilidad de cambios con mensajes en formato **Conventional Commits** (ver 5.1.3).
+
+**5.1.3. Source Code Style Guide & Conventions**
+
+| Lenguaje | Referencia adoptada | Convenciones aplicadas |
+| --- | --- | --- |
+| **HTML** | [HTML Style Guide and Coding Conventions](https://google.github.io/styleguide/htmlcssguide.html) | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `building-card`, `pricing-section`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html) | Nombres de clases en `kebab-case` (ej. `btn-primary`, `plan-card`), convenciones tipo BEM para modularidad (`block__element--modifier`), orden coherente de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundamente anidados. |
+| **JavaScript / TypeScript** | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) | Uso de `const` y `let` en lugar de `var`, funciones flecha, desestructuración, módulos ES6 (`import`/`export`), nombres en `lowerCamelCase`, tipado explícito cuando aplica, y organización por carpetas (`components/`, `services/`, `utils/`, etc.). |
+| **Vue.js** | [Vue.js — Style Guide](https://vuejs.org/style-guide/) | Componentes en `PascalCase`, nombres de archivo alineados a la guía oficial, separación clara de plantilla, script y estilos (p. ej. SFC), uso coherente de Composition API u Options API, `props`/`emits` definidos, estructura por carpetas (`components/`, `views/`, `composables/` o `assets/`), e internacionalización con recursos en `src` cuando aplique. |
+
+
+Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:
+
+`<tipo>(<alcance>): <descripción breve>`
+
+Ejemplo:
+
+- `docs(chapter-5): update sprint 1 evidence in README`
+
+En la **TB1**, el *landing* puede validarse con **ESLint** (por ejemplo `eslint-plugin-vue`), **Prettier** y el propio *lint* de Vite/Vue. Se promueve el **inglés** en mensajes de commit y comentarios técnicos acordes al proyecto.
+
+**5.1.4. Software Deployment Configuration**
+
+Para el **TB1**, el despliegue del *landing* se realiza en **Vercel** como plataforma de *hosting* y despliegue continuo: integración con el repositorio [LandingPage](https://github.com/BuildingFex/LandingPage.git) en GitHub, *build* automático del proyecto **Vue** en cada cambio a la rama principal, publicación del sitio y URL pública verificable. La **URL de producción** del *landing* es [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/). Se documentan rama de despliegue, comando de *build* (p. ej. `npm run build`), directorio de salida y revisión por *pull request* antes de integrar a `main`. La evidencia concreta (capturas del panel de Vercel, dominio o URL) se presenta en la sección de Sprint 1 (5.2.1.7).
+
+**5.2. Implementación (TB1): Landing Page e informe técnico**
+
+En el marco de la **TB1**, el equipo ejecutó un **único sprint de implementación** alineado al **Product Backlog** (Capítulo III) para el alcance de esta entrega: **Landing Page** pública en **Vue** + **Vite**, desplegada en **Vercel**, y **informe del proyecto** en Markdown en el repositorio [Report](https://github.com/BuildingFex/Report.git). La metodología incluyó planificación (*Sprint Planning*), trabajo colaborativo (p. ej. **Discord**), revisión de avances y evidencias en GitHub. No se incluye en esta sección desarrollo de aplicación web completa, APIs ni base de datos; ese alcance corresponde a entregas posteriores al **TB1**.
+
+**5.2.1. Sprint 1** *(alcance TB1)*
+
+Este *Sprint* concentró el **100 % del alcance de implementación de la TB1**: **Landing Page de BuildingFex** y **estructuración del informe técnico** (este documento), con bases visuales, funcionales y documentales. Se priorizó una versión usable y accesible de la página de inicio, organización de repositorios, convenciones de código y documentación, con enfoque colaborativo y ágil.
+
+### 5.2.1.1. Sprint Planning 1
+
+| **Sprint #** | **Sprint 1** |
+| --- | --- |
+| ***Sprint Planning Background*** |  |
+| **Date** | 2025-09-06 |
+| **Time** | 14:00 (GMT-5) |
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By** | Sebastian Martin Beingolea Montalvo |
+| **Attendees (to planning meeting)** | Sebastian Martin Beingolea Montalvo, Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Alejandro Manuel Jave Chang, Valentin Nicolas Medina Mamani |
+| **Sprint n – 1 Review Summary** | No aplica: es el primer *Sprint* del proyecto. |
+| **Sprint n – 1 Retrospective Summary** | No aplica: es el primer *Sprint* del proyecto. |
+| ***Sprint Goal & User Stories*** |  |
+| **Sprint 1 Goal** | Our focus is on delivering a professional, responsive, and accessible landing page for **BuildingFex** that clearly communicates the product’s purpose and value for building administrators and resident communities. We believe it delivers a credible first impression to stakeholders and future users. This will be confirmed when the landing is deployed with a public URL, includes the agreed sections (value proposition, plans, FAQ, contact), and uses semantic HTML with coherent styling and documented source code in the repository. |
+| **Sprint 1 Velocity** | 25 |
+| **Sum of Story Points** | 25 |
+
+### 5.2.1.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los aspectos funcionales y técnicos abordados durante el *Sprint 1*: **desarrollo de la Landing Page** y **estructuración del informe técnico**. Para cada aspecto se asignó un **Líder (L)** y **Colaboradores (C)**.
+
+| Team Member (Last Name, First Name) | GitHub (organización / usuario) | LP | ID | IN | DO | RI |
+| --- | --- | --- | --- | --- | --- | --- |
+| Villanueva Rodríguez Giuseppe Adrián | [BuildingFex](https://github.com/BuildingFex) | L | C | C | C | C |
+| Alejandro Manuel Jave Chang | [BuildingFex](https://github.com/BuildingFex) | C | L | C | C | C |
+| Sebastian Martin Beingolea Montalvo | [BuildingFex](https://github.com/BuildingFex) | C | C | L | C | C |
+| Saul Ortega Muñoz | [BuildingFex](https://github.com/BuildingFex) | C | C | C | L | C |
+| Valentin Nicolas Medina Mamani | [BuildingFex](https://github.com/BuildingFex) | C | C | C | C | L |
+
+**Leyenda de aspectos**
+
+- **LP**: *Landing Page Implementation* — Interfaz con **Vue.js** (componentes, estilos y secciones públicas).
+- **ID**: *Interface Design & Figma alignment* — Alineación con lineamientos visuales del informe de diseño.
+- **IN**: *Informe técnico* — Redacción y estructura del informe en el repositorio [**Report**](https://github.com/BuildingFex/Report.git) (`Informe/README.md`).
+- **DO**: *Deployment & hosting* — Despliegue del *landing* y verificación de URL pública.
+- **RI**: *Repository initialization* — Organización del repositorio [**LandingPage**](https://github.com/BuildingFex/LandingPage.git), `README`, `.gitignore` y convenciones.
+
+
+
+### 5.2.1.3. Sprint Backlog 1
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| --- | --- | --- | --- | --- |
+| 1 | US01 | Propuesta de valor | Como administrador de edificios, quiero entender rápidamente el beneficio del sistema para decidir si me interesa. | 1 |
+| 2 | US02 | Funcionalidades visibles | Como administrador, quiero visualizar las funcionalidades disponibles para entender qué puedo gestionar. | 2 |
+| 3 | US03 | Descripción por módulo | Como junta directiva, quiero leer descripciones de cada módulo para evaluar su utilidad. | 1 |
+| 4 | US04 | Planes de suscripción | Como administrador, quiero ver los planes de suscripción para evaluar costos. | 2 |
+| 5 | US05 | Comparar planes | Como junta directiva, quiero comparar características entre planes para elegir el adecuado. | 3 |
+| 6 | US06 | Botón de suscripción | Como usuario interesado, quiero tener un botón de suscripción para iniciar el proceso de compra. | 2 |
+| 7 | US07 | Ventajas del sistema | Como administrador, quiero conocer ventajas del sistema para confiar en la solución. | 1 |
+| 8 | US08 | FAQ | Como usuario interesado, quiero revisar preguntas frecuentes para resolver dudas rápidamente. | 1 |
+| 9 | US09 | Búsqueda en ayuda | Como usuario, quiero buscar información específica dentro de la sección de ayuda para encontrar respuestas precisas. | 3 |
+| 10 | US10 | Navegación | Como usuario, quiero usar el menú de navegación para moverme fácilmente por la landing. | 2 |
+| 11 | US11 | Idioma | Como usuario, quiero cambiar el idioma para entender mejor el contenido de la plataforma. | 3 |
+| 12 | US12 | Acceso a la app | Como usuario interesado o registrado, quiero tener un botón visible para acceder a la aplicación web. | 1 |
+| 13 | US13 | Experiencia móvil | Como junta directiva, quiero navegar fácilmente desde mi celular para acceder rápidamente a la información. | 3 |
+
+### Estado final del Sprint 1
+
+Los ítems planificados para el alcance del *Sprint 1* en **TB1** (landing e informe) se completaron y verificaron según el backlog acordado. La **Landing Page de BuildingFex** queda publicada y documentada como evidencia de esta entrega.
+
+> **Tablero de Trello** *(seguimiento del Sprint 1):* [https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web](https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web)
+
+**Evidencia del tablero en Trello** :
+
+![Tablero de Trello — Sprint 1 (BuildingFex)](../imagenes/trello.png)
+
+### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante este *Sprint* el equipo avanzó en la **Landing Page de BuildingFex** desarrollada con **Vue.js**: secciones de valor, planes, FAQ, navegación y ajustes de accesibilidad y responsividad según el diseño del Capítulo IV. Los commits del repositorio [BuildingFex/LandingPage](https://github.com/BuildingFex/LandingPage.git) reflejan entregas incrementales y revisión entre pares.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+| --- | --- | --- | --- | --- | --- |
+| `BuildingFex/LandingPage` | `main` | *(hash)* | `chore(repo): initial project structure` | Estructura inicial de carpetas y assets. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/landing-sections` | *(hash)* | `feat(landing): add hero and value proposition` | Secciones principales y CTA. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/landing-sections` | *(hash)* | `feat(landing): add pricing and FAQ sections` | Tabla de planes y preguntas frecuentes. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/styles` | *(hash)* | `style(landing): responsive layout and tokens` | Ajustes responsive y consistencia visual. | *(fecha)* |
+| `BuildingFex/LandingPage` | `feature/i18n` | *(hash)* | `feat(i18n): language toggle and copy` | Soporte de idioma / textos según alcance. | *(fecha)* |
+| `BuildingFex/LandingPage` | `main` | *(hash)* | `docs(landing): update README with run instructions` | Documentación de uso y despliegue. | *(fecha)* |
+
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+En este *Sprint* se implementó la **Landing Page de BuildingFex** con **Vue.js**, alineada con las historias US01–US13 del alcance del landing: propuesta de valor, módulos, planes, FAQ, navegación, acceso a la aplicación y uso en móvil. La página es **responsive**, con criterios de accesibilidad y SEO acordes al Capítulo IV, y se publica en **Vercel**.
+
+> **Enlace a la versión desplegada (producción):** [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/)
+
+> **Enlace al video de demostración:** *(URL del video acordado con el curso.)*
+
+La evidencia del tablero **Trello** del *Sprint 1* se muestra en **5.2.1.3** (*Sprint Backlog 1*), junto al enlace al tablero.
+
+![Landing desplegada — vista 1](../imagenes/vista1.png)
+
+![Landing desplegada — vista 2](../imagenes/vista2.png)
+
+![Landing desplegada — vista 3](../imagenes/vista3.png)
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+En la **TB1** el entregable es el *landing* estático; **no aplica** documentación OpenAPI ni exposición de *web services* en producción, porque ese alcance **no forma parte de la TB1**.
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Se configuró un flujo de **CI/CD** con **GitHub** y **Vercel**: el repositorio [BuildingFex/LandingPage](https://github.com/BuildingFex/LandingPage.git) queda vinculado al proyecto en Vercel; cada *push* o *merge* a la rama de producción (p. ej. `main`) dispara el *build* del proyecto **Vue** y el despliegue automático a la URL pública [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/). Se utilizó un flujo tipo **GitFlow** o ramas `feature/*` con *pull requests* hacia `main` / `develop` según lo definido por el equipo.
+
+#### 1. Repositorio y ramas
+
+- `main`: versión estable desplegable.
+- `develop` *(opcional)*: integración continua.
+- `feature/*`: desarrollo por funcionalidad.
+
+#### 2. Integración con Vercel
+
+Configuración típica del proyecto en **Vercel**:
+
+- **Framework preset:** Vue (o Vite según el asistente de importación del repositorio).
+- **Rama de producción:** `main` (o la definida en el equipo).
+- **Comando de *build*:** `npm run build` (o el script definido en `package.json`).
+- **Directorio de salida:** `dist/` (o el que indique la plantilla Vue/Vite del proyecto).
+- **Variables de entorno:** en el panel de Vercel si el *landing* las requiere.
+
+![Commits — evidencia 1](../imagenes/vercel1.png)
+
+![Commits — evidencia 1](../imagenes/vercel2.png)
+
+![Commits — evidencia 1](../imagenes/vercel3.png)
+
+### Sitio desplegado
+
+> **URL de producción:** [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/)
+
+El sitio incluye las secciones desarrolladas para la **TB1** dentro del *Sprint 1* (hero, beneficios, planes, FAQ, contacto y enlaces de acceso según diseño), con navegación clara y diseño alineado a **BuildingFex**. El despliegue en Vercel está conectado al código en [https://github.com/BuildingFex/LandingPage.git](https://github.com/BuildingFex/LandingPage.git).
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+![Commits — evidencia 1](../imagenes/aaaaaa.png)
+
+![Commits — evidencia 2](../imagenes/commit-repo.png)
+
+![Network — colaboración](../imagenes/network-landingpage.png)
+
+## Bibliografía
+
+Enlaces y plataformas utilizadas por el equipo durante el proyecto **BuildingFex** (planificación, código, despliegue y documentación colaborativa).
+
+| Recurso | Enlace |
+| --- | --- |
+| **Trello** — tablero del *Sprint 1* (TB1) | [https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web](https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web) |
+| **GitHub** — organización BuildingFex | [https://github.com/BuildingFex](https://github.com/BuildingFex) |
+| **GitHub** — repositorio del informe (Report) | [https://github.com/BuildingFex/Report.git](https://github.com/BuildingFex/Report.git) |
+| **GitHub** — repositorio de la *landing page* (LandingPage) | [https://github.com/BuildingFex/LandingPage.git](https://github.com/BuildingFex/LandingPage.git) |
+| **Vercel** — sitio en producción (*landing*) | [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/) |
+| **Vercel** — plataforma de despliegue | [https://vercel.com/](https://vercel.com/) |
+| **Google Docs** — documentos colaborativos | [https://docs.google.com/](https://docs.google.com/) |
+| **Google Drive** — almacenamiento y compartición de archivos | [https://drive.google.com/](https://drive.google.com/) |
+| **Vue.js** — *framework* del *frontend* | [https://vuejs.org/](https://vuejs.org/) |
+| **Vite** — herramienta de desarrollo y *build* | [https://vitejs.dev/](https://vitejs.dev/) |
+| **Node.js** — entorno de ejecución JavaScript | [https://nodejs.org/](https://nodejs.org/) |
+| **Discord** — comunicación del equipo *(si aplica)* | [https://discord.com/](https://discord.com/) |
+
+
+
+---
+
+## Anexos
+
+Compendio de **evidencias gráficas** citadas en el informe. Las figuras **permanecen insertadas en sus capítulos y secciones originales**; aquí solo se listan de nuevo como anexo, con la misma ruta relativa (desde `Informe/README.md`).
+
+### Anexo A — Portada e identificación
+
+- ![Universidad Peruana de Ciencias Aplicadas (UPC)](../imagenes/upc.png)
+
+### Anexo B — Colaboración en repositorios (TB1)
+
+- ![Actividad en el repositorio del reporte — BuildingFex Report](../imagenes/repo-git.png)
+- ![Actividad en el repositorio del landing — BuildingFex Landing](../imagenes/Landing-page-repo.png)
+- ![Commits — repositorio Report](../imagenes/commit-repo.png)
+- ![Commits — repositorio Landing Page](../imagenes/aaaaaa.png)
+- ![Network — repositorio Report](../imagenes/network-report.png)
+- ![Network — repositorio Landing Page](../imagenes/network-landingpage.png)
+
+### Anexo D — Registro visual de entrevistas
+
+- ![Entrevista 1](../imagenes/entrevista1_ismael.png)
+- ![Entrevista 2](../imagenes/entrevista2_antonio.png)
+- ![Entrevista 3](../imagenes/entrevista3_valeria.png)
+- ![Entrevista 4](../imagenes/entrevista4_manuel.png)
+- ![Entrevista 5](../imagenes/entrevista5_carlos.png)
+- ![Entrevista 6](../imagenes/entrevista6_adrian.png)
+
+### Anexo E — Needfinding, mapas y *Event Storming* (As-Is)
+
+- ![User Persona — Roberto](../imagenes/userpersona_roberto.png)
+- ![User Persona — Valeria](../imagenes/userpersona_valeria.png)
+- ![User Journey — Roberto](../imagenes/journeymap_roberto.png)
+- ![User Journey — Valeria](../imagenes/journeymap_valeria.png)
+- ![Empathy Map — Roberto](../imagenes/EmpathyMapping_Roberto.png)
+- ![Empathy Map — Valeria](../imagenes/EmpathyMapping_Valeria.png)
+- ![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
+- ![Impact Mapping](../imagenes/impactmap.png)
+
+### Anexo F — *Style guidelines* y secciones de *landing*
+
+- ![Logo BuildingFex](../imagenes/image.png)
+- ![Tipografía](../imagenes/font.png)
+- ![Paleta de colores](../imagenes/colores.png)
+- ![Landing — cabecera 1](../imagenes/header1.png)
+- ![Landing — cabecera 2](../imagenes/header2.png)
+- ![Landing — funciones](../imagenes/fc3.png)
+- ![Landing — pie de página](../imagenes/footer4.png)
+- ![Landing — cabecera 5](../imagenes/header5.png)
+- ![Landing — preguntas frecuentes](../imagenes/preguntas6.png)
+- ![Landing — suscripción / pago](../imagenes/pago7.png)
+- ![Landing — video](../imagenes/video8.png)
+- ![Landing — FAQ 10](../imagenes/fq10.png)
+- ![Landing — FAQ 11](../imagenes/fq11.png)
+
+### Anexo G — *Wireframes*, *wireflow* y *mock-ups* (aplicación web)
+
+- ![Wireframe aplicación 1](../imagenes/wireframe1app.png)
+- ![Wireframe aplicación 2](../imagenes/wireframe2app.png)
+- ![Wireframe aplicación 3](../imagenes/wireframe3app.png)
+- ![Wireframe aplicación 4](../imagenes/wireframe4app.png)
+- ![Wireframe aplicación 5](../imagenes/wireframe5app.png)
+- ![Wireframe aplicación 6](../imagenes/wireframe6app.png)
+- ![Wireframe aplicación 7](../imagenes/wireframe7app.png)
+- ![Wireframe aplicación 8](../imagenes/wireframe8app.png)
+- ![Wireframe aplicación 9](../imagenes/wireframe9app.png)
+- ![Wireflow](../imagenes/wireflow.png)
+- ![Mock-up aplicación 1](../imagenes/mockup1app.png)
+- ![Mock-up aplicación 2](../imagenes/mockup2app.png)
+- ![Mock-up aplicación 3](../imagenes/mockup3app.png)
+- ![Mock-up aplicación 4](../imagenes/mockup4app.png)
+- ![Mock-up aplicación 5](../imagenes/mockup5app.png)
+- ![Mock-up aplicación 6](../imagenes/mockup6app.png)
+- ![Mock-up aplicación 7](../imagenes/mockup7app.png)
+- ![Mock-up aplicación 8](../imagenes/mockup8app.png)
+- ![Mock-up aplicación 9](../imagenes/mockup9app.png)
+- ![Captura — prototipo / video](../imagenes/prototipovideoimg.png)
+- ![Figura adicional del informe](img_1.png)
+
+### Anexo H — Arquitectura de software y modelo de datos
+
+- ![Design Event Storming 1](../imagenes/designeventstorming1.png)
+- ![Design Event Storming 2](../imagenes/designeventstorming2.png)
+- ![Diagrama de contexto](../imagenes/contextDiagram.png)
+- ![Diagrama de contenedores](../imagenes/containerdiagram.png)
+- ![Diagrama de componentes 1](../imagenes/componentdiagram1.png)
+- ![Diagrama de componentes 2](../imagenes/componentdiagram2.png)
+- ![Diagrama de componentes 3](../imagenes/componentdiagram3.png)
+- ![Diagrama de clases](../imagenes/classdiagram.png)
+- ![Diagrama de base de datos](../imagenes/databasediagram.png)
+
+### Anexo I — Evidencias del *Sprint 1* (TB1): Trello, *landing* desplegada y Vercel
+
+- ![Tablero de Trello — Sprint 1 (BuildingFex)](../imagenes/trello.png)
+- ![Landing desplegada — vista 1](../imagenes/vista1.png)
+- ![Landing desplegada — vista 2](../imagenes/vista2.png)
+- ![Landing desplegada — vista 3](../imagenes/vista3.png)
+- ![Vercel — evidencia 1](../imagenes/vercel1.png)
+- ![Vercel — evidencia 2](../imagenes/vercel2.png)
+- ![Vercel — evidencia 3](../imagenes/vercel3.png)
+
+>>>>>>> Stashed changes
