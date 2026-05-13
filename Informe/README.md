@@ -66,6 +66,7 @@ Se detalla el trabajo realizado en esta entrega, con evidencias visuales de part
 | --- | --- |
 | Reporte del equipo | [BuildingFex — Report](https://github.com/BuildingFex/Report.git) |
 | Landing page | [BuildingFex — LandingPage](https://github.com/BuildingFex/LandingPage.git) |
+| Landing Fronted | [BuildingFex — Fronted](https://github.com/BuildingFex/Fronted.git) |
 
 ---
 
