@@ -1770,8 +1770,6 @@ La aplicación se encuentra maquetada y navegable, permitiendo recorrer los fluj
 ![supp-res](../imagenes/supp-res.png)
 ![sett-res](../imagenes/sett-res.png)
 
-*(Insertar aquí las capturas de pantalla de las vistas: Login, Dashboard Administrador, Gestión Avanzada, Finanzas Admin, Incidencias Admin, Información, Dashboard Residente, Mis Pagos, Áreas Comunes, y Chat de Soporte Técnico).*
-
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
 Durante el alcance de esta entrega (Sprint 2), el objetivo funcional se centró de manera exclusiva en el diseño, desarrollo de interfaces y enrutamiento del **frontend**. Las vistas actuales consumen datos simulados a través de servicios inyectables en Angular para validar la experiencia de usuario. La implementación del API RESTful en el *backend* y su respectiva documentación no forman parte de este *Sprint* y serán abordadas en la siguiente iteración.
