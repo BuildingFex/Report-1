@@ -106,7 +106,7 @@ Gráfico de actividad durante la preparación del TB1. Los commits reflejan prog
 | Network TB-1 Report                 | ![Actividad en el repositorio del reporte](../imagenes/network-report.png) |
 | Network TB-1 Landing page           | ![Actividad en el repositorio del reporte](../imagenes/network-landingpage.png) |
 | Frontend Deployment 1               | ![img_6.png](../imagenes/img_6.png)|
-| Frontend Deployment 2               |![img_1.png](../imagenes/commit%201.png) |
+| Frontend Deployment 2               |![img_1.png](../imagenes/commit_1.png) |
 | Commits TP Frontend                 | ![img_2.png](../imagenes/img_2.png)|
 | Network TP Frontend                 |![img_3.png](../imagenes/img_3.png) |
 | Network TP Report                   |![img_4.png](../imagenes/img_4.png) |
@@ -1438,7 +1438,7 @@ Aqui se puede ver las preguntas frecuentes acerca de la aplicacion y un boton qu
 ![mockup9app.png](../imagenes/mockup9app.png)
 
 **4.4.4 Web Applications User Flow Diagrams.**
-![img_1.png](../imagenes/commit%201.png)
+![img_1.png](../imagenes/commit_1.png)
 
 **4.5 Web Applications Prototyping.**
 
@@ -1494,197 +1494,222 @@ link del diagrama de clases: https://lucid.app/lucidchart/0e5d0675-677f-461e-802
 El diagrama de clases representa la estructura principal de un sistema para gestión de condominios. Incluye entidades de usuarios y roles para controlar accesos, suscripciones para manejar planes de servicio, y la estructura fisica de edificios, torres y unidades vinculadas a residentes. En el area financiera se modelan cobranzas, pagos, pasarelas de pago y reportes, mientras que en operaciones se incluyen reservas de areas comunes e incidencias de mantenimiento. Finalmente, la clase de auditoria asegura trazabilidad de todas las acciones. Las relaciones muestran como los usuarios interactuan con suscripciones, unidades y reservas, conectando la gestion administrativa, financiera y operativa en un solo ecosistema.
 
 **4.7.2 Class Dictionary**
+
 # Class Dictionary
 
-## Usuario
-Representa a la persona que accede al sistema.
-- **Atributos**:
-    - idUsuario (int)
-    - nombre (string)
-    - correo (string)
-    - rolId (int)
-- **Operaciones**:
-    - registrarUsuario()
-    - autenticar()
-    - asignarRol()
+El siguiente diccionario describe las entidades del modelo de datos alineadas al **diagrama de base de datos**: nombres de atributos y tipos como en el esquema. La mayoría de tablas incluyen `ownerAdminId` para **multi-tenancy** (partición por administrador o copropiedad). Varios registros referencian a residentes mediante `residentId`, coherente con un `User` en rol residente.
 
-## Rol
-Define los permisos y funciones que puede realizar un usuario.
-- **Atributos**:
-    - idRol (int)
-    - nombreRol (string)
-    - permisos (list<string>)
-- **Operaciones**:
-    - crearRol()
-    - asignarPermiso()
-    - eliminarRol()
+## User
 
-## Suscripcion
-Modela el plan contratado por un usuario para un edificio.
-- **Atributos**:
-    - idSuscripcion (int)
-    - tipoPlan (string)
-    - fechaInicio (date)
-    - fechaFin (date)
-    - edificioId (int)
-    - usuarioId (int)
-- **Operaciones**:
-    - crearSuscripcion()
-    - actualizarSuscripcion()
-    - cancelarSuscripcion()
+Persona registrada en el sistema (roles como administrador de edificio o residente, según `role`). Centraliza identidad, contacto y datos administrativos.
 
-## Edificio
-Representa un condominio o complejo.
 - **Atributos**:
-    - idEdificio (int)
-    - nombre (string)
-    - direccion (string)
-- **Operaciones**:
-    - agregarTorre()
-    - listarUnidades()
+    - id (string)
+    - name (string)
+    - email (string)
+    - password (string)
+    - role (string)
+    - floor (string)
+    - code (string)
+    - admissionDate (string)
+    - ownerAdminId (string)
+    - dni (string)
+    - address (string)
+    - company (string)
+    - ruc (string)
 
-## Torre
-Agrupa las unidades dentro de un edificio.
-- **Atributos**:
-    - idTorre (int)
-    - nombre (string)
-    - edificioId (int)
-- **Operaciones**:
-    - agregarUnidad()
-    - obtenerUnidades()
+## Payment
 
-## Unidad
-Representa un departamento o espacio habitable.
-- **Atributos**:
-    - idUnidad (int)
-    - numero (string)
-    - torreId (int)
-    - estado (string)
-- **Operaciones**:
-    - asignarResidente()
-    - liberarUnidad()
+Pago registrado de un residente asociado a un periodo o concepto de cobro.
 
-## Residente
-Perfil de ocupante (dueno o inquilino) vinculado a una unidad.
 - **Atributos**:
-    - idResidente (int)
-    - nombre (string)
-    - tipo (string)
-    - unidadId (int)
-    - usuarioId (int)
-- **Operaciones**:
-    - registrarResidente()
-    - actualizarPerfil()
+    - id (string)
+    - residentId (string)
+    - month (number)
+    - forMonth (string)
+    - amount (number)
+    - paidAt (string)
+    - method (string)
+    - reference (string)
+    - ownerAdminId (string)
 
-## Cobranza
-Registra las cuotas de mantenimiento y pagos pendientes.
-- **Atributos**:
-    - idCobranza (int)
-    - monto (decimal)
-    - fechaVencimiento (date)
-    - estado (string)
-    - unidadId (int)
-- **Operaciones**:
-    - generarAviso()
-    - registrarPago()
-    - calcularMorosidad()
+## Reservation
 
-## Pago
-Representa la transaccion realizada por un residente.
-- **Atributos**:
-    - idPago (int)
-    - monto (decimal)
-    - fecha (date)
-    - metodo (string)
-    - cobranzaId (int)
-- **Operaciones**:
-    - procesarPago()
-    - validarPago()
+Reserva de un **SocialSpace** por un residente, con franja horaria e invitación para invitados.
 
-## PasarelaPago
-Conecta con servicios externos de pago.
 - **Atributos**:
-    - idPasarela (int)
-    - nombre (string)
-    - apiKey (string)
-    - pagoId (int)
-- **Operaciones**:
-    - conectarServicio()
-    - enviarTransaccion()
+    - id (string)
+    - spaceId (string)
+    - residentId (string)
+    - residentName (string)
+    - residentPhone (string)
+    - date (string)
+    - startTime (string)
+    - endTime (string)
+    - guestInviteToken (string)
+    - ownerAdminId (string)
 
-## ReporteFinanciero
-Consolida informacion de ingresos y egresos.
-- **Atributos**:
-    - idReporte (int)
-    - periodo (string)
-    - ingresos (decimal)
-    - egresos (decimal)
-    - cobranzaId (int)
-    - proveedorId (int)
-- **Operaciones**:
-    - generarReporte()
-    - exportarPDF()
+## Receipt
 
-## Proveedor
-Representa a contratistas o empresas que brindan servicios al edificio.
-- **Atributos**:
-    - idProveedor (int)
-    - nombre (string)
-    - servicio (string)
-- **Operaciones**:
-    - registrarProveedor()
-    - actualizarDatos()
+Recibo o documento de deuda/cobro emitido para un residente (fechas de emisión y vencimiento, estado y mora).
 
-## Reserva
-Gestiona la ocupacion de areas comunes.
 - **Atributos**:
-    - idReserva (int)
-    - fecha (date)
-    - usuarioId (int)
-    - areaComunId (int)
-- **Operaciones**:
-    - crearReserva()
-    - cancelarReserva()
-    - validarDisponibilidad()
+    - id (number)
+    - residentId (string)
+    - issueDate (string)
+    - dueDate (string)
+    - amount (number)
+    - status (string)
+    - lateFee (number)
+    - ownerAdminId (string)
 
-## AreaComun
-Espacios compartidos como piscina, gimnasio o salon de eventos.
-- **Atributos**:
-    - idArea (int)
-    - nombre (string)
-    - reglasUso (string)
-- **Operaciones**:
-    - agregarRegla()
-    - listarReservas()
+## Guest
 
-## Incidencia
-Registra problemas o solicitudes de mantenimiento.
-- **Atributos**:
-    - idIncidencia (int)
-    - descripcion (string)
-    - estado (string)
-    - unidadId (int)
-- **Operaciones**:
-    - crearIncidencia()
-    - actualizarEstado()
-    - cerrarIncidencia()
+Invitado vinculado a un flujo de visita o reserva; control de ingreso.
 
-## Auditoria
-Garantiza trazabilidad de las acciones en el sistema.
 - **Atributos**:
-    - idLog (int)
-    - usuarioId (int)
-    - accion (string)
-    - fechaHora (datetime)
-- **Operaciones**:
-    - registrarAccion()
-    - consultarLogs()
+    - id (string)
+    - name (string)
+    - checkedIn (boolean)
+    - checkedInAt (string)
+
+## Fee
+
+Cuota o cargo recurrente por residente y mes, con monto, vencimiento y estado.
+
+- **Atributos**:
+    - id (number)
+    - residentId (string)
+    - month (string)
+    - amount (number)
+    - dueDate (string)
+    - status (string)
+    - ownerAdminId (string)
+
+## FixedPayoutRecipient
+
+Beneficiario de pagos fijos (personal o tercero) con datos de contacto, remuneración y calendario de pagos.
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - dni (string)
+    - phone (string)
+    - salary (number)
+    - interestDays (number)
+    - nextPaymentDate (string)
+    - photoUrl (string)
+    - paymentHistory (array)
+    - createdAt (string)
+    - ownerAdminId (string)
+
+## FinanceSettings
+
+Parámetros financieros globales por administrador (gasto base y tasa de mora).
+
+- **Atributos**:
+    - id (string)
+    - ownerAdminId (string)
+    - baseMonthlyExpense (number)
+    - lateFeeRate (number)
+
+## Incident
+
+Reporte o ticket de incidencia/mantenimiento asociado a un residente y proveedor.
+
+- **Atributos**:
+    - id (string)
+    - residentId (string)
+    - residentName (string)
+    - description (string)
+    - status (string)
+    - createdAt (string)
+    - provider (string)
+    - companyName (string)
+
+## KPI
+
+Indicadores agregados de ocupación y cartera por administrador.
+
+- **Atributos**:
+    - id (string)
+    - ownerAdminId (string)
+    - totalResidents (number)
+    - occupiedUnits (number)
+    - emptyUnits (number)
+    - totalDebt (number)
+
+## AdminManagementExpense
+
+Gasto de administración registrado con soporte de factura o comprobante.
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - amount (number)
+    - purchaseDate (string)
+    - invoicePhotoUrl (string)
+    - ownerAdminId (string)
+
+## TeamWorker
+
+Miembro del equipo de trabajo del edificio o administración.
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - phone (string)
+    - dni (string)
+    - salary (number)
+    - photoUrl (string)
+    - ownerAdminId (string)
+
+## Announcement
+
+Comunicado o aviso publicado con prioridad, vigencia y autor.
+
+- **Atributos**:
+    - id (string)
+    - title (string)
+    - body (string)
+    - priority (string)
+    - duration (number)
+    - authorId (string)
+    - authorName (string)
+    - createdAt (string)
+    - expiresAt (string)
+    - ownerAdminId (string)
+
+## SocialSpace
+
+Espacio social o área comune reservable (nombre, aforo, imagen).
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - description (string)
+    - capacity (number)
+    - imageUrl (string)
+    - ownerAdminId (string)
+
+## ImportUpload
+
+Metadatos y contenido de una importación masiva de datos (archivo cargado).
+
+- **Atributos**:
+    - id (string)
+    - fileName (string)
+    - mimeType (string)
+    - size (number)
+    - uploadedAt (string)
+    - dataUrl (string)
+    - ownerAdminId (string)
 
 **4.8 Database Design**
 
 **4.8.1 Database Diagram**
   
-![databasediagram.png](../imagenes/databasediagram.png)
+![databasediagram.png](../imagenes/databasediagram.jpeg)
 
 link del diagrama de base de datos: https://lucid.app/lucidchart/ea565e2d-77c5-40ea-87f3-28e6c02e7d20/edit?viewport_loc=-343%2C16%2C2936%2C1439%2C0_0&invitationId=inv_712e52ef-1985-4328-a3eb-e1548cc8c4e8
   
@@ -1871,11 +1896,11 @@ El sitio incluye las secciones desarrolladas para la **TB1** dentro del *Sprint 
 
 El equipo trabajó con **ramas por funcionalidad** y **pull requests** para integrar cambios sin bloquearse mutuamente. A continuación, evidencias de colaboración en GitHub (commits, *network graph*).
 
-![Commits — evidencia 1](../imagenes/chapter-5/commits1.png)
+![Commits — evidencia 1](../imagenes/commit_1.png)
 
-![Commits — evidencia 2](../imagenes/chapter-5/commits2.png)
+![Commits — evidencia 2](../imagenes/commit_2.png)
 
-![Network — colaboración](../imagenes/chapter-5/Network.png)
+![Network — colaboración](../imagenes/network_graph.jpeg)
 
 **5.2.2. Sprint 2** *(Alcance de Desarrollo Frontend)*
 
@@ -2062,9 +2087,6 @@ Compendio de **evidencias gráficas** citadas en el informe. Las figuras **perma
 - ![Empathy Map — Roberto](../imagenes/EmpathyMapping_Roberto.png)
 - ![Empathy Map — Valeria](../imagenes/EmpathyMapping_Valeria.png)
 - ![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
-- ![Big Picture EventStorming — Parte 1](../imagenes/BigPictureEventstormingPart1.png)
-- ![Big Picture EventStorming — Parte 2](../imagenes/BigPictureEventstormingPart2.png)
-- ![Big Picture EventStorming — Parte 3](../imagenes/BigPictureEventstormingPart3.png)
 - ![Impact Mapping](../imagenes/impactmap.png)
 
 ### Anexo F — *Style guidelines* y secciones de *landing*
@@ -2105,7 +2127,7 @@ Compendio de **evidencias gráficas** citadas en el informe. Las figuras **perma
 - ![Mock-up aplicación 8](../imagenes/mockup8app.png)
 - ![Mock-up aplicación 9](../imagenes/mockup9app.png)
 - ![Captura — prototipo / video](../imagenes/prototipovideoimg.png)
-- ![Figura adicional del informe](../imagenes/commit%201.png)
+- ![Figura adicional del informe](../imagenes/commit_1.png)
 
 ### Anexo H — Arquitectura de software y modelo de datos
 
