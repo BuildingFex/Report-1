@@ -1750,16 +1750,16 @@ La aplicación se encuentra maquetada y navegable, permitiendo recorrer los fluj
 
 > **Enlace a la versión desplegada (producción):** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
 
-![login](../imagenes/chapter-5/vista-login.png)
-![dash-admin](../imagenes/chapter-5/dash-admin.png)
-![gestion](../imagenes/chapter-5/gestion.png)
-![finanzas-admin](../imagenes/chapter-5/finanzas-admin.png)
-![incidencias-admin](../imagenes/chapter-5/incidencias-admin.png)
-![info](../imagenes/chapter-5/info.png)
-![dash-reside](../imagenes/chapter-5/dash-reside.png)
-![pagos](../imagenes/chapter-5/pagos.png)
-![areas](../imagenes/chapter-5/areas.png)
-![support](../imagenes/chapter-5/support.png)
+![login](../imagenes/chapter-5/vista-login.jpeg)
+![dash-admin](../imagenes/chapter-5/dash-admin.jpeg)
+![gestion](../imagenes/chapter-5/gestion.jpeg)
+![finanzas-admin](../imagenes/chapter-5/finanzas-admin.jpeg)
+![incidencias-admin](../imagenes/chapter-5/incidencias-admin.jpeg)
+![info](../imagenes/chapter-5/info.jpeg)
+![dash-reside](../imagenes/chapter-5/dash-reside.jpeg)
+![pagos](../imagenes/chapter-5/pagos.jpeg)
+![areas](../imagenes/chapter-5/areas.jpeg)
+![support](../imagenes/chapter-5/support.jpeg)
 
 *(Insertar aquí las capturas de pantalla de las vistas: Login, Dashboard Administrador, Gestión Avanzada, Finanzas Admin, Incidencias Admin, Información, Dashboard Residente, Mis Pagos, Áreas Comunes, y Chat de Soporte Técnico).*
 
@@ -1776,16 +1776,16 @@ El despliegue continuo se configuró vinculando el repositorio **[BuildingFex/Fr
 * **Directorio de salida:** Configurado según el output nativo de Angular 21 para despliegues estáticos.
 * **Routing:** Se configuraron las reglas de reescritura para redirigir todas las peticiones al `index.html`, garantizando el funcionamiento de la *Single Page Application* (SPA).
 * 
-![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp.png)
-![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp2_.png)
+![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp.jpeg)
+![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp2_.jpeg)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 
 El flujo de trabajo técnico se gestionó bajo el modelo **GitFlow**. Se designó la rama `main` como entorno de producción estable y se crearon ramas de características (`feat/*`) para cada módulo específico de las vistas. La integración del código se realizó estrictamente mediante *Pull Requests*, requiriendo revisión y aprobación antes de fusionar los cambios.
 
-![Commit-git](../imagenes/chapter-5/git_overview.png)
-![network-graph_report](../imagenes/chapter-5/network_graph_report.png)
-![network-graph_front](../imagenes/chapter-5/network_graph.png)
+![Commit-git](../imagenes/chapter-5/git_overview.jpeg)
+![network-graph_report](../imagenes/chapter-5/network_graph_report.jpeg)
+![network-graph_front](../imagenes/chapter-5/network_graph.jpeg)
 
 **5.3. Validation Interviews *(TB1)***
 
