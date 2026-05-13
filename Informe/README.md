@@ -432,7 +432,7 @@ Plataforma orientada al mercado latinoamericano para la gestión de condominios.
 | *Estrategias de marketing* | - Marketing digital<br>- Alianzas locales<br>- Enfoque educativo del sector | - Marketing B2B tradicional y digital | - Posicionamiento global<br>- Marca fuerte | - Marketing digital regional |
 | **Perfil de Producto** | | | | |
 | *Productos & Servicios* | Plataforma modular: cobranza, reservas, accesos, incidencias, comunicación, etc. | Gestión de comunidad + comunicación + reservas | Gestión financiera + mantenimiento | Gestión de condominios + comunicación + reservas |
-| *Precios & Costos* | Suscripción SaaS escalable (planes accesibles) | Suscripción (alto costo) | Suscripción premium | Suscripción accesible |
+| *Precios & Costos* | Free: S/0 (hasta 9 departamentos), Essential: S/40, Standard: S/80 y Scale: S/120 mensuales en PEN. | Desde aprox. S/180/mes para comunidades pequeñas y desde S/500/mes para condominios medianos/grandes. | Essential desde aprox. S/230/mes, Growth desde S/710/mes y Premium desde S/1,480/mes. | Planes desde aprox. S/160 mensuales, con cotización según tamaño del condominio. |
 | *Canales de distribución* | Web (principal) | Web + móvil | Web + móvil | Web + móvil |
 
 | **Análisis SWOT** | | | | |
