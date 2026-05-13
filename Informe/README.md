@@ -72,6 +72,7 @@ Se detalla el trabajo realizado en esta entrega, con evidencias visuales de part
 | --- | --- |
 | Reporte del equipo | [BuildingFex — Report](https://github.com/BuildingFex/Report.git) |
 | Landing page | [BuildingFex — LandingPage](https://github.com/BuildingFex/LandingPage.git) |
+| Landing Fronted | [BuildingFex — Fronted](https://github.com/BuildingFex/Fronted.git) |
 
 ---
 
@@ -253,6 +254,10 @@ Frente a esta situación, se requiere una plataforma centralizada y escalable qu
 <a id="1-1-2-perfiles-de-integrantes-del-equipo"></a>
 ### 1.1.2. Perfiles de integrantes del equipo
 
+| Nombre                                                                               | Descripción                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <br/><img src="Images/Giuseppe.jpeg" width="200" alt="Foto de Giuseppe Villanueva"/> | Soy estudiante de Ingeniería de Software con un enfoque en el desarrollo de software. Me caracterizo por mi resiliencia y mi conocimiento en varias áreas de programación como el uso de .NET 8, C#, C++, JavaScript, Node, Python, HTML, Redis y SignalR. |
+ |        ![fotoperfilsaul.png](../imagenes/fotoperfilsaul.png)                                                                              | Soy estudiante de Ingeniería de Software con formación en programación y desarrollo web. Tengo conocimientos en C++, HTML, CSS y JavaScript. Me caracterizo por ser responsable, con capacidad de aprendizaje rápido y trabajo en equipo, aportando ideas prácticas para resolver problemas y mejorar proyectos tecnológicos.                                                                                                              |
 | Nombre | Descripción |
 |---|---|
 | <img src="../imagenes/sebastian.png" width="200" alt="Foto de Sebastian Martin Beingolea Montalvo"/><br><strong>Sebastian Martin Beingolea Montalvo</strong> | Me gusta el trabajo en equipo, tengo la experiencia y habilidades para el desarrolo de software. Me gusta cumplir con las fechas propuestas y ademas tengo conociemientos en base de datos, serverless, lenguajes de programacion. |
