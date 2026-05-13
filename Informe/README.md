@@ -1776,8 +1776,8 @@ El despliegue continuo se configuró vinculando el repositorio **[BuildingFex/Fr
 * **Directorio de salida:** Configurado según el output nativo de Angular 21 para despliegues estáticos.
 * **Routing:** Se configuraron las reglas de reescritura para redirigir todas las peticiones al `index.html`, garantizando el funcionamiento de la *Single Page Application* (SPA).
 * 
-![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp.jpeg)
-![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp2_.jpeg)
+![Vercel — evidencia 2](../imagenes/vercel_desp.jpeg)
+![Vercel — evidencia 2](../imagenes/vercel_desp_2.jpeg)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 
