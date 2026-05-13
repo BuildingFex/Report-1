@@ -49,14 +49,20 @@ Las administradoras de edificios y las juntas de propietarios gestionan presupue
 El objetivo de esta sección es resumir las modificaciones relevantes que se realizan al informe durante el ciclo de vida del proyecto.
 
 | Versión | Fecha | Autor | Descripción de modificación |
-| --- | --- | --- | --- |
-| 0.1 | 08/09/2025 | Saul Ortega Muñoz | Creación y primera versión del informe |
-| 0.2 | 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadió el Capítulo 1 en su totalidad |
-| 0.3 | 18/09/2025 | Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Valentin Nicolas Medina Mamani | Se desarrolló el Landing Page |
-| 0.4 | 19/09/2025 | Alejandro Manuel Jave Chang | Se añadió el Capítulo 2 en su totalidad |
-| 0.5 | 19/09/2025 | Valentin Nicolas Medina Mamani | Se añadió el Capítulo 3 en su totalidad |
-| 0.6 | 19/09/2025 | Villanueva Rodríguez Giuseppe Adrián | Se añadió el Capítulo 4 en su totalidad |
-| 0.7 | 19/09/2025 | Saul Ortega Muñoz | Se añadió el Capítulo 5 en su totalidad |
+| --- | --- | -- | --- |
+| 0.1     | 08/04/2026 | Saul Ortega Muñoz | Creación y primera versión del informe            |
+| 0.2     | 10/04/2026 | Sebastian Martin Beingolea Montalvo | Se añadió el Capítulo 1 en su totalidad           |
+| 0.3     | 11/04/2026 | Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Valentin Nicolas Medina Mamani | Se desarrolló el Landing Page                     |
+| 0.4     | 12/04/2026 | Alejandro Manuel Jave Chang | Se añadió el Capítulo 2 en su totalidad           |
+| 0.5     | 12/04/2026 | Valentin Nicolas Medina Mamani | Se añadió el Capítulo 3 en su totalidad           |
+| 0.6     | 13/04/2026 | Villanueva Rodríguez Giuseppe Adrián | Se añadió el Capítulo 4 en su totalidad           |
+| 0.7     | 13/04/2026 | Saul Ortega Muñoz | Se añadió el Capítulo 5 en su totalidad           |
+| 0.8     | 12/05/2026 | Saul Ortega Muñoz | Se añadio el registro de actividad y correciones  |
+| 0.9     | 13/05/2026 | Sebastian Martin Beingolea Montalvo | Se añadió la base de datos en su totalidad        |
+| 0.10    | 13/05/2026 | Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Valentin Nicolas Medina Mamani | Se desarrolló el Frontend                         |
+| 0.11    | 13/05/2026 | Alejandro Manuel Jave Chang | Se añadió el Capítulo 5, sprint 2 en su totalidad |
+| 0.12    | 13/05/2026 | Valentin Nicolas Medina Mamani | Se añadió correciones del informe                 |
+| 0.13    | 13/05/2026 | Villanueva Rodríguez Giuseppe Adrián | Se añadió correciones del informe                 |
 
 ---
 
