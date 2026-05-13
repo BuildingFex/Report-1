@@ -1737,22 +1737,31 @@ Durante este *Sprint*, el equipo trabajó en el repositorio **[BuildingFex/Front
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
 | --- | --- | --- | --- | --- | --- |
-| `BuildingFex/Fronted` | `main` | *(hash)* | `chore(core): setup standalone architecture` | Configuración inicial. Bootstrapping directo en app, eliminación de app.component y loaders. | *(fecha)* |
-| `BuildingFex/Fronted` | `feat/admin-views` | *(hash)* | `feat(admin): add dashboard and massive import` | Vistas de resumen financiero, gestión avanzada y subida de archivos Excel. | *(fecha)* |
-| `BuildingFex/Fronted` | `feat/resident-views` | *(hash)* | `feat(resident): add QR generator and reservations` | Calendario interactivo y generación de QR para control de visitas. | *(fecha)* |
-| `BuildingFex/Fronted` | `feat/finances` | *(hash)* | `feat(finance): payment gateway UI and mass billing` | Formularios de pasarela de pago para residentes y tabla de emisión masiva para admins. | *(fecha)* |
-| `BuildingFex/Fronted` | `feat/incidents` | *(hash)* | `feat(incidents): tracking and reporting forms` | Formularios de reporte de incidencias y vistas de seguimiento de tickets. | *(fecha)* |
-| `BuildingFex/Fronted` | `feat/support` | *(hash)* | `feat(support): direct service request chat` | Integración de chat enfocado exclusivamente en la solicitud de servicios técnicos. | *(fecha)* |
-
-> **Nota:** Sustituir `*(hash)*` y fechas por los valores reales exportados desde GitHub.
+| `BuildingFex/Fronted` | `main` | *(hash)* | `chore(core): setup standalone architecture` | Configuración inicial. Bootstrapping directo en app, eliminación de app.component y loaders. | *(9/05/2026)* |
+| `BuildingFex/Fronted` | `feat/admin-views` | *(hash)* | `feat(admin): add dashboard and massive import` | Vistas de resumen financiero, gestión avanzada y subida de archivos Excel. | *(9/05/2026)* |
+| `BuildingFex/Fronted` | `feat/resident-views` | *(hash)* | `feat(resident): add QR generator and reservations` | Calendario interactivo y generación de QR para control de visitas. | *(10/05/2026)* |
+| `BuildingFex/Fronted` | `feat/finances` | *(hash)* | `feat(finance): payment gateway UI and mass billing` | Formularios de pasarela de pago para residentes y tabla de emisión masiva para admins. | *(11/05/2026)* |
+| `BuildingFex/Fronted` | `feat/incidents` | *(hash)* | `feat(incidents): tracking and reporting forms` | Formularios de reporte de incidencias y vistas de seguimiento de tickets. | *(11/05/2026)* |
+| `BuildingFex/Fronted` | `feat/support` | *(hash)* | `feat(support): direct service request chat` | Integración de chat enfocado exclusivamente en la solicitud de servicios técnicos. | *(11/05/2026)* |
 
 ### 5.2.2.5. Execution Evidence for Sprint Review
 
 La aplicación se encuentra maquetada y navegable, permitiendo recorrer los flujos de Finanzas, Incidencias, Servicios, Información y Gestión Avanzada tanto para los roles de Administrador como de Residente.
 
-> **Enlace a la versión desplegada (producción):** *(Inserta aquí tu enlace de Vercel/Netlify, ej. https://buildingfex-fronted.vercel.app/)*
+> **Enlace a la versión desplegada (producción):** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
 
-*(Insertar aquí las capturas de pantalla de las vistas: Dashboard Administrador, Gestión Avanzada, Finanzas Admin, Incidencias Admin, Información, Dashboard Residente, Mis Pagos, Áreas Comunes, y Chat de Soporte Técnico).*
+![login](../imagenes/chapter-5/vista-login.png)
+![dash-admin](../imagenes/chapter-5/dash-admin.png)
+![gestion](../imagenes/chapter-5/gestion.png)
+![finanzas-admin](../imagenes/chapter-5/finanzas-admin.png)
+![incidencias-admin](../imagenes/chapter-5/incidencias-admin.png)
+![info](../imagenes/chapter-5/info.png)
+![dash-reside](../imagenes/chapter-5/dash-reside.png)
+![pagos](../imagenes/chapter-5/pagos.png)
+![areas](../imagenes/chapter-5/areas.png)
+![support](../imagenes/chapter-5/support.png)
+
+*(Insertar aquí las capturas de pantalla de las vistas: Login, Dashboard Administrador, Gestión Avanzada, Finanzas Admin, Incidencias Admin, Información, Dashboard Residente, Mis Pagos, Áreas Comunes, y Chat de Soporte Técnico).*
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
@@ -1760,19 +1769,23 @@ Durante el alcance de esta entrega (Sprint 2), el objetivo funcional se centró 
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review
 
-El despliegue continuo se configuró vinculando el repositorio **BuildingFex/Fronted** de GitHub con la plataforma de alojamiento. Cada integración a la rama principal dispara automáticamente el proceso de construcción utilizando las herramientas de Angular.
+El despliegue continuo se configuró vinculando el repositorio **[BuildingFex/Fronted](https://github.com/BuildingFex/Fronted)** de GitHub con la plataforma de alojamiento. Cada integración a la rama principal dispara automáticamente el proceso de construcción utilizando las herramientas de Angular.
 
+* **URL de Producción:** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
 * **Comando de Build:** `npm run build`
 * **Directorio de salida:** Configurado según el output nativo de Angular 21 para despliegues estáticos.
 * **Routing:** Se configuraron las reglas de reescritura para redirigir todas las peticiones al `index.html`, garantizando el funcionamiento de la *Single Page Application* (SPA).
-
-*(Insertar capturas de pantalla del panel de despliegue exitoso)*
+* 
+![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp.png)
+![Vercel — evidencia 2](../imagenes/chapter-5/vercel_desp2_.png)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint
 
 El flujo de trabajo técnico se gestionó bajo el modelo **GitFlow**. Se designó la rama `main` como entorno de producción estable y se crearon ramas de características (`feat/*`) para cada módulo específico de las vistas. La integración del código se realizó estrictamente mediante *Pull Requests*, requiriendo revisión y aprobación antes de fusionar los cambios.
 
-*(Insertar aquí las imágenes correspondientes al Network graph y listado de Pull Requests de GitHub).*
+![Commit-git](../imagenes/chapter-5/git_overview.png)
+![network-graph_report](../imagenes/chapter-5/network_graph_report.png)
+![network-graph_front](../imagenes/chapter-5/network_graph.png)
 
 **5.3. Validation Interviews *(TB1)***
 
