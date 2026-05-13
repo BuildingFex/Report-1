@@ -220,22 +220,7 @@ En esta sección se presenta la relación entre el trabajo realizado por el equi
   - 5.3.3 Validación según heurísticas  
 
 ## Conclusiones
-
-### Conclusiones 
-
-* **Centralización y Transparencia Operativa:** El desarrollo de BuildingFlex demuestra que la digitalización de la gestión inmobiliaria resuelve directamente los cuellos de botella contables y de comunicación. Al automatizar la facturación y la conciliación mediante pasarelas de pago, el sistema elimina las fricciones tradicionales entre la junta directiva, la administración y los residentes.
-* **Escalabilidad del Modelo B2B:** La estructuración del producto en planes de suscripción (incluyendo una capa gratuita estratégica) valida a BuildingFlex como un SaaS (Software as a Service) altamente escalable. Su enfoque estricto en la provisión del servicio administrativo y financiero lo posiciona como una herramienta B2B sólida, alejándose de modelos de negocio informales y centrándose en la profesionalización de la gestión de condominios.
-* **Diseño Orientado al Dominio:** La aplicación de técnicas como el *Big Picture Event Storming* y el modelado estructurado de *User Stories* permitió descubrir y mapear correctamente los contextos delimitados del sistema (facturación, control de accesos mediante QR, gestión de incidencias). Esto garantiza que la arquitectura de software responda fielmente a las reglas de negocio y no solo a requerimientos técnicos aislados.
-* **Modernización Tecnológica:** La adopción de tecnologías de vanguardia para el desarrollo web asegura un ciclo de vida prolongado para el producto. El enfoque en una arquitectura limpia y modular facilita el mantenimiento y la futura integración de nuevos servicios para la comunidad.
-
-### Recomendaciones
-* **Claridad en la Documentación Arquitectónica:** A medida que la plataforma crezca y se agreguen nuevos microservicios, es vital mantener la limpieza en los diagramas C4 (creados con Structurizr o herramientas similares). Se recomienda establecer como política de equipo nombrar los contenedores y componentes por su función de negocio exacta, evitando prefijos redundantes a nivel de sistema que solo ensucian la lectura de la arquitectura.
-* **Monitoreo de Adopción de Pasarelas:** Aunque la integración inicial con Mercado Pago cubre la automatización del recaudo, se recomienda instrumentar métricas (analíticas) sobre la tasa de abandono en la pantalla de pago. Si se detecta fricción, el equipo debería evaluar en futuras iteraciones la integración de métodos de pago directo locales (como billeteras móviles) para maximizar la recaudación temprana.
-* **Gestión del Plan Freemium:** Se sugiere monitorear de cerca el costo de infraestructura que generen los edificios suscritos al plan gratuito. Es recomendable establecer límites técnicos claros (por ejemplo, en el almacenamiento de documentos históricos o fotos de incidencias) para asegurar que el modelo de adquisición de clientes sea sostenible a largo plazo sin saturar la base de datos.
-
 ### Bibliografía
-
-
 ### Anexos
 
 
@@ -2053,6 +2038,18 @@ Esta sección se limita a lo que corresponde validar o registrar **dentro del al
 ![Commits — evidencia 2](../imagenes/commit-repo.png)
 
 ![Network — colaboración](../imagenes/network-landingpage.png)
+
+### Conclusiones 
+
+* **Centralización y Transparencia Operativa:** El desarrollo de BuildingFlex demuestra que la digitalización de la gestión inmobiliaria resuelve directamente los cuellos de botella contables y de comunicación. Al automatizar la facturación y la conciliación mediante pasarelas de pago, el sistema elimina las fricciones tradicionales entre la junta directiva, la administración y los residentes.
+* **Escalabilidad del Modelo B2B:** La estructuración del producto en planes de suscripción (incluyendo una capa gratuita estratégica) valida a BuildingFlex como un SaaS (Software as a Service) altamente escalable. Su enfoque estricto en la provisión del servicio administrativo y financiero lo posiciona como una herramienta B2B sólida, alejándose de modelos de negocio informales y centrándose en la profesionalización de la gestión de condominios.
+* **Diseño Orientado al Dominio:** La aplicación de técnicas como el *Big Picture Event Storming* y el modelado estructurado de *User Stories* permitió descubrir y mapear correctamente los contextos delimitados del sistema (facturación, control de accesos mediante QR, gestión de incidencias). Esto garantiza que la arquitectura de software responda fielmente a las reglas de negocio y no solo a requerimientos técnicos aislados.
+* **Modernización Tecnológica:** La adopción de tecnologías de vanguardia para el desarrollo web asegura un ciclo de vida prolongado para el producto. El enfoque en una arquitectura limpia y modular facilita el mantenimiento y la futura integración de nuevos servicios para la comunidad.
+
+### Recomendaciones
+* **Claridad en la Documentación Arquitectónica:** A medida que la plataforma crezca y se agreguen nuevos microservicios, es vital mantener la limpieza en los diagramas C4 (creados con Structurizr o herramientas similares). Se recomienda establecer como política de equipo nombrar los contenedores y componentes por su función de negocio exacta, evitando prefijos redundantes a nivel de sistema que solo ensucian la lectura de la arquitectura.
+* **Monitoreo de Adopción de Pasarelas:** Aunque la integración inicial con Mercado Pago cubre la automatización del recaudo, se recomienda instrumentar métricas (analíticas) sobre la tasa de abandono en la pantalla de pago. Si se detecta fricción, el equipo debería evaluar en futuras iteraciones la integración de métodos de pago directo locales (como billeteras móviles) para maximizar la recaudación temprana.
+* **Gestión del Plan Freemium:** Se sugiere monitorear de cerca el costo de infraestructura que generen los edificios suscritos al plan gratuito. Es recomendable establecer límites técnicos claros (por ejemplo, en el almacenamiento de documentos históricos o fotos de incidencias) para asegurar que el modelo de adquisición de clientes sea sostenible a largo plazo sin saturar la base de datos.
 
 ## Bibliografía
 
