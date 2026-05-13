@@ -1750,16 +1750,25 @@ La aplicación se encuentra maquetada y navegable, permitiendo recorrer los fluj
 
 > **Enlace a la versión desplegada (producción):** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
 
-![login](../imagenes/chapter-5/vista-login.jpeg)
-![dash-admin](../imagenes/chapter-5/dash-admin.jpeg)
-![gestion](../imagenes/chapter-5/gestion.jpeg)
-![finanzas-admin](../imagenes/chapter-5/finanzas-admin.jpeg)
-![incidencias-admin](../imagenes/chapter-5/incidencias-admin.jpeg)
-![info](../imagenes/chapter-5/info.jpeg)
-![dash-reside](../imagenes/chapter-5/dash-reside.jpeg)
-![pagos](../imagenes/chapter-5/pagos.jpeg)
-![areas](../imagenes/chapter-5/areas.jpeg)
-![support](../imagenes/chapter-5/support.jpeg)
+![login](../imagenes/login.png)
+![admin-register](../imagenes/admin-register.png)
+![dash-admin](../imagenes/dash-admin.png)
+![manage-admin](../imagenes/manage-admin.png)
+![import-admin](../imagenes/import-admin.png)
+![finan-admin](../imagenes/finan-admin.png)
+![gener-admin](../imagenes/gener-admin.png)
+![inci-admin](../imagenes/inci-admin.png)
+![info-admin](../imagenes/info-admin.png)
+![chat-admin](../imagenes/chat-admin.png)
+![collect-admin](../imagenes/collect-admin.png)
+![sett-admin](../imagenes/sett-admin.png)
+![res-dash](../imagenes/res-dash.png)
+![finan-res](../imagenes/finan-res.png)
+![serv-res](../imagenes/serv-res.png)
+![gener-res](../imagenes/gener-res.png)
+![inci-res](../imagenes/inci-res.png)
+![supp-res](../imagenes/supp-res.png)
+![sett-res](../imagenes/sett-res.png)
 
 *(Insertar aquí las capturas de pantalla de las vistas: Login, Dashboard Administrador, Gestión Avanzada, Finanzas Admin, Incidencias Admin, Información, Dashboard Residente, Mis Pagos, Áreas Comunes, y Chat de Soporte Técnico).*
 
@@ -1783,9 +1792,9 @@ El despliegue continuo se configuró vinculando el repositorio **[BuildingFex/Fr
 
 El flujo de trabajo técnico se gestionó bajo el modelo **GitFlow**. Se designó la rama `main` como entorno de producción estable y se crearon ramas de características (`feat/*`) para cada módulo específico de las vistas. La integración del código se realizó estrictamente mediante *Pull Requests*, requiriendo revisión y aprobación antes de fusionar los cambios.
 
-![Commit-git](../imagenes/chapter-5/git_overview.jpeg)
-![network-graph_report](../imagenes/chapter-5/network_graph_report.jpeg)
-![network-graph_front](../imagenes/chapter-5/network_graph.jpeg)
+![Commit-git](../imagenes/git_overview.jpeg)
+![network-graph_report](../imagenes/network_graph_report.jpeg)
+![network-graph_front](../imagenes/network_graph.jpeg)
 
 **5.3. Validation Interviews *(TB1)***
 
