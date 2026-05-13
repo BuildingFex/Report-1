@@ -1869,6 +1869,134 @@ El sitio incluye las secciones desarrolladas para la **TB1** dentro del *Sprint 
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
+El equipo trabajó con **ramas por funcionalidad** y **pull requests** para integrar cambios sin bloquearse mutuamente. A continuación, evidencias de colaboración en GitHub (commits, *network graph*).
+
+![Commits — evidencia 1](../imagenes/chapter-5/commits1.png)
+
+![Commits — evidencia 2](../imagenes/chapter-5/commits2.png)
+
+![Network — colaboración](../imagenes/chapter-5/Network.png)
+
+**5.2.2. Sprint 2** *(Alcance de Desarrollo Frontend)*
+
+Este *Sprint* concentró el esfuerzo en la **implementación del frontend de la aplicación web BuildingFex**, enfocándose en las vistas e interacciones para los roles de Administrador de Edificio y Residente. Se priorizó la creación de interfaces responsivas, el enrutamiento y la maquetación funcional con datos simulados, estableciendo las bases para la futura integración con el *backend*.
+
+### 5.2.2.1. Sprint Planning 2
+
+| **Sprint #** | **Sprint 2** |
+| --- | --- |
+| ***Sprint Planning Background*** | |
+| **Date** | 2026-05-06 y 2026-05-07 |
+| **Time** | 22:00 (GMT-5) en ambas fechas |
+| **Location** | Reunión virtual por Discord |
+| **Prepared By** | Alejandro Manuel Jave Chang |
+| **Attendees (to planning meeting)** | Sebastian Martin Beingolea Montalvo, Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Alejandro Manuel Jave Chang, Valentin Nicolas Medina Mamani |
+| **Sprint n – 1 Review Summary** | Se validó la correcta publicación de la *Landing Page*. Como mejora, el equipo acordó optimizar el manejo de estado en el *frontend* y definir convenciones estrictas para la estructura del proyecto en el nuevo repositorio. |
+| **Sprint n – 1 Retrospective Summary** | La colaboración mediante ramas y *pull requests* fue efectiva. Se decidió mantener la misma dinámica, pero aumentando la revisión de código cruzada para asegurar la consistencia visual en las vistas de la aplicación. |
+| ***Sprint Goal & User Stories*** | |
+| **Sprint 2 Goal** | Our focus is on delivering a fully functional and responsive frontend web application for BuildingFex, catering to both building administrators and residents. This sprint aims to implement core modules such as dashboards, finance management, incident reporting, services reservation, and advanced management settings, utilizing an updated frontend framework architecture. The goal is to provide a seamless user interface with simulated data to validate the user experience before backend integration. |
+| **Sprint 2 Velocity** | 35 |
+| **Sum of Story Points** | 35 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los aspectos funcionales y técnicos abordados durante el *Sprint 2*: **desarrollo de vistas de Administrador y Residente**. Para cada aspecto se asignó un **Líder (L)** y **Colaboradores (C)**.
+
+| Team Member (Last Name, First Name) | GitHub | FI | ID | RS | DE |
+| --- | --- | --- | --- | --- | --- |
+| Villanueva Rodríguez Giuseppe Adrián | [BuildingFex](https://github.com/BuildingFex) | L | C | L | C |
+| Alejandro Manuel Jave Chang | [BuildingFex](https://github.com/BuildingFex) | L | C | C | L |
+| Sebastian Martin Beingolea Montalvo | [BuildingFex](https://github.com/BuildingFex) | L | L | C | C |
+| Saul Ortega Muñoz | [BuildingFex](https://github.com/BuildingFex) | C | L | C | C |
+| Valentin Nicolas Medina Mamani | [BuildingFex](https://github.com/BuildingFex) | C | C | L | C |
+
+**Leyenda de aspectos técnicos**
+- **FI**: *Frontend Implementation* — Desarrollo de vistas, formularios y lógica de componentes.
+- **ID**: *Interface Design* — Alineación de las pantallas con el diseño en Figma.
+- **RS**: *Routing & Standalone Components* — Configuración de rutas y arquitectura de componentes.
+- **DE**: *Deployment* — Despliegue continuo en producción.
+
+### 5.2.2.3. Sprint Backlog 2
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| --- | --- | --- | --- | --- |
+| 1 | US14 | Dashboard Administrador | Como administrador, quiero ver el estado general del edificio, morosidad e incidencias pendientes para tener control general. | 3 |
+| 2 | US15 | Gestión Avanzada Admin | Como administrador, quiero registrar perfiles de edificios e importar residentes masivamente mediante Excel para inicializar operaciones. | 5 |
+| 3 | US16 | Finanzas Admin: Emisión | Como administrador, quiero generar recibos masivamente y aplicar penalidades automáticas para mantener el control financiero. | 5 |
+| 4 | US17 | Incidencias Admin | Como administrador, quiero monitorear tickets de mantenimiento y el estado de proveedores para asegurar la operatividad del edificio. | 3 |
+| 5 | US18 | Información Admin | Como administrador, quiero redactar comunicados oficiales y gestionar documentos (actas, contratos) para mantener informado al edificio. | 3 |
+| 6 | US19 | Dashboard Residente | Como residente, quiero visualizar un resumen de mis pagos pendientes y reservas confirmadas para estar al día. | 2 |
+| 7 | US20 | Finanzas Residente | Como residente, quiero revisar mi historial de cuotas y pagar en línea mediante pasarela de pagos para cumplir con mis obligaciones. | 5 |
+| 8 | US21 | Servicios Residente | Como residente, quiero un calendario para reservar áreas comunes y generar códigos QR para agilizar el ingreso de mis visitas. | 5 |
+| 9 | US22 | Incidencias Residente | Como residente, quiero reportar fallas en el edificio mediante un formulario simple para solicitar reparaciones. | 2 |
+| 10 | US23 | Soporte Técnico Directo | Como residente, quiero un botón para iniciar un chat y solicitar estrictamente la provisión de servicio técnico para mi unidad. | 2 |
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este *Sprint*, el equipo trabajó en el repositorio **[BuildingFex/Fronted](https://github.com/BuildingFex/Fronted)** desarrollando las vistas con **Angular 21**. Se implementó una arquitectura directa y limpia enfocada en el rendimiento, en la cual **no hay `app.component`, solo `app`**, y **no se utiliza un custom loader**. Todo el arranque se configuró mediante componentes *standalone*.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+| --- | --- | --- | --- | --- | --- |
+| `BuildingFex/Fronted` | `main` | *(hash)* | `chore(core): setup standalone architecture` | Configuración inicial. Bootstrapping directo en app, eliminación de app.component y loaders. | *(9/05/2026)* |
+| `BuildingFex/Fronted` | `feat/admin-views` | *(hash)* | `feat(admin): add dashboard and massive import` | Vistas de resumen financiero, gestión avanzada y subida de archivos Excel. | *(9/05/2026)* |
+| `BuildingFex/Fronted` | `feat/resident-views` | *(hash)* | `feat(resident): add QR generator and reservations` | Calendario interactivo y generación de QR para control de visitas. | *(10/05/2026)* |
+| `BuildingFex/Fronted` | `feat/finances` | *(hash)* | `feat(finance): payment gateway UI and mass billing` | Formularios de pasarela de pago para residentes y tabla de emisión masiva para admins. | *(11/05/2026)* |
+| `BuildingFex/Fronted` | `feat/incidents` | *(hash)* | `feat(incidents): tracking and reporting forms` | Formularios de reporte de incidencias y vistas de seguimiento de tickets. | *(11/05/2026)* |
+| `BuildingFex/Fronted` | `feat/support` | *(hash)* | `feat(support): direct service request chat` | Integración de chat enfocado exclusivamente en la solicitud de servicios técnicos. | *(11/05/2026)* |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+La aplicación se encuentra maquetada y navegable, permitiendo recorrer los flujos de Finanzas, Incidencias, Servicios, Información y Gestión Avanzada tanto para los roles de Administrador como de Residente.
+
+> **Enlace a la versión desplegada (producción):** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
+
+![login](../imagenes/login.png)
+![admin-register](../imagenes/admin-register.png)
+![dash-admin](../imagenes/dash-admin.png)
+![manage-admin](../imagenes/manage-admin.png)
+![import-admin](../imagenes/import-admin.png)
+![finan-admin](../imagenes/finan-admin.png)
+![gener-admin](../imagenes/gener-admin.png)
+![inci-admin](../imagenes/inci-admin.png)
+![info-admin](../imagenes/info-admin.png)
+![chat-admin](../imagenes/chat-admin.png)
+![collect-admin](../imagenes/collect-admin.png)
+![sett-admin](../imagenes/sett-admin.png)
+![res-dash](../imagenes/res-dash.png)
+![finan-res](../imagenes/finan-res.png)
+![serv-res](../imagenes/serv-res.png)
+![gener-res](../imagenes/gener-res.png)
+![inci-res](../imagenes/inci-res.png)
+![supp-res](../imagenes/supp-res.png)
+![sett-res](../imagenes/sett-res.png)
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el alcance de esta entrega (Sprint 2), el objetivo funcional se centró de manera exclusiva en el diseño, desarrollo de interfaces y enrutamiento del **frontend**. Las vistas actuales consumen datos simulados a través de servicios inyectables en Angular para validar la experiencia de usuario. La implementación del API RESTful en el *backend* y su respectiva documentación no forman parte de este *Sprint* y serán abordadas en la siguiente iteración.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El despliegue continuo se configuró vinculando el repositorio **[BuildingFex/Fronted](https://github.com/BuildingFex/Fronted)** de GitHub con la plataforma de alojamiento. Cada integración a la rama principal dispara automáticamente el proceso de construcción utilizando las herramientas de Angular.
+
+* **URL de Producción:** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
+* **Comando de Build:** `npm run build`
+* **Directorio de salida:** Configurado según el output nativo de Angular 21 para despliegues estáticos.
+* **Routing:** Se configuraron las reglas de reescritura para redirigir todas las peticiones al `index.html`, garantizando el funcionamiento de la *Single Page Application* (SPA).
+* 
+![Vercel — evidencia 2](../imagenes/vercel_desp.jpeg)
+![Vercel — evidencia 2](../imagenes/vercel_desp_2.jpeg)
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+El flujo de trabajo técnico se gestionó bajo el modelo **GitFlow**. Se designó la rama `main` como entorno de producción estable y se crearon ramas de características (`feat/*`) para cada módulo específico de las vistas. La integración del código se realizó estrictamente mediante *Pull Requests*, requiriendo revisión y aprobación antes de fusionar los cambios.
+
+![Commit-git](../imagenes/git_overview.jpeg)
+![network-graph_report](../imagenes/network_graph_report.jpeg)
+![network-graph_front](../imagenes/network_graph.jpeg)
+
+**5.3. Validation Interviews *(TB1)***
+
+Esta sección se limita a lo que corresponde validar o registrar **dentro del alcance de la TB1** (p. ej. revisión de la landing desplegada o criterios de usabilidad acordados con el curso). Entregas posteriores al **TB1** no se documentan aquí.
 
 ![Commits — evidencia 1](../imagenes/aaaaaa.png)
 
