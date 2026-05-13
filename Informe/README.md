@@ -1,22 +1,24 @@
+<div align="center">
+
 # 🏢 BuildingFex – Plataforma SaaS para Administración de Edificios y Condominios
 
 **Universidad Peruana de Ciencias Aplicadas**
 
 <img src="../imagenes/upc.png" width="300" alt="Universidad"/>
 
-|               |                                                |
+|               |                                                |
 |---------------|------------------------------------------------|
-| **Carrera**   | Ingeniería de Software                         |
-| **Curso**     | Aplicaciones Web                               |
-| **Código**    | Aplicaciones Web - Virtual 1ASI0730-2610-10203 |
-| **NRC**       | 10203                                          |
-| **Profesor**  | Alex Humberto Sánchez Ponce                    |
-| **Documento** | Informe de Trabajo Final (entrega TP)          |
-| **Ciclo**     | 2026-01                                        |
-| **Facultad**  | Facultad de Ingeniería                         |
+| **Carrera**   | Ingeniería de Software                         |
+| **Curso**     | Aplicaciones Web                               |
+| **Código**    | Aplicaciones Web - Virtual 1ASI0730-2610-10203 |
+| **NRC**       | 10203                                          |
+| **Profesor**  | Alex Humberto Sánchez Ponce                    |
+| **Documento** | Informe de Trabajo Final (entrega TP)          |
+| **Ciclo**     | 2026-01                                        |
+| **Facultad**  | Facultad de Ingeniería                         |
 
-# Startup: BuildingFex  
-**Producto:** Plataforma SaaS para administración de edificios y condominios  
+# Startup: BuildingFex  
+**Producto:** Plataforma SaaS para administración de edificios y condominios  
 
 ### Integrantes del equipo
 
@@ -27,6 +29,52 @@
 | Saul Ortega Muñoz | U20231c019 |
 | Alejandro Manuel Jave Chang | U202312510 |
 | Valentin Nicolas Medina Mamani | U202316829 |
+
+</div>
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+      <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+      <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+  <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
+
+   <br>
 
 ### Problema a resolver
 
