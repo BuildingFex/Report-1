@@ -2,27 +2,21 @@
 
 **Universidad Peruana de Ciencias Aplicadas**
 
-| | |
-| --- | --- |
-| **Curso** | Ingeniería de Software |
-| **Código** | Aplicaciones Web - Virtual 1ASI0730-2610-10203 |
-| **NRC** | 2610 |
-| **Profesor** | Alex Humberto Sánchez Ponce |
-| **Documento** | Informe de Trabajo Final (entrega TB1) |
-| **Ciclo** | 2026-01 |
-| **Facultad** | Facultad de Ingeniería |
+<img src="../imagenes/upc.png" width="300" alt="Universidad"/>
 
-**Startup:** BuildingFex  
+|               |                                                |
+|---------------|------------------------------------------------|
+| **Carrera**   | Ingeniería de Software                         |
+| **Curso**     | Aplicaciones Web                               |
+| **Código**    | Aplicaciones Web - Virtual 1ASI0730-2610-10203 |
+| **NRC**       | 10203                                          |
+| **Profesor**  | Alex Humberto Sánchez Ponce                    |
+| **Documento** | Informe de Trabajo Final (entrega TP)          |
+| **Ciclo**     | 2026-01                                        |
+| **Facultad**  | Facultad de Ingeniería                         |
+
+# Startup: BuildingFex  
 **Producto:** Plataforma SaaS para administración de edificios y condominios  
-
-### Problema a resolver
-
-Las administradoras de edificios y las juntas de propietarios gestionan presupuestos de miles de dólares mensuales usando herramientas obsoletas e informales (Excel, grupos de WhatsApp, cuadernos físicos), donde:
-
-- La comunicación con los vecinos es caótica y propensa a conflictos.
-- Existe un alto índice de morosidad debido a la fricción manual para cobrar.
-- No hay transparencia en tiempo real sobre el uso del dinero del mantenimiento.
-- La reserva de áreas comunes y el control de visitas generan problemas diarios en recepción.
 
 ### Integrantes del equipo
 
@@ -34,7 +28,19 @@ Las administradoras de edificios y las juntas de propietarios gestionan presupue
 | Alejandro Manuel Jave Chang | U202312510 |
 | Valentin Nicolas Medina Mamani | U202316829 |
 
+### Problema a resolver
+
+Las administradoras de edificios y las juntas de propietarios gestionan presupuestos de miles de dólares mensuales usando herramientas obsoletas e informales (Excel, grupos de WhatsApp, cuadernos físicos), donde:
+
+- La comunicación con los vecinos es caótica y propensa a conflictos.
+- Existe un alto índice de morosidad debido a la fricción manual para cobrar.
+- No hay transparencia en tiempo real sobre el uso del dinero del mantenimiento.
+- La reserva de áreas comunes y el control de visitas generan problemas diarios en recepción.
+
+
 *Diciembre 2025*
+
+
 
 ---
 
@@ -81,42 +87,49 @@ Durante el desarrollo del informe se siguieron estos lineamientos:
 - Los contenidos asignados a cada miembro fueron redactados en **Markdown**, con presentación clara y estandarizada.
 - Cada cambio quedó respaldado con **commits** en el repositorio (trazabilidad y control de versiones).
 - Se crearon los artefactos con las herramientas recomendadas.
-- Las imágenes se obtuvieron desde la carpeta `assets` o desde **Imgur** para su integración en el informe.
+- Las imágenes se obtuvieron desde la carpeta `imagenes`. 
 - Hubo reuniones periódicas para coordinar el informe y el avance del **Sprint 1** (alcance inicial y diseño preliminar).
 
 Los cambios están alineados con el **Registro de versiones** y reflejan el trabajo colaborativo del equipo.
 
 Este historial coincide con el trabajo del TB1 y muestra el avance continuo y colaborativo del informe.
 
-#### Actividad en GitHub — TB1 (septiembre 2025)
+#### Actividad en GitHub 
 
 Gráfico de actividad durante la preparación del TB1. Los commits reflejan progreso constante y colaboración entre integrantes.
 
-| Evidencia | Descripción |
-| --- | --- |
-| Actividad TB-1 Report (BuildingFex) | ![Actividad en el repositorio del reporte](../imagenes/github-repositorio-buildingfex.png) |
-| Actividad TB-1 Landing (BuildingFex) | *(pendiente: captura del repositorio del landing)* |
-| Commits TB-1 Report | *(pendiente: captura de commits del reporte)* |
-| Network TB-1 | *(pendiente: network graph del reporte)* |
-| Network TB-1 Landing | *(pendiente: network graph del landing)* |
+| Evidencia                           | Descripción |
+|-------------------------------------| -- |
+| Actividad TB-1 Report (BuildingFex) | ![Actividad en el repositorio del reporte](../imagenes/repo-git.png) |
+| Actividad TB-1 Landing (BuildingFex) | ![Actividad en el repositorio del reporte](../imagenes/Landing-page-repo.png) |
+| Commits TB-1 Report                 | ![Actividad en el repositorio del reporte](../imagenes/commit-repo.png) |
+| Commits TB-1 Landing-Page           | ![Actividad en el repositorio del reporte](../imagenes/aaaaaa.png) |
+| Network TB-1 Report                 | ![Actividad en el repositorio del reporte](../imagenes/network-report.png) |
+| Network TB-1 Landing page           | ![Actividad en el repositorio del reporte](../imagenes/network-landingpage.png) |
+| Frontend Deployment 1               | ![img_6.png](../imagenes/img_6.png)|
+| Frontend Deployment 2               |![img_1.png](../imagenes/commit_1.png) |
+| Commits TP Frontend                 | ![img_2.png](../imagenes/img_2.png)|
+| Network TP Frontend                 |![img_3.png](../imagenes/img_3.png) |
+| Network TP Report                   |![img_4.png](../imagenes/img_4.png) |
+| Commits TP Report                   | ![img_5.png](../imagenes/img_5.png)|
 
-*Nota: las rutas de imagen son relativas a este archivo; convención `![descripción](../imagenes/archivo.png)`.*
 
 ---
 
-## Contenido
+<a id="studentoutcome-rubrica-tb1"></a>
+## ABET – EAC - Student Outcome 5
 
-### Registro de versiones del informe
+En esta sección se presenta la relación entre el trabajo realizado por el equipo y las dimensiones del Student Outcome establecido. Cada integrante ha colaborado en la redacción conjunta de los sustentos y evidencias que demuestran cómo las actividades desarrolladas en la **TB1** han contribuido al logro de este objetivo. A través de las acciones individuales y colectivas, se busca evidenciar de manera clara y organizada el impacto del proyecto en el desarrollo de las competencias señaladas.
 
-*(Sección anterior en este documento.)*
 
-### Project Report Collaboration Insights
+| Criterio específico | Acciones realizadas (TB1) | Conclusiones |
+| :--- |:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 5.c.1 Trabaja en equipo para proporcionar liderazgo en forma conjunta | Sebastian Martin Beingolea Montalvo — U202217853<br>TB1: Asumí responsabilidades compartidas dentro del equipo, coordinando tareas y apoyando a mis compañeros para mantener una organización eficiente y colaborativa durante el desarrollo del trabajo.<br>TP: Colaboré en la organización de las mejoras del documento y en la coordinación de actividades relacionadas con el Sprint 2, promoviendo una comunicación constante entre los integrantes para mantener un trabajo colaborativo y ordenado.<br><br>Villanueva Rodríguez Giuseppe Adrián — U20221c554<br>TB1: Contribuí al liderazgo conjunto promoviendo la comunicación constante entre los integrantes y motivando la participación activa de todos en la toma de decisiones del proyecto.<br>TP: Participé activamente en la revisión y mejora del documento del proyecto, apoyando en la integración de aportes del equipo y fomentando un ambiente de trabajo participativo e inclusivo durante el desarrollo del Sprint 2.<br><br>Saul Ortega Muñoz — U20231c019<br>TB1: Participé activamente en la distribución equilibrada de tareas, colaborando con el equipo para garantizar que todos pudiéramos aportar y avanzar de manera coordinada. <br>TP: Colaboré en el desarrollo del frontend de la aplicación apoyando en la implementación de interfaces y en la integración de componentes visuales, manteniendo una comunicación constante con el equipo para fomentar un trabajo colaborativo e inclusivo.<br><br>Alejandro Manuel Jave Chang — U202312510<br>TB1: Apoyé en la coordinación de ideas y actividades grupales, fomentando un liderazgo colaborativo basado en el respeto, la cooperación y el cumplimiento de objetivos comunes.<br>TP: Apoyé en la elaboración del capítulo 5 y en la coordinación de tareas relacionadas con el Sprint 2, contribuyendo a que el equipo trabajara de manera organizada y alineada con los objetivos del proyecto.<br><br>Valentin Nicolas Medina Mamani — U202316829<br>TB1: Colaboré en la planificación de las actividades del equipo, impulsando un ambiente de trabajo participativo donde cada integrante pudiera asumir responsabilidades y contribuir al logro del proyecto. <br>TP: Colaboré en las mejoras del documento y en la revisión del contenido desarrollado para el Sprint 2, promoviendo el apoyo mutuo y la participación activa de todos los integrantes del equipo. | **Conclusión grupal:** Durante el desarrollo de la TB1, el equipo logró trabajar de manera colaborativa y organizada, promoviendo un liderazgo conjunto en cada una de las actividades realizadas. Todos los integrantes participaron activamente en la coordinación de tareas, la toma de decisiones y el apoyo mutuo, permitiendo mantener una comunicación efectiva y un ambiente de trabajo cooperativo. Gracias a ello, se fortaleció la capacidad del equipo para asumir responsabilidades compartidas y alcanzar los objetivos del proyecto de manera eficiente. <br> <br> **TP:**  Durante el desarrollo de la TP, el equipo trabajó de manera coordinada y colaborativa, compartiendo responsabilidades y apoyándose mutuamente en las distintas etapas del proyecto. La comunicación constante y la participación activa de todos los integrantes permitieron ejercer un liderazgo conjunto que facilitó la integración de ideas y el cumplimiento eficiente de las actividades asignadas. |
+| 5.c.2 Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Sebastian Martin Beingolea Montalvo — U202217853<br>TB1: Promoví un entorno colaborativo dentro del equipo al coordinar la definición de metas y la distribución de tareas, asegurando que todos los integrantes pudieran cumplir sus responsabilidades en los tiempos establecidos.<br>TP: Participé en la planificación de las actividades relacionadas con las mejoras del documento y el Sprint 2, cumpliendo con las tareas asignadas dentro de los plazos establecidos para asegurar el avance del proyecto.<br><br>Villanueva Rodríguez Giuseppe Adrián — U20221c554<br>TB1: Contribuí a mantener un ambiente inclusivo y organizado, apoyando en la planificación de actividades grupales y cumpliendo oportunamente con los objetivos asignados para el desarrollo del proyecto.<br>TP: Organicé mis actividades de revisión y actualización del documento de acuerdo con los objetivos del equipo, contribuyendo al cumplimiento oportuno de las entregas establecidas para la TP.<br><br>Saul Ortega Muñoz — U20231c019<br>TB1: Participé activamente en la planificación y seguimiento de tareas, fomentando la cooperación entre los integrantes para garantizar el cumplimiento de las metas establecidas en la TB1.<br>TP: Colaboré en la planificación y desarrollo de las funcionalidades del frontend, organizando mis tareas de acuerdo con los objetivos establecidos y cumpliendo oportunamente con la entrega de componentes para contribuir al avance del proyecto.<br><br>Alejandro Manuel Jave Chang — U202312510<br>TB1: Colaboré en la organización de las actividades del equipo y en la estimación de tiempos de trabajo, contribuyendo a un entorno de respeto y apoyo mutuo orientado al logro de objetivos comunes. <br>TP: Participé en la organización y desarrollo del capítulo 5 del proyecto, planificando mis tareas de manera responsable para cumplir con los objetivos y entregables definidos para el Sprint 2.<br><br>Valentin Nicolas Medina Mamani — U202316829<br>TB1: Apoyé en la coordinación de las tareas semanales y en la comunicación constante del equipo, promoviendo un ambiente participativo que permitió cumplir con los objetivos del reporte de manera eficiente.  <br>TP: Apoyé en la coordinación de las mejoras del documento y en la revisión de avances del Sprint 2, colaborando con el equipo para cumplir las metas propuestas de manera eficiente y organizada.                                                                                                                                                                 | **Conclusión grupal:** Durante el desarrollo de la TB1, el equipo logró crear un entorno colaborativo e inclusivo que facilitó la participación activa de todos los integrantes en las distintas actividades del proyecto. Se establecieron metas claras y se planificaron las tareas de manera organizada, permitiendo una adecuada distribución de responsabilidades y un seguimiento constante del progreso. Gracias a la comunicación efectiva, el apoyo mutuo y el cumplimiento oportuno de los entregables, el equipo pudo alcanzar los objetivos planteados de forma eficiente y coordinada.  <br> <br> **TP:**  En la TP, el equipo logró mantener un entorno colaborativo e inclusivo mediante una adecuada organización de tareas y una planificación constante de los objetivos del proyecto. Gracias a la distribución equilibrada de responsabilidades, el seguimiento de avances y el compromiso de cada integrante, se cumplieron satisfactoriamente las metas establecidas y los entregables definidos para la aplicación.                                                                                                                                                                                                                                                                                                                                                                             |
 
-*(Sección anterior en este documento.)*
 
-### Student Outcome
 
-*(Ver sección [Student Outcome](#student-outcome).)*
+### CONTENIDO
 
 ### Capítulo I: Introducción
 
@@ -200,71 +213,31 @@ Gráfico de actividad durante la preparación del TB1. Los commits reflejan prog
   - 5.3.2 Registro de entrevistas  
   - 5.3.3 Validación según heurísticas  
 
+## Conclusiones
+
+### Conclusiones 
+
+* **Centralización y Transparencia Operativa:** El desarrollo de BuildingFlex demuestra que la digitalización de la gestión inmobiliaria resuelve directamente los cuellos de botella contables y de comunicación. Al automatizar la facturación y la conciliación mediante pasarelas de pago, el sistema elimina las fricciones tradicionales entre la junta directiva, la administración y los residentes.
+* **Escalabilidad del Modelo B2B:** La estructuración del producto en planes de suscripción (incluyendo una capa gratuita estratégica) valida a BuildingFlex como un SaaS (Software as a Service) altamente escalable. Su enfoque estricto en la provisión del servicio administrativo y financiero lo posiciona como una herramienta B2B sólida, alejándose de modelos de negocio informales y centrándose en la profesionalización de la gestión de condominios.
+* **Diseño Orientado al Dominio:** La aplicación de técnicas como el *Big Picture Event Storming* y el modelado estructurado de *User Stories* permitió descubrir y mapear correctamente los contextos delimitados del sistema (facturación, control de accesos mediante QR, gestión de incidencias). Esto garantiza que la arquitectura de software responda fielmente a las reglas de negocio y no solo a requerimientos técnicos aislados.
+* **Modernización Tecnológica:** La adopción de tecnologías de vanguardia para el desarrollo web asegura un ciclo de vida prolongado para el producto. El enfoque en una arquitectura limpia y modular facilita el mantenimiento y la futura integración de nuevos servicios para la comunidad.
+
+### Recomendaciones
+* **Claridad en la Documentación Arquitectónica:** A medida que la plataforma crezca y se agreguen nuevos microservicios, es vital mantener la limpieza en los diagramas C4 (creados con Structurizr o herramientas similares). Se recomienda establecer como política de equipo nombrar los contenedores y componentes por su función de negocio exacta, evitando prefijos redundantes a nivel de sistema que solo ensucian la lectura de la arquitectura.
+* **Monitoreo de Adopción de Pasarelas:** Aunque la integración inicial con Mercado Pago cubre la automatización del recaudo, se recomienda instrumentar métricas (analíticas) sobre la tasa de abandono en la pantalla de pago. Si se detecta fricción, el equipo debería evaluar en futuras iteraciones la integración de métodos de pago directo locales (como billeteras móviles) para maximizar la recaudación temprana.
+* **Gestión del Plan Freemium:** Se sugiere monitorear de cerca el costo de infraestructura que generen los edificios suscritos al plan gratuito. Es recomendable establecer límites técnicos claros (por ejemplo, en el almacenamiento de documentos históricos o fotos de incidencias) para asegurar que el modelo de adquisición de clientes sea sostenible a largo plazo sin saturar la base de datos.
+
 ### Bibliografía
 
-*(Contenido según el cuerpo del informe.)*
 
 ### Anexos
 
-*(Contenido según el cuerpo del informe.)*
 
 ---
 
-## Student Outcome
-
-En esta sección se presenta la relación entre el trabajo realizado por el equipo y las dimensiones del Student Outcome establecido. Cada integrante ha colaborado en la redacción conjunta de los sustentos y evidencias que demuestran cómo las actividades desarrolladas en la **TB1** han contribuido al logro de este objetivo. A través de las acciones individuales y colectivas, se busca evidenciar de manera clara y organizada el impacto del proyecto en el desarrollo de las competencias señaladas.
-
-### Comunica oralmente con efectividad a diferentes rangos de audiencia
-
-#### Alejandro Manuel Jave Chang
-
-**TB1:** Gracias a la TB1 he podido desarrollar mi comunicación oral, ya sea al momento de tener que llegar a un acuerdo con mi equipo o al tener que exponer y explicar mi trabajo frente a personas ajenas al proyecto.
-
-#### Sebastian Martin Beingolea Montalvo
-
-**TB1:** Gracias a la TB1 pude mejorar mi comunicación oral, ya que tuve que explicar ideas en reuniones de equipo y presentar avances del proyecto a personas externas.
-
-#### Villanueva Rodríguez Giuseppe Adrián
-
-**TB1:** La TB1 me permitió desarrollar habilidades para expresar y defender mis puntos de vista en reuniones con el equipo y en presentaciones generales del proyecto.
-
-#### Saul Ortega Muñoz
-
-**TB1:** Gracias a la TB1 practiqué cómo comunicarme verbalmente con efectividad tanto en discusiones internas con el equipo como en presentaciones externas.
-
-#### Valentin Nicolas Medina Mamani
-
-**TB1:** Participar en la TB1 me ayudó a expresarme mejor durante las reuniones y a comunicar avances del proyecto de manera entendible para todos.
-
-> **Conclusión grupal:** Como grupo, concluimos que las actividades realizadas durante la TB1 fueron fundamentales para comenzar a consolidar nuestras habilidades de comunicación oral en diversos contextos. En esta etapa inicial avanzamos en expresarnos con mayor claridad y en adaptar nuestro lenguaje según la audiencia (técnica o de negocio), fortaleciendo la base para seguir desarrollando el proyecto en las siguientes entregas del curso.
-
-### Comunica por escrito con efectividad a diferentes rangos de audiencia
-
-#### Alejandro Manuel Jave Chang
-
-**TB1:** Al hacer el desarrollo de este proyecto no podía estar comunicándome verbalmente con mi equipo todo el tiempo, así que tuve que empezar a comunicar mis ideas de manera escrita de forma concisa y clara, no solo con mensajes para mi equipo sino también para comunicarme con distintas personas que no podía hacerlo en persona.
-
-#### Sebastian Martin Beingolea Montalvo
-
-**TB1:** Durante el proyecto tuve que comunicarme constantemente por escrito, lo que me ayudó a expresar mis ideas de manera clara y precisa para mi equipo y otras áreas interesadas.
-
-#### Villanueva Rodríguez Giuseppe Adrián
-
-**TB1:** Aprendí a redactar mensajes y reportes con información clara y organizada para distintos públicos involucrados en el proyecto.
-
-#### Saul Ortega Muñoz
-
-**TB1:** Tuve que elaborar comunicaciones escritas dirigidas a diferentes personas, lo que mejoró mi habilidad para transmitir ideas de manera breve y clara.
-
-#### Valentin Nicolas Medina Mamani
-
-**TB1:** Durante el proyecto aprendí a sintetizar información y a transmitirla por escrito a diferentes audiencias de manera efectiva.
-
-> **Conclusión grupal:** Concluimos que durante la TB1 la comunicación escrita fue esencial para la coordinación del equipo y el avance del informe. Aprendimos a estructurar nuestras ideas de manera clara y a adaptar nuestros entregables a distintos destinatarios, sentando las bases para una trazabilidad y una colaboración eficientes en las fases siguientes del proyecto.
-
 
 <a id="capitulo-i-introduccion"></a>
-# Capítulo I: Introducción
+# Capítulo I: Introducción.
 
 <a id="1-1-startup-profile"></a>
 ## 1.1. Startup Profile
@@ -285,6 +258,13 @@ Frente a esta situación, se requiere una plataforma centralizada y escalable qu
 |--------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <br/><img src="Images/Giuseppe.jpeg" width="200" alt="Foto de Giuseppe Villanueva"/> | Soy estudiante de Ingeniería de Software con un enfoque en el desarrollo de software. Me caracterizo por mi resiliencia y mi conocimiento en varias áreas de programación como el uso de .NET 8, C#, C++, JavaScript, Node, Python, HTML, Redis y SignalR. |
  |        ![fotoperfilsaul.png](../imagenes/fotoperfilsaul.png)                                                                              | Soy estudiante de Ingeniería de Software con formación en programación y desarrollo web. Tengo conocimientos en C++, HTML, CSS y JavaScript. Me caracterizo por ser responsable, con capacidad de aprendizaje rápido y trabajo en equipo, aportando ideas prácticas para resolver problemas y mejorar proyectos tecnológicos.                                                                                                              |
+| Nombre | Descripción |
+|---|---|
+| <img src="../imagenes/sebastian.png" width="200" alt="Foto de Sebastian Martin Beingolea Montalvo"/><br><strong>Sebastian Martin Beingolea Montalvo</strong> | Me gusta el trabajo en equipo, tengo la experiencia y habilidades para el desarrolo de software. Me gusta cumplir con las fechas propuestas y ademas tengo conociemientos en base de datos, serverless, lenguajes de programacion. |
+| <img src="../imagenes/giussepe.png" width="200" alt="Foto de Villanueva Rodríguez Giuseppe Adrián"/><br><strong>Villanueva Rodríguez Giuseppe Adrián</strong> | Soy estudiante de Ingeniería de Software con un enfoque en el desarrollo de software. Me caracterizo por mi resiliencia y mi conocimiento en varias áreas de programación como el uso de .NET 8, C#, C++, JavaScript, Node, Python, HTML, Redis y SignalR. |
+| <img src="../imagenes/saul.png" width="200" alt="Foto de Saul Ortega Muñoz"/><br><strong>Saul Ortega Muñoz</strong> | Soy estudiante de Ingeniería de Software con formación en programación y desarrollo web. Tengo conocimientos en algunos lenguajes de programacion. Me caracterizo por ser responsable, con capacidad de aprendizaje rápido y trabajo en equipo, aportando ideas prácticas para resolver problemas y mejorar proyectos tecnológicos. |
+| <img src="../imagenes/alejandro.jpeg" width="200" alt="Foto de Alejandro Manuel Jave Chang"/><br><strong>Alejandro Manuel Jave Chang</strong> | Vengo de la carrera de Ingeniería de software, me gusta explorar diversas soluciones a desafíos tecnológicos y me apasiona aprender nuevas cosas. Mi enfoque dedicado a los proyectos que me apasionan me impulsa a explorar nuevas fronteras en mi carrera. |
+| <img src="../imagenes/valentino.jpeg" width="200" alt="Foto de Valentin Nicolas Medina Mamani"/><br><strong>Valentin Nicolas Medina Mamani</strong> | Me describo como una persona curiosa y apasionada con la tecnología, lo que busco es aprender más. Actualmente tengo conocimientos de programación, base de datos y un poco de hacking ético. Finalmente al respecto sobre el trabajo en equipo soy muy puntual y responsable, además de trabajar siempre todos juntos. |
 
 
 <a id="1-2-solution-profile"></a>
@@ -439,18 +419,27 @@ Las siguientes hipótesis buscan validar el impacto de la adopción de BuildingF
 
 A continuación, se adjunta el Lean UX Canvas, una matriz colaborativa que nos ayuda a mapear los dolores de la administración de inmuebles con las soluciones de nuestra plataforma, estructurando el diseño de nuestros MVP y las métricas que evaluarán la adopción de los planes de suscripción.
 
-[Enlace al Lean UX Canvas de BuildingFex](https://miro.com/app/board/uXjVGk8AMJ4=/?share_link_id=471167764648)
+<p align="center"><img src="../imagenes/lean-ux-canva.jpeg" alt="Lean UX Canvas de BuildingFex: problema, usuarios, hipótesis y métricas" width="920"/></p>
+
+<a id="1-3-segmentos-objetivo"></a>
+## 1.3. Segmentos objetivo.
 
 <a id="1-3-segmentos-objetivo"></a>
 ## 1.3. Segmentos objetivo.
 
 La modernización del sector de la gestión de propiedades demuestra que implementar soluciones tecnológicas es fundamental no solo para llevar un control contable, sino para garantizar la armonía residencial y el mantenimiento del valor de los inmuebles. El uso de plataformas digitales elimina la fricción diaria y profesionaliza la labor de los comités vecinales.
 
-En base a la estructura de nuestra plataforma SaaS y los planes de suscripción establecidos, los segmentos objetivos de BuildingFex son:
+Para dimensionar correctamente la cuota de mercado (Market Share) a la que apuntamos, hemos definido nuestros segmentos bajo variables geográficas, demográficas y operativas, enfocándonos inicialmente en el mercado inmobiliario de Lima Metropolitana:
 
-- **Segmento 1: Empresas y agencias administradoras de inmuebles (Property Managers).** Compañías que buscan escalar sus operaciones y gestionar múltiples torres residenciales o condominios bajo una misma consola web estandarizada y eficiente.
-- **Segmento 2: Juntas de propietarios de condominios y torres residenciales.** Edificios autogestionados por los propios vecinos (desde pequeñas comunidades de 10 unidades hasta complejos de 80 departamentos) que requieren organizar sus cobros, áreas comunes y comunicaciones con total transparencia y seguridad.
+- **Segmento 1: Empresas y agencias administradoras de inmuebles (Property Managers B2B).** Compañías constituidas que buscan escalar sus operaciones y gestionar múltiples torres residenciales o condominios bajo una misma consola web estandarizada y eficiente.
+  - **Perfil Demográfico y Operativo:** Empresas formales (Mypes y medianas empresas) con equipos operativos conformados por profesionales de entre 24 y 50 años. Manejan portafolios que van desde 3 hasta más de 20 edificios (alcanzando volúmenes de 100 a 700+ departamentos gestionados simultáneamente).
+  - **Perfil Geográfico (Market Focus):** Principalmente ubicadas en Lima Metropolitana, con fuerte enfoque en distritos de alta densidad vertical de Lima Moderna y Lima Top (ej. San Borja, Santiago de Surco, Jesús María, Miraflores, San Isidro, Magdalena).
+  - **Comportamiento:** Son usuarios altamente tecnológicos y pragmáticos (nativos digitales en muchos casos), que buscan reemplazar el uso excesivo de Excel y WhatsApp por soluciones que reduzcan sus "horas-hombre" y les permitan captar más clientes sin aumentar su plantilla.
 
+- **Segmento 2: Juntas de propietarios de condominios y torres residenciales (B2C / B2B2C).** Edificios autogestionados por los propios vecinos que requieren organizar sus cobros, áreas comunes y comunicaciones con total transparencia y seguridad para evitar conflictos internos.
+  - **Perfil Demográfico:** Residentes y propietarios pertenecientes a los Niveles Socioeconómicos (NSE) A, B y C+. Los miembros de las juntas directivas suelen ser profesionales o personas jubiladas con edades que oscilan entre los 28 y 75 años, quienes asumen el cargo *ad honorem*.
+  - **Perfil Geográfico y Estructural:** Edificios y torres residenciales ubicados en zonas urbanas de Lima Metropolitana. El segmento abarca desde condominios "boutique" pequeños (10 a 15 unidades) hasta grandes complejos residenciales (40 a 80 unidades).
+  - **Comportamiento:** Valoran la confianza, la transparencia financiera y la comunicación clara. Tienen distintos niveles de adopción tecnológica, por lo que necesitan una plataforma sencilla e intuitiva que automatice los recordatorios de morosidad sin generar fricción vecinal.
 **Capítulo II: Requirements Elicitation & Analysis**
 
 **2.1. Competidores**
@@ -476,7 +465,7 @@ Plataforma orientada al mercado latinoamericano para la gestión de condominios.
 | *Estrategias de marketing* | - Marketing digital<br>- Alianzas locales<br>- Enfoque educativo del sector | - Marketing B2B tradicional y digital | - Posicionamiento global<br>- Marca fuerte | - Marketing digital regional |
 | **Perfil de Producto** | | | | |
 | *Productos & Servicios* | Plataforma modular: cobranza, reservas, accesos, incidencias, comunicación, etc. | Gestión de comunidad + comunicación + reservas | Gestión financiera + mantenimiento | Gestión de condominios + comunicación + reservas |
-| *Precios & Costos* | Suscripción SaaS escalable (planes accesibles) | Suscripción (alto costo) | Suscripción premium | Suscripción accesible |
+| *Precios & Costos* | Free: S/0 (hasta 9 departamentos), Essential: S/40, Standard: S/80 y Scale: S/120 mensuales en PEN. | Desde aprox. S/180/mes para comunidades pequeñas y desde S/500/mes para condominios medianos/grandes. | Essential desde aprox. S/230/mes, Growth desde S/710/mes y Premium desde S/1,480/mes. | Planes desde aprox. S/160 mensuales, con cotización según tamaño del condominio. |
 | *Canales de distribución* | Web (principal) | Web + móvil | Web + móvil | Web + móvil |
 
 | **Análisis SWOT** | | | | |
@@ -596,6 +585,20 @@ Explorar cómo manejan el volumen (varios edificios a la vez), cómo estandariza
 | Campo | Detalle |
 |------|--------|
 | **Segmento** | Junta de Directiva |
+| **Nombre** | Valeria |
+| **Apellidos** | Carpio |
+| **Edad** | 28 |
+| **Distrito** | Lima |
+| **Screenshot** | ![Entrevista 3](../imagenes/entrevista3_valeria.png) |
+| **URL** | https://upcedupe-my.sharepoint.com/:v:/g/personal/u202217853_upc_edu_pe/IQACC1SIKVjvTagwZh1y0u4aAXk8Tw2TAlffNsDCWQMPQrc?e=pekn9G&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D |
+| **Duración** | 5:51 |
+| **Resumen** | La administración ejecuta, la junta planifica y supervisa. Ella dedica tiempo a presupuestos y proyección financiera. Identifica la falta de comunicación como principal problema. Reconoce la importancia de la transparencia financiera. Considera útil la automatización (recordatorios, pagos), pero como apoyo. Valora el software por su capacidad de organización y control. |
+
+#### Entrevista 3
+
+| Campo | Detalle |
+|------|--------|
+| **Segmento** | Junta de Directiva |
 | **Nombre** | Antonio |
 | **Apellidos** | Chan |
 | **Edad** | 50 |
@@ -652,7 +655,7 @@ Explorar cómo manejan el volumen (varios edificios a la vez), cómo estandariza
 | **Apellidos** | Delgado |
 | **Edad** | 24 |
 | **Distrito** | Surco |
-| **Screenshot** | ![Entrevista 6](..imagenes/entrevista6_adrian.png) |
+| **Screenshot** |  ![Vercel — evidencia 1](../imagenes/entrevista6.jpeg)  |
 | **URL** | [upc-pre-202610-1asi0730-6818-BuildingFex-needfinding-sprint-6.mp4](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312510_upc_edu_pe/IQCU3cNsBGklT4-T2l_crjfeAfIA-zu4Aj5K_0AmkObByA8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=12dNB5) |
 | **Duración** | 17:04 |
 | **Resumen** | Adrián es un Asistente de Operaciones de 24 años que actúa como el brazo ejecutor y la mano derecha en la gestión de 18 edificios. A diferencia de un perfil tradicional, es un nativo digital que sufre con los procesos analógicos de su propia empresa. Su día a día es altamente reactivo y caótico: pasa horas persiguiendo comprobantes de pago, actualizando hojas de cálculo desde su celular y actuando como mediador en conflictos por reservas mal anotadas. Ve en la adopción de una plataforma moderna la clave no solo para automatizar su carga operativa (y recuperar su tiempo libre), sino para mejorar radicalmente la experiencia del residente, un factor que ya les ha costado contratos en el pasado por parecer "anticuados". |
@@ -698,8 +701,14 @@ En relación al uso de software, comenta que durante su gestión no utilizaban h
 
 En general, el entrevistado destaca la importancia de la comunicación, la transparencia y la organización financiera en la gestión de edificios, y reconoce que la tecnología puede ser un apoyo importante para mejorar estos aspectos.
 
-
 ---
+
+#### Entrevista a Valeria Carpio
+
+Entrevistamos a **Valeria Carpio** ss un miembro de la junta directiva de un edificio en Lima que gestiona tareas administrativas como pagos, coordinación con el conserje y atención a vecinos, apoyándose en un contador externo.
+
+Dedica gran parte de su tiempo a cobros, seguimiento de morosos y organización de cuentas usando Excel y WhatsApp, lo que le genera desorden, falta de claridad y conflictos con vecinos, además de incomodidad al cobrarles personalmente; enfrenta problemas como morosidad, mala comunicación, control deficiente de áreas comunes y dificultad para transferir información a nuevas gestiones, por lo que valoraría una plataforma digital simple que automatice cobros, recordatorios y registros, mejore la transparencia y le ahorre tiempo reduciendo errores.
+
 
 ### Segmento 2: Empresas de Gestión de Edificios (Administradores profesionales)
 
@@ -833,11 +842,9 @@ Se detallan las acciones, problemas y emociones de cada etapa, lo que nos permit
 
 **2.4. Big Picture EventStorming**
 
-![Big Picture EventStorming - Parte 1](../imagenes/BigPictureEventstormingPart1.png)
+![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
 
-![Big Picture EventStorming - Parte 2](../imagenes/BigPictureEventstormingPart2.png)
-
-![Big Picture EventStorming - Parte 3](../imagenes/BigPictureEventstormingPart3.png)
+link del Big Picture EventStorming https://miro.com/welcomeonboard/bXdOWFFHWU1GWVdZa1JWK2k4TDNWdTdoYUpIQjB3R0hnZnpuVTNkM2dkN1Joc3pvd0ZRSGhuY3NXenU3T2pvVXBBcTg3bThxeUY3dXh6R2RPWUxpVFBwcVNPb3FvbThENEoxMWVKblRPSFVjK3dudjNpSnRlVE5mdU1jeFNoRy9Bd044SHFHaVlWYWk0d3NxeHNmeG9BPT0hdjE=?share_link_id=905759698205
 
 **2.5. Ubiquitous Language**
 
@@ -907,79 +914,70 @@ Se detallan las acciones, problemas y emociones de cada etapa, lo que nos permit
 
 ### EPICS
 
-| EPIC ID | Título | Descripción |
-|--------|--------|-------------|
-| EP-01 | Adquisición y Presentación Comercial (Landing Page) | Portal público donde los clientes visualizan beneficios, planes de suscripción y acceden o contactan la plataforma. |
-| EP-02 | Gestión de Onboarding y Configuración | Configuración inicial: registro de administradora, creación del edificio e importación masiva de residentes desde Excel. |
-| EP-03 | Facturación y Cobranza Mensual | Generación masiva de recibos mensuales y notificación a residentes por correo. |
-| EP-04 | Pagos y Conciliación Automática | Pago online con integración a pasarela y conciliación automática de deudas. |
-| EP-05 | Gestión de Morosidad | Aplicación automática de multas y envío de recordatorios periódicos. |
-| EP-06 | Gestión de Áreas Comunes y Visitas | Consulta de disponibilidad, reservas y generación de códigos QR para visitas. |
-| EP-07 | Reportes Financieros (Dashboard) | Visualización en tiempo real de ingresos, egresos y morosidad. |
+| Epic ID | Título | Descripción |
+| :--- | :--- | :--- |
+| **EP-01** | Adquisición y Presentación Comercial (Landing Page) | Agrupa el portal público donde los clientes pueden visualizar los beneficios de BuildingFlex, revisar los planes de suscripción (pricing) y abrir la aplicación web o contactarnos. |
+| **EP-02** | Gestión de Onboarding y Configuración | Agrupa todo lo relacionado a la configuración inicial del sistema: registro de la empresa administradora, creación del edificio. |
+| **EP-03** | Gestión de Experiencia del Residente (Dashboard) | Consolidar toda la información crítica para el residente en una vista modular y moderna que facilite la toma de decisiones y el seguimiento de su cuenta. |
+| **EP-04** | Gestión de Comunicación (Administrador y Residente) | Facilitar la difusión de información importante desde la administración hacia toda la comunidad del condominio. |
+| **EP-05** | Gestión Financiera y Pasarela de Pagos | Digitalizar el recaudo de cuotas de mantenimiento y proporcionar transparencia financiera tanto al residente como a la administración. |
+| **EP-06** | Mantenimiento y Gestión de Incidencias | Centralizar los reportes de problemas técnicos para asegurar una resolución rápida y trazable. |
+| **EP-07** | Reservas y Control de Acceso (Áreas Comunes) | Optimizar el uso de áreas comunes y automatizar la gestión de invitados mediante tecnología de códigos QR. |
+| **EP-08** | Gestión de Residentes y Activos | Centralizar la información de unidades inmobiliarias y residentes para asegurar un control estricto de la comunidad. |
+| **EP-09** | Seguimiento de Morosidad y Balance Neto | Automatizar el seguimiento de la morosidad y el balance neto del condominio. |
+| **EP-10** | Resolución de Incidencias Operativas | Gestionar las solicitudes de mantenimiento mediante la asignación de proveedores externos. |
+| **EP-11** | Comunicación y Soporte Directo | Mantener canales oficiales de comunicación y resolver dudas de los residentes en tiempo real. |
 
-### EPICS & USER STORIES
+### USER STORIES
 
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-01 | Adquisición y Presentación Comercial | Portal público con beneficios, pricing y acceso a la app. | — | — |
-| US-01 | Ver propuesta de valor | Como admin quiero entender el beneficio del sistema. | Ver mensaje claro en landing. | EP-01 |
-| US-02 | Ver módulos | Como admin quiero ver funcionalidades. | Mostrar módulos como cobranzas y reservas. | EP-01 |
-| US-03 | Entender funcionalidades | Como junta quiero evaluar utilidad. | Mostrar descripción clara por módulo. | EP-01 |
-| US-04 | Ver planes | Como admin quiero ver precios. | Mostrar planes con precios. | EP-01 |
-| US-05 | Comparar planes | Como junta quiero comparar opciones. | Mostrar diferencias entre planes. | EP-01 |
-| US-06 | Suscribirme | Como usuario quiero iniciar compra. | Redirige a registro y compra. | EP-01 |
-| US-07 | Ver beneficios | Como admin quiero conocer ventajas. | Mostrar beneficios clave. | EP-01 |
-| US-08 | FAQ | Como usuario quiero resolver dudas. | Mostrar preguntas desplegables. | EP-01 |
-| US-09 | Buscar ayuda | Como usuario quiero buscar info. | Mostrar resultados relevantes. | EP-01 |
-| US-010 | Navegar | Como usuario quiero moverme fácil. | Navegación fluida por menú. | EP-01 |
-| US-011 | Cambiar idioma | Como usuario quiero cambiar idioma. | Contenido cambia automáticamente. | EP-01 |
-| US-012 | Acceder a app | Como usuario quiero ingresar. | Redirige a plataforma SaaS. | EP-01 |
-| US-013 | Navegación móvil | Como usuario quiero usar móvil. | Menú accesible y usable. | EP-01 |
+| Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con |
+| :--- | :--- | :--- | :--- | :--- |
+| **US-01** | Ver propuesta de valor | **Como** administrador de edificios, **quiero** entender rápidamente el beneficio del sistema **para** decidir si me interesa. | **Scenario:** Visualización de la propuesta principal.<br>**Given** que el usuario ingresa a la landing page,<br>**When** carga la sección de cabecera,<br>**Then** visualiza un mensaje claro sobre la gestión centralizada de condominios.<br><br>**Scenario:** Error de carga en la sección principal.<br>**Given** que el usuario intenta acceder a la landing con una conexión inestable,<br>**When** el contenido visual no logra renderizarse por completo,<br>**Then** el sistema muestra un mensaje de error amigable y un botón de reintento. | EP-01 |
+| **US-02** | Ver módulos del sistema | **Como** administrador, **quiero** visualizar las funcionalidades disponibles **para** entender qué puedo gestionar. | **Scenario:** Exploración de los módulos core.<br>**Given** que el usuario navega por la landing page,<br>**When** se desplaza hasta la sección informativa,<br>**Then** visualiza iconos y títulos de los módulos de cobranza, áreas comunes y mantenimiento.<br><br>**Scenario:** Selección de módulo no disponible en el plan actual.<br>**Given** que el usuario revisa la lista de módulos,<br>**When** intenta obtener detalles de una función exclusiva del plan "Escala",<br>**Then** el sistema muestra un aviso indicando que esa función requiere una suscripción superior. | EP-01 |
+| **US-03** | Entender cada funcionalidad | **Como** junta directiva, **quiero** leer descripciones de cada módulo **para** evaluar su utilidad. | **Scenario:** Lectura detallada de funciones.<br>**Given** que el usuario visualiza las tarjetas de módulos,<br>**When** hace clic en "Ver más" de una funcionalidad específica,<br>**Then** se despliega una descripción detallada sobre cómo resuelve problemas administrativos.<br><br>**Scenario:** Información incompleta en la tarjeta.<br>**Given** que el usuario revisa un módulo técnico,<br>**When** los datos de la tarjeta no cargan por un problema de servidor,<br>**Then** el sistema muestra un indicador de carga infinita o un texto de "Información no disponible temporalmente". | EP-01 |
+| **US-04** | Ver planes disponibles | **Como** administrador, **quiero** ver los planes de suscripción **para** evaluar costos. | **Scenario:** Visualización de planes incluyendo opción gratuita.<br>**Given** que el usuario accede a la sección de costos,<br>**When** visualiza la oferta comercial,<br>**Then** identifica claramente el "Plan Free" junto con los planes Esencial y Estándar.<br><br>**Scenario:** Error al cargar la moneda local.<br>**Given** que el usuario accede desde una ubicación no reconocida,<br>**When** el sistema intenta mostrar los precios,<br>**Then** se muestran los precios en dólares americanos (USD) por defecto. | EP-01 |
+| **US-05** | Comparar planes | **Como** junta directiva, **quiero** comparar características entre planes **para** elegir el adecuado. | **Scenario:** Comparación de límites y beneficios.<br>**Given** que el usuario visualiza la tabla comparativa,<br>**When** analiza las filas de características,<br>**Then** diferencia los límites de unidades y módulos permitidos por plan.<br><br>**Scenario:** Confusión por términos técnicos.<br>**Given** que el usuario lee una característica compleja,<br>**When** posiciona el cursor sobre el término,<br>**Then** el sistema muestra una ayuda visual explicativa. | EP-01 |
+| **US-06** | Suscribirme | **Como** usuario interesado, **quiero** tener un botón de suscripción **para** iniciar el proceso de compra o registro gratuito. | **Scenario:** Registro directo con el Plan Free.<br>**Given** que el usuario elige el plan gratuito,<br>**When** hace clic en "Comenzar Gratis",<br>**Then** el sistema le permite crear su cuenta y acceder al panel sin pedir datos de tarjeta de crédito.<br><br>**Scenario:** Intento de suscripción de pago con datos incompletos.<br>**Given** que el usuario selecciona un plan de pago,<br>**When** intenta avanzar sin completar los datos de facturación,<br>**Then** el sistema bloquea el botón de continuar y resalta los campos requeridos. | EP-01 |
+| **US-07** | Ver beneficios del sistema | **Como** administrador, **quiero** conocer ventajas del sistema **para** confiar en la solución. | **Scenario:** Lectura de ventajas estratégicas.<br>**Given** que el usuario navega en la sección de beneficios,<br>**When** lee sobre la escalabilidad y la unificación de datos,<br>**Then** comprende cómo BuildingFlex optimiza su operación.<br><br>**Scenario:** Iconografía no cargada.<br>**Given** que el usuario visualiza la sección de beneficios,<br>**When** las imágenes de soporte fallan en cargar,<br>**Then** el sistema muestra los textos sin perder la coherencia. | EP-01 |
+| **US-08** | Consultar preguntas frecuentes | **Como** usuario interesado, **quiero** revisar preguntas frecuentes **para** resolver dudas rápidamente. | **Scenario:** Resolución de dudas comunes.<br>**Given** que el usuario accede a la sección FAQ,<br>**When** hace clic en una pregunta desplegable,<br>**Then** la respuesta se muestra de forma clara y concisa.<br><br>**Scenario:** Respuesta no encontrada.<br>**Given** que el usuario revisa todas las preguntas,<br>**When** ninguna resuelve su inquietud,<br>**Then** visualiza un enlace directo para contactar al soporte. | EP-01 |
+| **US-09** | Buscar ayuda | **Como** usuario, **quiero** buscar información específica dentro de la sección de ayuda **para** encontrar respuestas precisas. | **Scenario:** Búsqueda efectiva por palabra clave.<br>**Given** que el usuario utiliza la barra de búsqueda en FAQ,<br>**When** escribe "conciliación",<br>**Then** el sistema filtra y muestra solo las preguntas relacionadas con pagos.<br><br>**Scenario:** Búsqueda sin coincidencias.<br>**Given** que el usuario ingresa un término irrelevante,<br>**When** presiona buscar,<br>**Then** el sistema indica que no hay resultados y sugiere términos similares. | EP-01 |
+| **US-10** | Navegar por secciones | **Como** usuario, **quiero** usar el menú de navegación **para** moverme fácilmente por la landing. | **Scenario:** Desplazamiento fluido por el menú.<br>**Given** que el usuario está en la parte superior de la página,<br>**When** hace clic en "Beneficios",<br>**Then** la página se desplaza suavemente hasta esa sección.<br><br>**Scenario:** Menú bloqueado por scroll.<br>**Given** que el usuario navega hacia abajo,<br>**When** intenta usar el menú,<br>**Then** el menú permanece fijo (sticky) en la parte superior. | EP-01 |
+| **US-11** | Cambiar idioma | **Como** usuario, **quiero** cambiar el idioma **para** entender mejor el contenido de la plataforma. | **Scenario:** Cambio de idioma a inglés.<br>**Given** que la landing está en español,<br>**When** el usuario selecciona "EN" en el selector,<br>**Then** el texto de la interfaz se traduce al inglés.<br><br>**Scenario:** Persistencia de idioma fallida.<br>**Given** que el usuario cambió el idioma a inglés,<br>**When** refresca la página,<br>**Then** el sistema debe mantener el idioma elegido sin volver al español. | EP-01 |
+| **US-12** | Acceder a la aplicación | **Como** usuario interesado o registrado, **quiero** tener un botón visible **para** acceder a la aplicación web. | **Scenario:** Redirección directa al Login.<br>**Given** que el usuario está en la landing,<br>**When** hace clic en el botón de acceso,<br>**Then** se abre la pantalla de inicio de sesión del SaaS.<br><br>**Scenario:** Intento de acceso sin conexión.<br>**Given** que el usuario presiona el botón de acceso,<br>**When** el servidor de la aplicación está en mantenimiento,<br>**Then** la landing muestra un aviso temporal informativo. | EP-01 |
+| **US-13** | Navegación adaptada en móvil | **Como** junta directiva, **quiero** navegar fácilmente desde mi celular **para** acceder rápidamente a la información. | **Scenario:** Uso del menú tipo "hamburguesa".<br>**Given** que el usuario accede desde un smartphone,<br>**When** toca el icono de menú,<br>**Then** se despliegan las opciones de forma vertical.<br><br>**Scenario:** Contenido desbordado en pantallas pequeñas.<br>**Given** que la pantalla es muy angosta,<br>**When** carga la tabla de precios,<br>**Then** el sistema permite un desplazamiento horizontal suave sin romper el diseño. | EP-01 |
+| **US-14** | Inicio de Sesión Multi-rol | **Como** usuario registrado, **quiero** iniciar sesión con mis credenciales, **para** acceder a mi panel correspondiente. | **Scenario:** Redirección según rol.<br>**Given:** Que un usuario ingresa correo y contraseña válidos.<br>**When:** Presiona el botón de acceso.<br>**Then:** Es dirigido al Dashboard de Administrador o Residente dependiendo de sus permisos.<br><br>**Scenario:** Credenciales erróneas.<br>**Given:** Que el usuario ingresa una contraseña incorrecta.<br>**When:** Intenta acceder.<br>**Then:** El sistema bloquea el acceso mostrando un mensaje de error y mantiene al usuario en la pantalla de login. | EP-02 |
+| **US-15** | Creación de perfil de condominio | **Como** administrador, **quiero** registrar un nuevo edificio en el sistema, **para** empezar a gestionar sus finanzas de manera independiente. | **Scenario:** Registro de un nuevo edificio.<br>**Given:** Que el administrador ha iniciado sesión en su cuenta corporativa.<br>**When:** Registra la información de un nuevo edificio.<br>**Then:** El sistema crea el perfil, habilita un panel exclusivo y lo dirige a la configuración del plan según la cantidad de residentes.<br><br>**Scenario:** Intento de registro con datos incompletos.<br>**Given:** Que el administrador está en el formulario de registro.<br>**When:** Deja campos obligatorios vacíos (ej. nombre o dirección).<br>**Then:** El sistema resalta los campos faltantes en rojo y no permite el envío del formulario. | EP-02 |
+| **US-16** | Importación masiva de residentes | **Como** administrador, **quiero** subir un Excel con los datos de los vecinos, **para** agilizar la migración al sistema. | **Scenario:** Importación de lista limpia.<br>**Given:** Un archivo Excel con el formato correcto.<br>**When:** Se carga al sistema.<br>**Then:** Se crean las cuentas masivamente y se envían los correos de bienvenida con credenciales temporales.<br><br>**Scenario:** Archivo con formato incorrecto.<br>**Given:** Un archivo con datos vacíos obligatorios.<br>**When:** Se procesa la carga.<br>**Then:** El sistema rechaza el archivo y despliega un reporte detallando los errores encontrados por fila. | EP-02 |
+| **US-17** | Visualización de Resumen Financiero | **Como** residente, **quiero** visualizar una gráfica de mi estado de cuenta en el dashboard, **para** entender rápidamente mi balance de pagos. | **Scenario:** Visualización exitosa de la gráfica de dona.<br>**Given:** Que el residente se encuentra en el Dashboard.<br>**When:** El sistema carga los datos desde la API.<br>**Then:** Muestra una gráfica circular (Dona) con tres segmentos: Pagado (Verde), Pendiente (Naranja) y Vencido (Rojo), junto al porcentaje de cumplimiento.<br><br>**Scenario:** Residente sin historial de pagos.<br>**Given:** Que un residente nuevo ingresa al Dashboard.<br>**When:** El sistema detecta que no hay transacciones.<br>**Then:** La gráfica se muestra en color gris neutro con el mensaje "Sin movimientos este mes". | EP-03 |
+| **US-18** | Acceso a Listados Completos (Modales) | **Como** residente, **quiero** abrir modales de "Ver todos" para incidencias y reservas, **para** consultar mi historial sin salir de la vista principal. | **Scenario:** Apertura de modal de incidencias.<br>**Given:** Que el residente visualiza la sección "Mis incidencias".<br>**When:** Hace clic en el botón "Ver todos".<br>**Then:** El sistema abre un modal superpuesto listando todas las incidencias con su estado, descripción y fecha.<br><br>**Scenario:** Cierre del modal y retorno al Dashboard.<br>**Given:** Que el modal de historial está abierto.<br>**When:** El usuario presiona el botón de cerrar ('X').<br>**Then:** El modal desaparece y el usuario retoma su sesión en el Dashboard exactamente donde la dejó. | EP-03 |
+| **US-19** | Creación de anuncios con expiración | **Como** administrador, **quiero** crear comunicados con una duración específica, **para** asegurar que los anuncios antiguos dejen de mostrarse automáticamente. | **Scenario:** Configuración de expiración de anuncio.<br>**Given:** Que el administrador redacta un comunicado.<br>**When:** Selecciona una duración de "15 días" y guarda el anuncio.<br>**Then:** El sistema calcula la fecha sumando 15 días a la actual y guarda el registro.<br><br>**Scenario:** Limpieza automática de anuncios expirados.<br>**Given:** Un anuncio cuya fecha de expiración ya pasó.<br>**When:** El residente ingresa a su Dashboard.<br>**Then:** El sistema filtra la base de datos y oculta ese anuncio de la vista principal. | EP-04 |
+| **US-20** | Carrusel de anuncios interactivo | **Como** residente, **quiero** visualizar los anuncios vigentes en un carrusel interactivo, **para** mantenerme informado de forma cómoda. | **Scenario:** Navegación entre anuncios.<br>**Given:** Que existen múltiples anuncios vigentes.<br>**When:** El residente hace clic en las flechas laterales del carrusel.<br>**Then:** El sistema cambia el anuncio de forma animada, respetando la prioridad definida por el administrador.<br><br>**Scenario:** Dashboard sin anuncios vigentes.<br>**Given:** Que no hay comunicados publicados o todos expiraron.<br>**When:** Carga el Dashboard.<br>**Then:** El carrusel muestra una imagen predeterminada indicando "No hay novedades por el momento". | EP-04 |
+| **US-21** | Facturación Automática | **Como** administrador, **quiero** que el sistema genere automáticamente la cuota mensual, **para** digitalizar el recaudo y ahorrar tiempo. | **Scenario:** Generación por fecha de admisión.<br>**Given:** Que han pasado 30 días desde el último ciclo de facturación.<br>**When:** El sistema ejecuta su revisión automática nocturna.<br>**Then:** Genera una nueva cuota en estado 'Pendiente' para los residentes activos.<br><br>**Scenario:** Ausencia de presupuesto base.<br>**Given:** Que no se han definido los gastos del mes.<br>**When:** El sistema intenta facturar automáticamente.<br>**Then:** Detiene la emisión masiva y envía una alerta al administrador solicitando configurar los montos. | EP-05 |
+| **US-22** | Integración de pasarela de pagos | **Como** residente, **quiero** pagar mis cuotas usando mi tarjeta mediante Mercado Pago, **para** mantener mi cuenta al día de forma segura. | **Scenario:** Pago exitoso en el Brick de Mercado Pago.<br>**Given:** Que el residente tiene un balance pendiente.<br>**When:** Ingresa los datos de su tarjeta en el Brick y confirma la transacción.<br>**Then:** El sistema muestra un mensaje de éxito, actualiza el balance a S/ 0.00 y emite el recibo descargable.<br><br>**Scenario:** Cancelación manual o tarjeta rechazada.<br>**Given:** Que el modal de Mercado Pago está abierto.<br>**When:** La tarjeta es rechazada por fondos insuficientes o el usuario cierra el modal.<br>**Then:** El sistema retorna a la vista de finanzas sin realizar cargos y mantiene la deuda en estado 'Pendiente'. | EP-05 |
+| **US-23** | Visualización de deuda crítica en Dashboard | **Como** administrador, **quiero** visualizar el monto total de morosidad, **para** priorizar las acciones de cobranza. | **Scenario:** Actualización de KPI de deuda y tendencia.<br>**Given:** Que un residente acaba de realizar un pago.<br>**When:** El administrador accede al Dashboard principal.<br>**Then:** El KPI de "Morosidad Crítica" descuenta el pago en tiempo real y muestra una flecha de tendencia (subida/bajada) comparada con el mes anterior.<br><br>**Scenario:** Superación del umbral crítico.<br>**Given:** Que la deuda total del edificio aumenta por acumulación de moras.<br>**When:** El monto supera el 15% del presupuesto mensual esperado.<br>**Then:** La tarjeta del KPI se resalta en color rojo para alertar a la administración. | EP-05 |
+| **US-24** | Registro de problemas desde el Dashboard | **Como** residente, **quiero** reportar una incidencia detallando el problema, **para** centralizar el reporte técnico. | **Scenario:** Creación de ticket detallado.<br>**Given:** Que el ascensor se averió.<br>**When:** El residente llena el formulario con el asunto y la descripción del problema.<br>**Then:** El sistema crea la incidencia y notifica al administrador en su panel.<br><br>**Scenario:** Envío de formulario incompleto.<br>**Given:** Que el residente intenta reportar una falla.<br>**When:** Deja el campo de descripción vacío.<br>**Then:** El formulario marca el campo en rojo y bloquea el botón de envío. | EP-06 |
+| **US-25** | Catálogo de Amenidades | **Como** residente, **quiero** ver las áreas comunes disponibles, **para** conocer las instalaciones que puedo utilizar. | **Scenario:** Exploración de espacios con fotos.<br>**Given:** Que el residente accede a la sección de áreas comunes.<br>**When:** Navega por el catálogo.<br>**Then:** Visualiza tarjetas con fotografías, aforo máximo y descripción del gimnasio, parrillas, etc.<br><br>**Scenario:** Sin amenidades configuradas.<br>**Given:** Un condominio que no ha registrado espacios compartidos.<br>**When:** El residente entra al módulo.<br>**Then:** Visualiza un estado vacío (*empty state*) indicando que no hay áreas disponibles. | EP-07 |
+| **US-26** | Sistema de reserva con calendario visual | **Como** residente, **quiero** ver qué días está disponible un área en un calendario visual, **para** programar mis eventos sin traslapes. | **Scenario:** Reserva exitosa respetando aforo.<br>**Given:** Que el horario seleccionado tiene disponibilidad.<br>**When:** El residente confirma la reserva.<br>**Then:** El sistema bloquea el horario, descuenta el cupo y envía la confirmación.<br><br>**Scenario:** Bloqueo por traslape o aforo lleno.<br>**Given:** Que el área común ya alcanzó su límite de reservas para una fecha.<br>**When:** Otro residente intenta seleccionar el mismo rango.<br>**Then:** El sistema muestra un mensaje de "Traslape de horario" y sugiere revisar las horas ocupadas en el modal. | EP-07 |
+| **US-27** | Invitación digital para invitados (QR) | **Como** residente, **quiero** generar un código QR para mis invitados, **para** automatizar la gestión en portería. | **Scenario:** Generación exitosa de QR.<br>**Given:** Que el residente tiene una reserva activa.<br>**When:** Registra los datos de su invitado.<br>**Then:** El sistema genera un código QR único con los datos del evento, listo para compartir por WhatsApp.<br><br>**Scenario:** Expiración de invitación QR.<br>**Given:** Que el evento para el cual se generó el QR terminó hace 2 horas.<br>**When:** El conserje o invitado intenta escanear el código.<br>**Then:** El sistema indica "Invitación Expirada" y deniega el acceso. | EP-07 |
+| **US-28** | Gestión de residentes y límites del plan | **Como** administrador, **quiero** registrar y editar unidades, **para** controlar la capacidad del plan contratado en BuildingFlex. | **Scenario:** Registro dentro del límite de capacidad.<br>**Given:** Que el plan contratado tiene capacidad disponible.<br>**When:** El administrador completa el registro de un nuevo inquilino.<br>**Then:** El sistema guarda los datos y actualiza el indicador de uso (ej. "9/10 residentes").<br><br>**Scenario:** Intento de registro excediendo el límite.<br>**Given:** Que el condominio alcanzó su límite máximo de residentes (10/10).<br>**When:** El administrador intenta agregar una unidad extra.<br>**Then:** El sistema bloquea el guardado y sugiere hacer un *upgrade* (mejora) de suscripción. | EP-08 |
+| **US-29** | Panel de control de deudas (Semaforización) | **Como** administrador, **quiero** visualizar un calendario de pagos semaforizado, **para** identificar rápidamente quiénes tienen cuotas vencidas. | **Scenario:** Identificación de deudores.<br>**Given:** Que existen residentes con cuotas vencidas.<br>**When:** El administrador accede a la sección de Finanzas.<br>**Then:** Muestra un punto rojo en el calendario para esos residentes y suma el monto a la "Morosidad Crítica".<br><br>**Scenario:** Residentes al día.<br>**Given:** Que una unidad pagó todas sus cuotas del semestre.<br>**When:** Se revisa su calendario de pagos.<br>**Then:** Los meses correspondientes muestran un punto verde indicando "Al día". | EP-09 |
+| **US-30** | Registro de egresos y balance neto | **Como** administrador, **quiero** registrar los gastos operativos, **para** obtener un balance neto real del mes. | **Scenario:** Registro de gasto operativo.<br>**Given:** Que se pagó la factura de luz de áreas comunes.<br>**When:** Se registra el gasto en "Management Expenses".<br>**Then:** El sistema resta automáticamente el monto de la recaudación y actualiza el gráfico "Ingresos vs Egresos".<br><br>**Scenario:** Registro con monto inválido.<br>**Given:** Que se está ingresando un nuevo egreso.<br>**When:** Se deja el monto en cero o vacío.<br>**Then:** El sistema resalta el campo en rojo y exige una cifra válida para proceder. | EP-09 |
+| **US-31** | Gestión del ciclo de vida de una incidencia | **Como** administrador, **quiero** asignar un proveedor y cambiar el estado de las incidencias, **para** que el residente esté informado. | **Scenario:** Asignación de técnico.<br>**Given:** Un reporte de falla con estado "Abierto".<br>**When:** El administrador escribe el proveedor ("Gasfitería Pérez") y cambia a "En Proceso".<br>**Then:** Se guardan los cambios y se actualiza la vista del residente con los datos del técnico.<br><br>**Scenario:** Cierre sin detalle de resolución.<br>**Given:** Un reporte "En Proceso".<br>**When:** Intenta marcarlo como "Resuelto" sin comentario de cierre.<br>**Then:** El sistema impide el cambio y solicita documentar la solución antes de finalizar. | EP-10 |
+| **US-32** | Atención de consultas administrativas (Chat) | **Como** administrador, **quiero** responder mensajes de los residentes desde una bandeja centralizada, **para** brindar soporte directo en tiempo real. | **Scenario:** Respuesta a consulta.<br>**Given:** Que un residente envió una duda sobre su recibo.<br>**When:** El administrador abre "Resident Help" y responde.<br>**Then:** El sistema notifica al residente y marca el chat como "Atendido".<br><br>**Scenario:** Intento de envío vacío.<br>**Given:** Que se visualiza una consulta pendiente.<br>**When:** Presiona enviar sin redactar texto.<br>**Then:** El botón se mantiene deshabilitado para evitar mensajes en blanco. | EP-11 |
 
----
-
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-02 | Onboarding y Configuración | Configuración inicial del sistema. | — | — |
-| US-014 | Crear edificio | Registrar nuevo condominio. | Se crea panel exclusivo. | EP-02 |
-| US-015 | Importar residentes | Subir Excel de vecinos. | Se crean cuentas y envían correos. | EP-02 |
-
----
-
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-03 | Facturación Mensual | Generación de recibos. | — | — |
-| US-016 | Generar recibos | Crear recibos masivos. | Se generan en estado pendiente. | EP-03 |
-
----
-
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-04 | Pagos y Conciliación | Pagos online y conciliación. | — | — |
-| US-017 | Pago online | Pagar mantenimiento. | Pago exitoso con pasarela. | EP-04 |
-| US-018 | Conciliación automática | Marcar pago automático. | Estado cambia a pagado. | EP-04 |
-
----
-
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-05 | Gestión de Morosidad | Multas y recordatorios. | — | — |
-| US-019 | Aplicar mora | Penalizar retrasos. | Se añade mora automática. | EP-05 |
 
 ---
+### TECHNICAL STORIES
 
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-06 | Áreas y Visitas | Reservas y accesos. | — | — |
-| US-020 | Reservar áreas | Reservar parrilla. | Se bloquea horario. | EP-06 |
-| US-021 | QR visitas | Generar acceso. | QR válido por 24h. | EP-06 |
+| ID | Título | Descripción | Criterios de Aceptación |
+|----|--------|------------|-------------------------|
+| **TS-001** | Endpoint para el registro de edificios | **Como** Developer, **quiero** implementar un endpoint RESTful (POST), **para** permitir la persistencia de nuevos condominios desde la aplicación web. | **Scenario:** Creación exitosa de edificio.<br>**Given** que la API está en ejecución y conectada a la base de datos,<br>**When** se envía un request HTTP POST a `/api/v1/buildings` con un payload JSON válido (nombre, cantidad de departamentos, dirección),<br>**Then** la API responde con un código HTTP `201 Created` y el cuerpo del response contiene el ID asignado al edificio.<br><br>**Scenario:** Request con datos inválidos.<br>**Given** que la API está en ejecución,<br>**When** se envía un request HTTP POST con el campo "nombre" vacío o nulo,<br>**Then** la API responde con un código HTTP `400 Bad Request` detallando el error de validación en el response. |
+| **TS-002** | Endpoint para consultar lista de residentes | **Como** Developer, **quiero** construir un endpoint RESTful (GET) parametrizado por edificio, **para** que el frontend pueda recuperar y mostrar la tabla de usuarios registrados. | **Scenario:** Retorno exitoso de la lista de residentes.<br>**Given** que existen residentes registrados en la base de datos para el edificio con ID 5,<br>**When** se envía un request HTTP GET a `/api/v1/buildings/5/residents` con un token de autorización válido en las cabeceras,<br>**Then** la API responde con un código HTTP `200 OK` y un arreglo JSON con los datos de los residentes. |
+| **TS-003** | Endpoint para generación de recibos masivos | **Como** Developer, **quiero** desarrollar un endpoint RESTful (POST) que ejecute la lógica de facturación, **para** procesar las cuotas de mantenimiento mensual de un condominio. | **Scenario:** Generación procesada correctamente.<br>**Given** que el mes contable está configurado correctamente en el sistema,<br>**When** se envía un request HTTP POST a `/api/v1/buildings/10/receipts/generate`,<br>**Then** la API procesa la creación de los documentos y responde con un código HTTP `200 OK`, indicando en el response la cantidad de recibos creados exitosamente. |
+| **TS-004** | Endpoint para actualizar estado de pago | **Como** Developer, **quiero** implementar un endpoint RESTful (PATCH) para actualizar el estado de un recibo específico, **para** conciliar automáticamente los pagos que provienen de la pasarela externa. | **Scenario:** Actualización de estado a "Pagado".<br>**Given** que existe un recibo con ID 100 en estado "Pendiente",<br>**When** se envía un request HTTP PATCH a `/api/v1/receipts/100/status` con el payload `{"status": "Pagado"}`,<br>**Then** la API actualiza el registro de base de datos y responde con un código HTTP `200 OK`.<br><br>**Scenario:** Intento de modificación de recibo inexistente.<br>**Given** que el recibo especificado en el parámetro de la ruta no existe,<br>**When** se envía un request HTTP PATCH a `/api/v1/receipts/999/status`,<br>**Then** la API responde con un código HTTP `404 Not Found`. |
+| **TS-005** | Endpoint para reserva de áreas comunes | **Como** Developer, **quiero** exponer un endpoint RESTful (POST) de reservas, **para** registrar los turnos de uso de las instalaciones (parrillas, SUM) garantizando la disponibilidad. | **Scenario:** Detección de conflicto de reserva.<br>**Given** que el horario de las 20:00 hrs ya se encuentra reservado para la instalación con ID 2,<br>**When** se envía un request HTTP POST a `/api/v1/facilities/2/reservations` solicitando exactamente el mismo bloque horario,<br>**Then** la API detecta el cruce de horarios y responde con un código HTTP `409 Conflict` adjuntando un mensaje de error explicativo en el response. |
 
----
 
-| ID | Título | Descripción | Criterios de Aceptación | Epic |
-|----|--------|------------|-------------------------|------|
-| EP-07 | Dashboard Financiero | Visualización financiera. | — | — |
-| US-022 | Ver dashboard | Consultar métricas. | Mostrar ingresos y deudas. | EP-07 |
 
 **3.2 Impact Mapping**
 
@@ -1004,15 +1002,25 @@ Se detallan las acciones, problemas y emociones de cada etapa, lo que nos permit
 | 11 | US11 | Como usuario, quiero cambiar el idioma para entender mejor el contenido de la plataforma. | 3 |
 | 12 | US12 | Como usuario interesado o registrado, quiero tener un botón visible para acceder a la aplicación web. | 1 |
 | 13 | US13 | Como junta directiva, quiero navegar fácilmente desde mi celular para acceder rápidamente a la información. | 3 |
-| 14 | US14 | Como administrador, quiero registrar un nuevo edificio en el sistema, para empezar a gestionar sus finanzas de manera independiente. | 5 |
-| 15 | US15 | Como administrador, quiero subir un archivo Excel con los datos de los vecinos, para no tener que registrar departamento por departamento manualmente. | 5 |
-| 16 | US16 | Como administrador, quiero generar los recibos de mantenimiento de todos los departamentos con un solo clic, para ahorrar tiempo al inicio de cada mes. | 5 |
-| 17 | US17 | Como residente, quiero pagar mi cuota de mantenimiento usando mi tarjeta desde la plataforma, para evitar hacer transferencias bancarias manuales. | 8 |
-| 18 | US18 | Como administrador, quiero que el sistema marque automáticamente como "Pagado" un recibo abonado por la web, para evitar cruzar vouchers manualmente. | 5 |
-| 19 | US19 | Como administrador, quiero que el sistema aplique una multa automática a los recibos vencidos, para penalizar la morosidad sin tener que discutir con el vecino. | 5 |
-| 20 | US20 | Como residente, quiero reservar la zona de parrillas desde la plataforma, para asegurar mi turno sin buscar al conserje. | 3 |
-| 21 | US21 | Como residente, quiero generar un código QR de invitación, para que mis visitas puedan ingresar rápido y el conserje los valide. | 5 |
-| 22 | US22 | Como administrador, quiero ver un resumen visual de los ingresos y el porcentaje de morosidad, para conocer la salud financiera del edificio rápidamente. | 5 |
+| 14 | **US-14** | **Como** usuario registrado, **quiero** iniciar sesión con mis credenciales, **para** acceder a mi panel correspondiente. | 3 |
+| 15 | **US-15** | **Como** administrador, **quiero** registrar un nuevo edificio en el sistema, **para** empezar a gestionar sus finanzas de manera independiente. | 3 |
+| 16 | **US-16** | **Como** administrador, **quiero** subir un Excel con los datos de los vecinos, **para** agilizar la migración al sistema. | 5 |
+| 17 | **US-17** | **Como** residente, **quiero** visualizar una gráfica de mi estado de cuenta en el dashboard, **para** entender rápidamente mi balance de pagos. | 3 |
+| 18 | **US-18** | **Como** residente, **quiero** abrir modales de "Ver todos" para incidencias y reservas, **para** consultar mi historial sin salir de la vista principal. | 2 |
+| 19 | **US-19** | **Como** administrador, **quiero** crear comunicados con una duración específica, **para** asegurar que los anuncios antiguos dejen de mostrarse automáticamente. | 3 |
+| 20 | **US-20** | **Como** residente, **quiero** visualizar los anuncios vigentes en un carrusel interactivo, **para** mantenerme informado de forma cómoda. | 2 |
+| 21 | **US-21** | **Como** administrador, **quiero** que el sistema genere automáticamente la cuota mensual, **para** digitalizar el recaudo y ahorrar tiempo. | 8 |
+| 22 | **US-22** | **Como** residente, **quiero** pagar mis cuotas usando mi tarjeta mediante Mercado Pago, **para** mantener mi cuenta al día de forma segura. | 8 |
+| 23 | **US-23** | **Como** administrador, **quiero** visualizar el monto total de morosidad, **para** priorizar las acciones de cobranza. | 3 |
+| 24 | **US-24** | **Como** residente, **quiero** reportar una incidencia detallando el problema, **para** centralizar el reporte técnico. | 2 |
+| 25 | **US-25** | **Como** residente, **quiero** ver las áreas comunes disponibles, **para** conocer las instalaciones que puedo utilizar. | 2 |
+| 26 | **US-26** | **Como** residente, **quiero** ver qué días está disponible un área en un calendario visual, **para** programar mis eventos sin traslapes. | 5 |
+| 27 | **US-27** | **Como** residente, **quiero** generar un código QR para mis invitados, **para** automatizar la gestión en portería. | 5 |
+| 28 | **US-28** | **Como** administrador, **quiero** registrar y editar unidades, **para** controlar la capacidad del plan contratado en BuildingFlex. | 3 |
+| 29 | **US-29** | **Como** administrador, **quiero** visualizar un calendario de pagos semaforizado, **para** identificar rápidamente quiénes tienen cuotas vencidas. | 5 |
+| 30 | **US-30** | **Como** administrador, **quiero** registrar los gastos operativos, **para** obtener un balance neto real del mes. | 3 |
+| 31 | **US-31** | **Como** administrador, **quiero** asignar un proveedor y cambiar el estado de las incidencias, **para** que el residente esté informado. | 3 |
+| 32 | **US-32** | **Como** administrador, **quiero** responder mensajes de los residentes desde una bandeja centralizada, **para** brindar soporte directo en tiempo real. | 8 |
 
 ---
 
@@ -1355,7 +1363,7 @@ Sección de cards explicando al cliente por que somos mejores que la competencia
 Se ve un buen diseño en la sección de preguntas con la barra de búsqueda a la izquierda y las preguntas a la derecha con pequeños detalles que resaltan el interfaz. 
 
 ## **4.4. Web Applications UX/UI Design.**
-feat/capitulo-1
+
 
 **4.4.1 Web Applications Wireframes**
 
@@ -1449,25 +1457,35 @@ Aqui se puede ver las preguntas frecuentes acerca de la aplicacion y un boton qu
 ![mockup9app.png](../imagenes/mockup9app.png)
 
 **4.4.4 Web Applications User Flow Diagrams.**
-![img_1.png](img_1.png)
+![img_1.png](../imagenes/commit_1.png)
 
 **4.5 Web Applications Prototyping.**
 
-Falta Video
+Link del video: https://1drv.ms/v/c/2f673bdd57dbed09/IQB_rKkNDW1USLRHOQByi1UUAX_XYLIKf3Bej1yj7cWdlxY?e=2NKZFR
+
+![prototipovideoimg.png](../imagenes/prototipovideoimg.png)
 
 **4.6 Domain-Driven Software Architecture.**
 
-**4.6.1 Software Architecture Context Diagram**
+**4.6.1. Design-Level EventStorming**
+
+link del desiogn-level eventa storming: https://miro.com/app/board/uXjVJF4TquY=/?share_link_id=348452297177
+
+![designeventstorming1.png](../imagenes/designeventstorming1.png)
+
+![designeventstorming2.png](../imagenes/designeventstorming2.png)
+
+**4.6.2 Software Architecture Context Diagram**
 
 Este diagrama de contexto representa cómo funciona la plataforma BuildingFex: los visitantes envian consultas y revisan informacion de suscripciones, mientras que los administradores analizan las respuestas. El sistema central, la aplicacion, se conecta con un API externo para obtener datos de edificios y con Firebase Cloud Messaging para enviar notificaciones push, mostrando así el flujo de interaccion entre usuarios, la plataforma y servicios externos.
 ![contextDiagram.png](../imagenes/contextDiagram.png)
 
-**4.6.2 Software Architecture Container Diagrams**
+**4.6.3 Software Architecture Container Diagrams**
 
 Este diagrama de BuildingFex resume la estructura del sistema: los usuarios interactuan con una aplicación web Angular que envia solicitudes al API Gateway, el cual distribuye el trafico hacia tres modulos principales (reportes, contactos/marketing y planes de suscripcion), cada uno con su propia base de datos. Ademas, el sistema se conecta con un API externo para obtener datos de edificios y con Firebase para enviar notificaciones push. En conjunto, muestra cómo fluye la informacion entre usuarios, aplicación, bases de datos y servicios externos.
 ![containerdiagram.png](../imagenes/containerdiagram.png)
 
-**4.6.3 Software Architecture Components Diagrams**
+**4.6.4 Software Architecture Components Diagrams**
 
 Analytics y Reporting: 
 
@@ -1487,201 +1505,233 @@ Las solicitudes entran por el API Gateway y son procesadas por el SubscriptionPl
 **4.7 Software Object-Oriented Design**
 
 **4.7.1 Class Diagrams**
+
 ![classdiagram.png](../imagenes/classdiagram.png)
+
+link del diagrama de clases: https://lucid.app/lucidchart/0e5d0675-677f-461e-8020-3401e9e97f08/edit?viewport_loc=1382%2C-730%2C3262%2C1630%2C0_0&invitationId=inv_8b86276f-d74e-47d9-a568-db771c638a2d
 
 El diagrama de clases representa la estructura principal de un sistema para gestión de condominios. Incluye entidades de usuarios y roles para controlar accesos, suscripciones para manejar planes de servicio, y la estructura fisica de edificios, torres y unidades vinculadas a residentes. En el area financiera se modelan cobranzas, pagos, pasarelas de pago y reportes, mientras que en operaciones se incluyen reservas de areas comunes e incidencias de mantenimiento. Finalmente, la clase de auditoria asegura trazabilidad de todas las acciones. Las relaciones muestran como los usuarios interactuan con suscripciones, unidades y reservas, conectando la gestion administrativa, financiera y operativa en un solo ecosistema.
 
 **4.7.2 Class Dictionary**
+
 # Class Dictionary
 
-## Usuario
-Representa a la persona que accede al sistema.
-- **Atributos**:
-    - idUsuario (int)
-    - nombre (string)
-    - correo (string)
-    - rolId (int)
-- **Operaciones**:
-    - registrarUsuario()
-    - autenticar()
-    - asignarRol()
+El siguiente diccionario describe las entidades del modelo de datos alineadas al **diagrama de base de datos**: nombres de atributos y tipos como en el esquema. La mayoría de tablas incluyen `ownerAdminId` para **multi-tenancy** (partición por administrador o copropiedad). Varios registros referencian a residentes mediante `residentId`, coherente con un `User` en rol residente.
 
-## Rol
-Define los permisos y funciones que puede realizar un usuario.
-- **Atributos**:
-    - idRol (int)
-    - nombreRol (string)
-    - permisos (list<string>)
-- **Operaciones**:
-    - crearRol()
-    - asignarPermiso()
-    - eliminarRol()
+## User
 
-## Suscripcion
-Modela el plan contratado por un usuario para un edificio.
-- **Atributos**:
-    - idSuscripcion (int)
-    - tipoPlan (string)
-    - fechaInicio (date)
-    - fechaFin (date)
-    - edificioId (int)
-    - usuarioId (int)
-- **Operaciones**:
-    - crearSuscripcion()
-    - actualizarSuscripcion()
-    - cancelarSuscripcion()
+Persona registrada en el sistema (roles como administrador de edificio o residente, según `role`). Centraliza identidad, contacto y datos administrativos.
 
-## Edificio
-Representa un condominio o complejo.
 - **Atributos**:
-    - idEdificio (int)
-    - nombre (string)
-    - direccion (string)
-- **Operaciones**:
-    - agregarTorre()
-    - listarUnidades()
+    - id (string)
+    - name (string)
+    - email (string)
+    - password (string)
+    - role (string)
+    - floor (string)
+    - code (string)
+    - admissionDate (string)
+    - ownerAdminId (string)
+    - dni (string)
+    - address (string)
+    - company (string)
+    - ruc (string)
 
-## Torre
-Agrupa las unidades dentro de un edificio.
-- **Atributos**:
-    - idTorre (int)
-    - nombre (string)
-    - edificioId (int)
-- **Operaciones**:
-    - agregarUnidad()
-    - obtenerUnidades()
+## Payment
 
-## Unidad
-Representa un departamento o espacio habitable.
-- **Atributos**:
-    - idUnidad (int)
-    - numero (string)
-    - torreId (int)
-    - estado (string)
-- **Operaciones**:
-    - asignarResidente()
-    - liberarUnidad()
+Pago registrado de un residente asociado a un periodo o concepto de cobro.
 
-## Residente
-Perfil de ocupante (dueno o inquilino) vinculado a una unidad.
 - **Atributos**:
-    - idResidente (int)
-    - nombre (string)
-    - tipo (string)
-    - unidadId (int)
-    - usuarioId (int)
-- **Operaciones**:
-    - registrarResidente()
-    - actualizarPerfil()
+    - id (string)
+    - residentId (string)
+    - month (number)
+    - forMonth (string)
+    - amount (number)
+    - paidAt (string)
+    - method (string)
+    - reference (string)
+    - ownerAdminId (string)
 
-## Cobranza
-Registra las cuotas de mantenimiento y pagos pendientes.
-- **Atributos**:
-    - idCobranza (int)
-    - monto (decimal)
-    - fechaVencimiento (date)
-    - estado (string)
-    - unidadId (int)
-- **Operaciones**:
-    - generarAviso()
-    - registrarPago()
-    - calcularMorosidad()
+## Reservation
 
-## Pago
-Representa la transaccion realizada por un residente.
-- **Atributos**:
-    - idPago (int)
-    - monto (decimal)
-    - fecha (date)
-    - metodo (string)
-    - cobranzaId (int)
-- **Operaciones**:
-    - procesarPago()
-    - validarPago()
+Reserva de un **SocialSpace** por un residente, con franja horaria e invitación para invitados.
 
-## PasarelaPago
-Conecta con servicios externos de pago.
 - **Atributos**:
-    - idPasarela (int)
-    - nombre (string)
-    - apiKey (string)
-    - pagoId (int)
-- **Operaciones**:
-    - conectarServicio()
-    - enviarTransaccion()
+    - id (string)
+    - spaceId (string)
+    - residentId (string)
+    - residentName (string)
+    - residentPhone (string)
+    - date (string)
+    - startTime (string)
+    - endTime (string)
+    - guestInviteToken (string)
+    - ownerAdminId (string)
 
-## ReporteFinanciero
-Consolida informacion de ingresos y egresos.
-- **Atributos**:
-    - idReporte (int)
-    - periodo (string)
-    - ingresos (decimal)
-    - egresos (decimal)
-    - cobranzaId (int)
-    - proveedorId (int)
-- **Operaciones**:
-    - generarReporte()
-    - exportarPDF()
+## Receipt
 
-## Proveedor
-Representa a contratistas o empresas que brindan servicios al edificio.
-- **Atributos**:
-    - idProveedor (int)
-    - nombre (string)
-    - servicio (string)
-- **Operaciones**:
-    - registrarProveedor()
-    - actualizarDatos()
+Recibo o documento de deuda/cobro emitido para un residente (fechas de emisión y vencimiento, estado y mora).
 
-## Reserva
-Gestiona la ocupacion de areas comunes.
 - **Atributos**:
-    - idReserva (int)
-    - fecha (date)
-    - usuarioId (int)
-    - areaComunId (int)
-- **Operaciones**:
-    - crearReserva()
-    - cancelarReserva()
-    - validarDisponibilidad()
+    - id (number)
+    - residentId (string)
+    - issueDate (string)
+    - dueDate (string)
+    - amount (number)
+    - status (string)
+    - lateFee (number)
+    - ownerAdminId (string)
 
-## AreaComun
-Espacios compartidos como piscina, gimnasio o salon de eventos.
-- **Atributos**:
-    - idArea (int)
-    - nombre (string)
-    - reglasUso (string)
-- **Operaciones**:
-    - agregarRegla()
-    - listarReservas()
+## Guest
 
-## Incidencia
-Registra problemas o solicitudes de mantenimiento.
-- **Atributos**:
-    - idIncidencia (int)
-    - descripcion (string)
-    - estado (string)
-    - unidadId (int)
-- **Operaciones**:
-    - crearIncidencia()
-    - actualizarEstado()
-    - cerrarIncidencia()
+Invitado vinculado a un flujo de visita o reserva; control de ingreso.
 
-## Auditoria
-Garantiza trazabilidad de las acciones en el sistema.
 - **Atributos**:
-    - idLog (int)
-    - usuarioId (int)
-    - accion (string)
-    - fechaHora (datetime)
-- **Operaciones**:
-    - registrarAccion()
-    - consultarLogs()
+    - id (string)
+    - name (string)
+    - checkedIn (boolean)
+    - checkedInAt (string)
+
+## Fee
+
+Cuota o cargo recurrente por residente y mes, con monto, vencimiento y estado.
+
+- **Atributos**:
+    - id (number)
+    - residentId (string)
+    - month (string)
+    - amount (number)
+    - dueDate (string)
+    - status (string)
+    - ownerAdminId (string)
+
+## FixedPayoutRecipient
+
+Beneficiario de pagos fijos (personal o tercero) con datos de contacto, remuneración y calendario de pagos.
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - dni (string)
+    - phone (string)
+    - salary (number)
+    - interestDays (number)
+    - nextPaymentDate (string)
+    - photoUrl (string)
+    - paymentHistory (array)
+    - createdAt (string)
+    - ownerAdminId (string)
+
+## FinanceSettings
+
+Parámetros financieros globales por administrador (gasto base y tasa de mora).
+
+- **Atributos**:
+    - id (string)
+    - ownerAdminId (string)
+    - baseMonthlyExpense (number)
+    - lateFeeRate (number)
+
+## Incident
+
+Reporte o ticket de incidencia/mantenimiento asociado a un residente y proveedor.
+
+- **Atributos**:
+    - id (string)
+    - residentId (string)
+    - residentName (string)
+    - description (string)
+    - status (string)
+    - createdAt (string)
+    - provider (string)
+    - companyName (string)
+
+## KPI
+
+Indicadores agregados de ocupación y cartera por administrador.
+
+- **Atributos**:
+    - id (string)
+    - ownerAdminId (string)
+    - totalResidents (number)
+    - occupiedUnits (number)
+    - emptyUnits (number)
+    - totalDebt (number)
+
+## AdminManagementExpense
+
+Gasto de administración registrado con soporte de factura o comprobante.
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - amount (number)
+    - purchaseDate (string)
+    - invoicePhotoUrl (string)
+    - ownerAdminId (string)
+
+## TeamWorker
+
+Miembro del equipo de trabajo del edificio o administración.
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - phone (string)
+    - dni (string)
+    - salary (number)
+    - photoUrl (string)
+    - ownerAdminId (string)
+
+## Announcement
+
+Comunicado o aviso publicado con prioridad, vigencia y autor.
+
+- **Atributos**:
+    - id (string)
+    - title (string)
+    - body (string)
+    - priority (string)
+    - duration (number)
+    - authorId (string)
+    - authorName (string)
+    - createdAt (string)
+    - expiresAt (string)
+    - ownerAdminId (string)
+
+## SocialSpace
+
+Espacio social o área comune reservable (nombre, aforo, imagen).
+
+- **Atributos**:
+    - id (string)
+    - name (string)
+    - description (string)
+    - capacity (number)
+    - imageUrl (string)
+    - ownerAdminId (string)
+
+## ImportUpload
+
+Metadatos y contenido de una importación masiva de datos (archivo cargado).
+
+- **Atributos**:
+    - id (string)
+    - fileName (string)
+    - mimeType (string)
+    - size (number)
+    - uploadedAt (string)
+    - dataUrl (string)
+    - ownerAdminId (string)
 
 **4.8 Database Design**
 
 **4.8.1 Database Diagram**
+  
+![databasediagram.png](../imagenes/databasediagram.jpeg)
 
+link del diagrama de base de datos: https://lucid.app/lucidchart/ea565e2d-77c5-40ea-87f3-28e6c02e7d20/edit?viewport_loc=-343%2C16%2C2936%2C1439%2C0_0&invitationId=inv_712e52ef-1985-4328-a3eb-e1548cc8c4e8
+  
 ## Capítulo V: Product Implementation, Validation & Deployment
 
 Este capítulo documenta **únicamente el alcance de la entrega TB1** del curso: configuración del entorno y despliegue del *landing*, implementación del **Sprint 1** (landing en Vue + informe técnico en el repositorio **Report**) y evidencias de validación previstas para esa misma entrega. No incluye **sprints ni productos de entregas posteriores** (aplicación web completa, APIs, base de datos en producción, etc.); esas fases se describirán en los capítulos correspondientes cuando correspondan a **TB2** u otras entregas.
@@ -1705,7 +1755,6 @@ El código fuente y el informe se versionan en GitHub: [BuildingFex — Report](
 | **JavaScript / TypeScript** | [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html) | Uso de `const` y `let` en lugar de `var`, funciones flecha, desestructuración, módulos ES6 (`import`/`export`), nombres en `lowerCamelCase`, tipado explícito cuando aplica, y organización por carpetas (`components/`, `services/`, `utils/`, etc.). |
 | **Vue.js** | [Vue.js — Style Guide](https://vuejs.org/style-guide/) | Componentes en `PascalCase`, nombres de archivo alineados a la guía oficial, separación clara de plantilla, script y estilos (p. ej. SFC), uso coherente de Composition API u Options API, `props`/`emits` definidos, estructura por carpetas (`components/`, `views/`, `composables/` o `assets/`), e internacionalización con recursos en `src` cuando aplique. |
 
-*Nota TB1:* En esta entrega solo se implementa el *frontend* del *landing*; convenciones de backend (Java, Spring, etc.) no forman parte del código desarrollado en la **TB1** y se aplicarán en fases posteriores del proyecto.
 
 Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:
 
@@ -1766,7 +1815,7 @@ En esta sección se presentan los aspectos funcionales y técnicos abordados dur
 - **DO**: *Deployment & hosting* — Despliegue del *landing* y verificación de URL pública.
 - **RI**: *Repository initialization* — Organización del repositorio [**LandingPage**](https://github.com/BuildingFex/LandingPage.git), `README`, `.gitignore` y convenciones.
 
-> *Nota:* Todos los integrantes participaron en los distintos frentes; los líderes facilitan decisiones y trazabilidad.
+
 
 ### 5.2.1.3. Sprint Backlog 1
 
@@ -1790,9 +1839,11 @@ En esta sección se presentan los aspectos funcionales y técnicos abordados dur
 
 Los ítems planificados para el alcance del *Sprint 1* en **TB1** (landing e informe) se completaron y verificaron según el backlog acordado. La **Landing Page de BuildingFex** queda publicada y documentada como evidencia de esta entrega.
 
-> **Tablero Kanban:** *(enlace al tablero acordado por el equipo — Trello/Jira/GitHub Projects).*
+> **Tablero de Trello** *(seguimiento del Sprint 1):* [https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web](https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web)
 
-![Product backlog Sprint 1](../imagenes/chapter-5/sprintbacklog-1.png)
+**Evidencia del tablero en Trello** :
+
+![Tablero de Trello — Sprint 1 (BuildingFex)](../imagenes/trello.png)
 
 ### 5.2.1.4. Development Evidence for Sprint Review
 
@@ -1807,7 +1858,6 @@ Durante este *Sprint* el equipo avanzó en la **Landing Page de BuildingFex** de
 | `BuildingFex/LandingPage` | `feature/i18n` | *(hash)* | `feat(i18n): language toggle and copy` | Soporte de idioma / textos según alcance. | *(fecha)* |
 | `BuildingFex/LandingPage` | `main` | *(hash)* | `docs(landing): update README with run instructions` | Documentación de uso y despliegue. | *(fecha)* |
 
-> **Nota:** Sustituir `*(hash)*` y fechas por los valores reales exportados desde GitHub para la entrega.
 
 ### 5.2.1.5. Execution Evidence for Sprint Review
 
@@ -1817,11 +1867,13 @@ En este *Sprint* se implementó la **Landing Page de BuildingFex** con **Vue.js*
 
 > **Enlace al video de demostración:** *(URL del video acordado con el curso.)*
 
-![Landing BuildingFex — vista 1](../imagenes/chapter-5/netlify1.png)
+La evidencia del tablero **Trello** del *Sprint 1* se muestra en **5.2.1.3** (*Sprint Backlog 1*), junto al enlace al tablero.
 
-![Landing BuildingFex — vista 2](../imagenes/chapter-5/netlify2.png)
+![Landing desplegada — vista 1](../imagenes/vista1.png)
 
-![Landing BuildingFex — vista 3](../imagenes/chapter-5/netlify3.png)
+![Landing desplegada — vista 2](../imagenes/vista2.png)
+
+![Landing desplegada — vista 3](../imagenes/vista3.png)
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
 
@@ -1847,11 +1899,11 @@ Configuración típica del proyecto en **Vercel**:
 - **Directorio de salida:** `dist/` (o el que indique la plantilla Vue/Vite del proyecto).
 - **Variables de entorno:** en el panel de Vercel si el *landing* las requiere.
 
-![Evidencia de despliegue 1](../imagenes/chapter-5/netlify4.png)
+![Commits — evidencia 1](../imagenes/vercel1.png)
 
-![Evidencia de despliegue 2](../imagenes/chapter-5/netlify5.png)
+![Commits — evidencia 1](../imagenes/vercel2.png)
 
-![Evidencia de despliegue 3](../imagenes/chapter-5/netlify3.png)
+![Commits — evidencia 1](../imagenes/vercel3.png)
 
 ### Sitio desplegado
 
@@ -1863,37 +1915,257 @@ El sitio incluye las secciones desarrolladas para la **TB1** dentro del *Sprint 
 
 El equipo trabajó con **ramas por funcionalidad** y **pull requests** para integrar cambios sin bloquearse mutuamente. A continuación, evidencias de colaboración en GitHub (commits, *network graph*).
 
-![Commits — evidencia 1](../imagenes/chapter-5/commits1.png)
+![Commits — evidencia 1](../imagenes/commit_1.png)
 
-![Commits — evidencia 2](../imagenes/chapter-5/commits2.png)
+![Commits — evidencia 2](../imagenes/commit_2.png)
 
-![Network — colaboración](../imagenes/chapter-5/Network.png)
+![Network — colaboración](../imagenes/network_graph.jpeg)
+
+**5.2.2. Sprint 2** *(Alcance de Desarrollo Frontend)*
+
+Este *Sprint* concentró el esfuerzo en la **implementación del frontend de la aplicación web BuildingFex**, enfocándose en las vistas e interacciones para los roles de Administrador de Edificio y Residente. Se priorizó la creación de interfaces responsivas, el enrutamiento y la maquetación funcional con datos simulados, estableciendo las bases para la futura integración con el *backend*.
+
+### 5.2.2.1. Sprint Planning 2
+
+| **Sprint #** | **Sprint 2** |
+| --- | --- |
+| ***Sprint Planning Background*** | |
+| **Date** | 2026-05-06 y 2026-05-07 |
+| **Time** | 22:00 (GMT-5) en ambas fechas |
+| **Location** | Reunión virtual por Discord |
+| **Prepared By** | Alejandro Manuel Jave Chang |
+| **Attendees (to planning meeting)** | Sebastian Martin Beingolea Montalvo, Villanueva Rodríguez Giuseppe Adrián, Saul Ortega Muñoz, Alejandro Manuel Jave Chang, Valentin Nicolas Medina Mamani |
+| **Sprint n – 1 Review Summary** | Se validó la correcta publicación de la *Landing Page*. Como mejora, el equipo acordó optimizar el manejo de estado en el *frontend* y definir convenciones estrictas para la estructura del proyecto en el nuevo repositorio. |
+| **Sprint n – 1 Retrospective Summary** | La colaboración mediante ramas y *pull requests* fue efectiva. Se decidió mantener la misma dinámica, pero aumentando la revisión de código cruzada para asegurar la consistencia visual en las vistas de la aplicación. |
+| ***Sprint Goal & User Stories*** | |
+| **Sprint 2 Goal** | Our focus is on delivering a fully functional and responsive frontend web application for BuildingFex, catering to both building administrators and residents. This sprint aims to implement core modules such as dashboards, finance management, incident reporting, services reservation, and advanced management settings, utilizing an updated frontend framework architecture. The goal is to provide a seamless user interface with simulated data to validate the user experience before backend integration. |
+| **Sprint 2 Velocity** | 35 |
+| **Sum of Story Points** | 35 |
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En esta sección se presentan los aspectos funcionales y técnicos abordados durante el *Sprint 2*: **desarrollo de vistas de Administrador y Residente**. Para cada aspecto se asignó un **Líder (L)** y **Colaboradores (C)**.
+
+| Team Member (Last Name, First Name) | GitHub | FI | ID | RS | DE |
+| --- | --- | --- | --- | --- | --- |
+| Villanueva Rodríguez Giuseppe Adrián | [BuildingFex](https://github.com/BuildingFex) | L | C | L | C |
+| Alejandro Manuel Jave Chang | [BuildingFex](https://github.com/BuildingFex) | L | C | C | L |
+| Sebastian Martin Beingolea Montalvo | [BuildingFex](https://github.com/BuildingFex) | L | L | C | C |
+| Saul Ortega Muñoz | [BuildingFex](https://github.com/BuildingFex) | C | L | C | C |
+| Valentin Nicolas Medina Mamani | [BuildingFex](https://github.com/BuildingFex) | C | C | L | C |
+
+**Leyenda de aspectos técnicos**
+- **FI**: *Frontend Implementation* — Desarrollo de vistas, formularios y lógica de componentes.
+- **ID**: *Interface Design* — Alineación de las pantallas con el diseño en Figma.
+- **RS**: *Routing & Standalone Components* — Configuración de rutas y arquitectura de componentes.
+- **DE**: *Deployment* — Despliegue continuo en producción.
+
+### 5.2.2.3. Sprint Backlog 2
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+| --- | --- | --- | --- | --- |
+| 1 | US14 | Dashboard Administrador | Como administrador, quiero ver el estado general del edificio, morosidad e incidencias pendientes para tener control general. | 3 |
+| 2 | US15 | Gestión Avanzada Admin | Como administrador, quiero registrar perfiles de edificios e importar residentes masivamente mediante Excel para inicializar operaciones. | 5 |
+| 3 | US16 | Finanzas Admin: Emisión | Como administrador, quiero generar recibos masivamente y aplicar penalidades automáticas para mantener el control financiero. | 5 |
+| 4 | US17 | Incidencias Admin | Como administrador, quiero monitorear tickets de mantenimiento y el estado de proveedores para asegurar la operatividad del edificio. | 3 |
+| 5 | US18 | Información Admin | Como administrador, quiero redactar comunicados oficiales y gestionar documentos (actas, contratos) para mantener informado al edificio. | 3 |
+| 6 | US19 | Dashboard Residente | Como residente, quiero visualizar un resumen de mis pagos pendientes y reservas confirmadas para estar al día. | 2 |
+| 7 | US20 | Finanzas Residente | Como residente, quiero revisar mi historial de cuotas y pagar en línea mediante pasarela de pagos para cumplir con mis obligaciones. | 5 |
+| 8 | US21 | Servicios Residente | Como residente, quiero un calendario para reservar áreas comunes y generar códigos QR para agilizar el ingreso de mis visitas. | 5 |
+| 9 | US22 | Incidencias Residente | Como residente, quiero reportar fallas en el edificio mediante un formulario simple para solicitar reparaciones. | 2 |
+| 10 | US23 | Soporte Técnico Directo | Como residente, quiero un botón para iniciar un chat y solicitar estrictamente la provisión de servicio técnico para mi unidad. | 2 |
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+Durante este *Sprint*, el equipo trabajó en el repositorio **[BuildingFex/Fronted](https://github.com/BuildingFex/Fronted)** desarrollando las vistas con **Angular 21**. Se implementó una arquitectura directa y limpia enfocada en el rendimiento, en la cual **no hay `app.component`, solo `app`**, y **no se utiliza un custom loader**. Todo el arranque se configuró mediante componentes *standalone*.
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on |
+| --- | --- | --- | --- | --- | --- |
+| `BuildingFex/Fronted` | `main` | *(hash)* | `chore(core): setup standalone architecture` | Configuración inicial. Bootstrapping directo en app, eliminación de app.component y loaders. | *(9/05/2026)* |
+| `BuildingFex/Fronted` | `feat/admin-views` | *(hash)* | `feat(admin): add dashboard and massive import` | Vistas de resumen financiero, gestión avanzada y subida de archivos Excel. | *(9/05/2026)* |
+| `BuildingFex/Fronted` | `feat/resident-views` | *(hash)* | `feat(resident): add QR generator and reservations` | Calendario interactivo y generación de QR para control de visitas. | *(10/05/2026)* |
+| `BuildingFex/Fronted` | `feat/finances` | *(hash)* | `feat(finance): payment gateway UI and mass billing` | Formularios de pasarela de pago para residentes y tabla de emisión masiva para admins. | *(11/05/2026)* |
+| `BuildingFex/Fronted` | `feat/incidents` | *(hash)* | `feat(incidents): tracking and reporting forms` | Formularios de reporte de incidencias y vistas de seguimiento de tickets. | *(11/05/2026)* |
+| `BuildingFex/Fronted` | `feat/support` | *(hash)* | `feat(support): direct service request chat` | Integración de chat enfocado exclusivamente en la solicitud de servicios técnicos. | *(11/05/2026)* |
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+La aplicación se encuentra maquetada y navegable, permitiendo recorrer los flujos de Finanzas, Incidencias, Servicios, Información y Gestión Avanzada tanto para los roles de Administrador como de Residente.
+
+> **Enlace a la versión desplegada (producción):** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
+
+![login](../imagenes/login.png)
+![admin-register](../imagenes/admin-register.png)
+![dash-admin](../imagenes/dash-admin.png)
+![manage-admin](../imagenes/manage-admin.png)
+![import-admin](../imagenes/import-admin.png)
+![finan-admin](../imagenes/finan-admin.png)
+![gener-admin](../imagenes/gener-admin.png)
+![inci-admin](../imagenes/inci-admin.png)
+![info-admin](../imagenes/info-admin.png)
+![chat-admin](../imagenes/chat-admin.png)
+![collect-admin](../imagenes/collect-admin.png)
+![sett-admin](../imagenes/sett-admin.png)
+![res-dash](../imagenes/res-dash.png)
+![finan-res](../imagenes/finan-res.png)
+![serv-res](../imagenes/serv-res.png)
+![gener-res](../imagenes/gener-res.png)
+![inci-res](../imagenes/inci-res.png)
+![supp-res](../imagenes/supp-res.png)
+![sett-res](../imagenes/sett-res.png)
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+Durante el alcance de esta entrega (Sprint 2), el objetivo funcional se centró de manera exclusiva en el diseño, desarrollo de interfaces y enrutamiento del **frontend**. Las vistas actuales consumen datos simulados a través de servicios inyectables en Angular para validar la experiencia de usuario. La implementación del API RESTful en el *backend* y su respectiva documentación no forman parte de este *Sprint* y serán abordadas en la siguiente iteración.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+El despliegue continuo se configuró vinculando el repositorio **[BuildingFex/Fronted](https://github.com/BuildingFex/Fronted)** de GitHub con la plataforma de alojamiento. Cada integración a la rama principal dispara automáticamente el proceso de construcción utilizando las herramientas de Angular.
+
+* **URL de Producción:** [https://fronted-kappa-ivory.vercel.app/](https://fronted-kappa-ivory.vercel.app/)
+* **Comando de Build:** `npm run build`
+* **Directorio de salida:** Configurado según el output nativo de Angular 21 para despliegues estáticos.
+* **Routing:** Se configuraron las reglas de reescritura para redirigir todas las peticiones al `index.html`, garantizando el funcionamiento de la *Single Page Application* (SPA).
+* 
+![Vercel — evidencia 2](../imagenes/vercel_desp.jpeg)
+![Vercel — evidencia 2](../imagenes/vercel_desp_2.jpeg)
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+El flujo de trabajo técnico se gestionó bajo el modelo **GitFlow**. Se designó la rama `main` como entorno de producción estable y se crearon ramas de características (`feat/*`) para cada módulo específico de las vistas. La integración del código se realizó estrictamente mediante *Pull Requests*, requiriendo revisión y aprobación antes de fusionar los cambios.
+
+![Commit-git](../imagenes/git_overview.jpeg)
+![network-graph_report](../imagenes/network_graph_report.jpeg)
+![network-graph_front](../imagenes/network_graph.jpeg)
 
 **5.3. Validation Interviews *(TB1)***
 
 Esta sección se limita a lo que corresponde validar o registrar **dentro del alcance de la TB1** (p. ej. revisión de la landing desplegada o criterios de usabilidad acordados con el curso). Entregas posteriores al **TB1** no se documentan aquí.
 
-**5.3.1. Diseño de entrevistas**
+![Commits — evidencia 1](../imagenes/aaaaaa.png)
 
-*(Las entrevistas de validación del producto se documentan alineando con el diseño de entrevistas del Capítulo II y los criterios de usabilidad definidos para el TB1.)*
+![Commits — evidencia 2](../imagenes/commit-repo.png)
 
-**5.3.2. Registro de entrevistas**
-
-*(Registro de sesiones, enlaces a grabaciones y síntesis por participante — dentro del alcance TB1.)*
-
-**5.3.3. Validación según heurísticas**
-
-*(Evaluación heurística de la landing desplegada o prototipo según Nielsen u otro marco acordado, con hallazgos y severidad — solo en lo que aplique a la TB1.)*
-
----
+![Network — colaboración](../imagenes/network-landingpage.png)
 
 ## Bibliografía
 
-*(Contenido según las fuentes citadas en el informe.)*
+Enlaces y plataformas utilizadas por el equipo durante el proyecto **BuildingFex** (planificación, código, despliegue y documentación colaborativa).
+
+| Recurso | Enlace |
+| --- | --- |
+| **Trello** — tablero del *Sprint 1* (TB1) | [https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web](https://trello.com/invite/b/69d46e0c565b9336710264c1/ATTIeea024ea9d5c9244fbb7b5b49dad4fe6737FC921/aplicacion-web) |
+| **GitHub** — organización BuildingFex | [https://github.com/BuildingFex](https://github.com/BuildingFex) |
+| **GitHub** — repositorio del informe (Report) | [https://github.com/BuildingFex/Report.git](https://github.com/BuildingFex/Report.git) |
+| **GitHub** — repositorio de la *landing page* (LandingPage) | [https://github.com/BuildingFex/LandingPage.git](https://github.com/BuildingFex/LandingPage.git) |
+| **Vercel** — sitio en producción (*landing*) | [https://landingpage-wine-three.vercel.app/](https://landingpage-wine-three.vercel.app/) |
+| **Vercel** — plataforma de despliegue | [https://vercel.com/](https://vercel.com/) |
+| **Google Docs** — documentos colaborativos | [https://docs.google.com/](https://docs.google.com/) |
+| **Google Drive** — almacenamiento y compartición de archivos | [https://drive.google.com/](https://drive.google.com/) |
+| **Vue.js** — *framework* del *frontend* | [https://vuejs.org/](https://vuejs.org/) |
+| **Vite** — herramienta de desarrollo y *build* | [https://vitejs.dev/](https://vitejs.dev/) |
+| **Node.js** — entorno de ejecución JavaScript | [https://nodejs.org/](https://nodejs.org/) |
+| **Discord** — comunicación del equipo *(si aplica)* | [https://discord.com/](https://discord.com/) |
+
+
 
 ---
 
 ## Anexos
 
-*(Material complementario: evidencias, capturas o tablas según corresponda a la entrega.)*
+Compendio de **evidencias gráficas** citadas en el informe. Las figuras **permanecen insertadas en sus capítulos y secciones originales**; aquí solo se listan de nuevo como anexo, con la misma ruta relativa (desde `Informe/README.md`).
 
+### Anexo A — Portada e identificación
+
+- ![Universidad Peruana de Ciencias Aplicadas (UPC)](../imagenes/upc.png)
+
+### Anexo B — Colaboración en repositorios (TB1)
+
+- ![Actividad en el repositorio del reporte — BuildingFex Report](../imagenes/repo-git.png)
+- ![Actividad en el repositorio del landing — BuildingFex Landing](../imagenes/Landing-page-repo.png)
+- ![Commits — repositorio Report](../imagenes/commit-repo.png)
+- ![Commits — repositorio Landing Page](../imagenes/aaaaaa.png)
+- ![Network — repositorio Report](../imagenes/network-report.png)
+- ![Network — repositorio Landing Page](../imagenes/network-landingpage.png)
+
+### Anexo D — Registro visual de entrevistas
+
+- ![Entrevista 1](../imagenes/entrevista1_ismael.png)
+- ![Entrevista 2](../imagenes/entrevista2_antonio.png)
+- ![Entrevista 3](../imagenes/entrevista3_valeria.png)
+- ![Entrevista 4](../imagenes/entrevista4_manuel.png)
+- ![Entrevista 5](../imagenes/entrevista5_carlos.png)
+- ![Entrevista 6](../imagenes/entrevista6_adrian.png)
+
+### Anexo E — Needfinding, mapas y *Event Storming* (As-Is)
+
+- ![User Persona — Roberto](../imagenes/userpersona_roberto.png)
+- ![User Persona — Valeria](../imagenes/userpersona_valeria.png)
+- ![User Journey — Roberto](../imagenes/journeymap_roberto.png)
+- ![User Journey — Valeria](../imagenes/journeymap_valeria.png)
+- ![Empathy Map — Roberto](../imagenes/EmpathyMapping_Roberto.png)
+- ![Empathy Map — Valeria](../imagenes/EmpathyMapping_Valeria.png)
+- ![Big Picture EventStorming](../imagenes/BigPictureEventstorming.png)
+- ![Impact Mapping](../imagenes/impactmap.png)
+
+### Anexo F — *Style guidelines* y secciones de *landing*
+
+- ![Logo BuildingFex](../imagenes/image.png)
+- ![Tipografía](../imagenes/font.png)
+- ![Paleta de colores](../imagenes/colores.png)
+- ![Landing — cabecera 1](../imagenes/header1.png)
+- ![Landing — cabecera 2](../imagenes/header2.png)
+- ![Landing — funciones](../imagenes/fc3.png)
+- ![Landing — pie de página](../imagenes/footer4.png)
+- ![Landing — cabecera 5](../imagenes/header5.png)
+- ![Landing — preguntas frecuentes](../imagenes/preguntas6.png)
+- ![Landing — suscripción / pago](../imagenes/pago7.png)
+- ![Landing — video](../imagenes/video8.png)
+- ![Landing — FAQ 10](../imagenes/fq10.png)
+- ![Landing — FAQ 11](../imagenes/fq11.png)
+
+### Anexo G — *Wireframes*, *wireflow* y *mock-ups* (aplicación web)
+
+- ![Wireframe aplicación 1](../imagenes/wireframe1app.png)
+- ![Wireframe aplicación 2](../imagenes/wireframe2app.png)
+- ![Wireframe aplicación 3](../imagenes/wireframe3app.png)
+- ![Wireframe aplicación 4](../imagenes/wireframe4app.png)
+- ![Wireframe aplicación 5](../imagenes/wireframe5app.png)
+- ![Wireframe aplicación 6](../imagenes/wireframe6app.png)
+- ![Wireframe aplicación 7](../imagenes/wireframe7app.png)
+- ![Wireframe aplicación 8](../imagenes/wireframe8app.png)
+- ![Wireframe aplicación 9](../imagenes/wireframe9app.png)
+- ![Wireflow](../imagenes/wireflow.png)
+- ![Mock-up aplicación 1](../imagenes/mockup1app.png)
+- ![Mock-up aplicación 2](../imagenes/mockup2app.png)
+- ![Mock-up aplicación 3](../imagenes/mockup3app.png)
+- ![Mock-up aplicación 4](../imagenes/mockup4app.png)
+- ![Mock-up aplicación 5](../imagenes/mockup5app.png)
+- ![Mock-up aplicación 6](../imagenes/mockup6app.png)
+- ![Mock-up aplicación 7](../imagenes/mockup7app.png)
+- ![Mock-up aplicación 8](../imagenes/mockup8app.png)
+- ![Mock-up aplicación 9](../imagenes/mockup9app.png)
+- ![Captura — prototipo / video](../imagenes/prototipovideoimg.png)
+- ![Figura adicional del informe](../imagenes/commit_1.png)
+
+### Anexo H — Arquitectura de software y modelo de datos
+
+- ![Design Event Storming 1](../imagenes/designeventstorming1.png)
+- ![Design Event Storming 2](../imagenes/designeventstorming2.png)
+- ![Diagrama de contexto](../imagenes/contextDiagram.png)
+- ![Diagrama de contenedores](../imagenes/containerdiagram.png)
+- ![Diagrama de componentes 1](../imagenes/componentdiagram1.png)
+- ![Diagrama de componentes 2](../imagenes/componentdiagram2.png)
+- ![Diagrama de componentes 3](../imagenes/componentdiagram3.png)
+- ![Diagrama de clases](../imagenes/classdiagram.png)
+- ![Diagrama de base de datos](../imagenes/databasediagram.png)
+
+### Anexo I — Evidencias del *Sprint 1* (TB1): Trello, *landing* desplegada y Vercel
+
+- ![Tablero de Trello — Sprint 1 (BuildingFex)](../imagenes/trello.png)
+- ![Landing desplegada — vista 1](../imagenes/vista1.png)
+- ![Landing desplegada — vista 2](../imagenes/vista2.png)
+- ![Landing desplegada — vista 3](../imagenes/vista3.png)
+- ![Vercel — evidencia 1](../imagenes/vercel1.png)
+- ![Vercel — evidencia 2](../imagenes/vercel2.png)
+- ![Vercel — evidencia 3](../imagenes/vercel3.png)
