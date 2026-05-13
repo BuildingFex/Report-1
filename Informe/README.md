@@ -1328,7 +1328,7 @@ Sección de cards explicando al cliente por que somos mejores que la competencia
 Se ve un buen diseño en la sección de preguntas con la barra de búsqueda a la izquierda y las preguntas a la derecha con pequeños detalles que resaltan el interfaz. 
 
 ## **4.4. Web Applications UX/UI Design.**
-feat/capitulo-1
+
 
 **4.4.1 Web Applications Wireframes**
 
