@@ -97,15 +97,20 @@ Este historial coincide con el trabajo del TB1 y muestra el avance continuo y co
 
 Gráfico de actividad durante la preparación del TB1. Los commits reflejan progreso constante y colaboración entre integrantes.
 
-| Evidencia | Descripción |
-| --- | --- |
+| Evidencia                           | Descripción |
+|-------------------------------------| -- |
 | Actividad TB-1 Report (BuildingFex) | ![Actividad en el repositorio del reporte](../imagenes/repo-git.png) |
 | Actividad TB-1 Landing (BuildingFex) | ![Actividad en el repositorio del reporte](../imagenes/Landing-page-repo.png) |
-| Commits TB-1 Report | ![Actividad en el repositorio del reporte](../imagenes/commit-repo.png) |
-| Commits TB-1 Landing-Page | ![Actividad en el repositorio del reporte](../imagenes/aaaaaa.png) |
-| Network TB-1 Report | ![Actividad en el repositorio del reporte](../imagenes/network-report.png) |
-| Network TB-1 Landing page | ![Actividad en el repositorio del reporte](../imagenes/network-landingpage.png) |
-
+| Commits TB-1 Report                 | ![Actividad en el repositorio del reporte](../imagenes/commit-repo.png) |
+| Commits TB-1 Landing-Page           | ![Actividad en el repositorio del reporte](../imagenes/aaaaaa.png) |
+| Network TB-1 Report                 | ![Actividad en el repositorio del reporte](../imagenes/network-report.png) |
+| Network TB-1 Landing page           | ![Actividad en el repositorio del reporte](../imagenes/network-landingpage.png) |
+| Frontend Deployment 1               | ![img_6.png](../imagenes/img_6.png)|
+| Frontend Deployment 2               |![img_1.png](../imagenes/commit%201.png) |
+| Commits TP Frontend                 | ![img_2.png](../imagenes/img_2.png)|
+| Network TP Frontend                 |![img_3.png](../imagenes/img_3.png) |
+| Network TP Report                   |![img_4.png](../imagenes/img_4.png) |
+| Commits TP Report                   | ![img_5.png](../imagenes/img_5.png)|
 
 
 ---
@@ -217,7 +222,7 @@ En esta sección se presenta la relación entre el trabajo realizado por el equi
 
 
 <a id="capitulo-i-introduccion"></a>
-# Capítulo I: Introducción
+# Capítulo I: Introducción.
 
 <a id="1-1-startup-profile"></a>
 ## 1.1. Startup Profile
@@ -1433,7 +1438,7 @@ Aqui se puede ver las preguntas frecuentes acerca de la aplicacion y un boton qu
 ![mockup9app.png](../imagenes/mockup9app.png)
 
 **4.4.4 Web Applications User Flow Diagrams.**
-![img_1.png](img_1.png)
+![img_1.png](../imagenes/commit%201.png)
 
 **4.5 Web Applications Prototyping.**
 
@@ -1972,7 +1977,7 @@ Compendio de **evidencias gráficas** citadas en el informe. Las figuras **perma
 - ![Mock-up aplicación 8](../imagenes/mockup8app.png)
 - ![Mock-up aplicación 9](../imagenes/mockup9app.png)
 - ![Captura — prototipo / video](../imagenes/prototipovideoimg.png)
-- ![Figura adicional del informe](img_1.png)
+- ![Figura adicional del informe](../imagenes/commit%201.png)
 
 ### Anexo H — Arquitectura de software y modelo de datos
 
